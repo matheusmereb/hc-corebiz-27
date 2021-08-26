@@ -1,0 +1,10 @@
+/* Image Background Footer */
+.imageElement--footer-image {
+    position: relative;
+}
+/* Logo Corebiz Footer */
+.imageElement--logo-footer {
+    width: 120px;
+    height: 100px;
+    margin-top: 75px;
+}

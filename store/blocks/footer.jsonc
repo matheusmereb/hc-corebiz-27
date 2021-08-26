@@ -1,26 +1,128 @@
 {
   "footer": {
-    "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
+    "blocks": [
+      "footer-layout.desktop", 
+      "footer-layout.mobile"
+    ]
   },
   "footer-layout.desktop": { 
     "children": [
-      "flex-layout.row#footer"
+      "flex-layout.row#footer-left",
+      "flex-layout.row#footer-right"
     ]
   },
   "footer-layout.mobile": { 
     "children": [
-      "flex-layout.row#footer"
+      "flex-layout.row#footer-left",
+      "flex-layout.row#footer-right"
     ]
   },
-  "flex-layout.row#footer": { 
+  // Left Container //
+  "flex-layout.row#footer-left": { 
+    "props": {
+      "blockClass": "footer-left"
+    },
+    "children": [
+      "rich-text#footer-brasil",
+      "rich-text#footer-argentina",
+      "rich-text#footer-mexico",
+      "rich-text#footer-chile",
+      "image#logo-footer",
+      "flex-layout.row#social-networks"
+    ]
+  },
+  // Offices Text //
+  "rich-text#footer-brasil": { 
+    "props": { 
+      "text": "#### Brasil \n \n Avenida Andrômeda, 2000. \n Bloco 6 e 8 Alphaville SP \n \n R. Ifigenia Maria de Oliveira, \n 3793 - Jr. Piratininga Franca SP",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": "text-footer"
+    }
+  },
+  "rich-text#footer-argentina": { 
+    "props": { 
+      "text": "#### Argentina \n \n Avenida Andrômeda, 2000. \n Bloco 6 e 8 Alphaville SP \n \n R. Ifigenia Maria de Oliveira, \n 3793 - Jr. Piratininga Franca SP",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": "text-footer"
+    }
+  },
+  "rich-text#footer-mexico": { 
+    "props": { 
+      "text": "#### México \n \n Blvd. Miguel de Cervantes \n Saavedra 169, Granada, Miguel \n Hidalgo, 11520 Ciudad de \n México, CDMX",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": "text-footer"
+    }
+  },
+  "rich-text#footer-chile": { 
+    "props": { 
+      "text": "#### Chile \n \n Roberto del Río 1137, \n Providencia.",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": "text-footer"
+    }
+  },
+  "image#logo-footer": {
+    "props": {
+      "link": "https://www.corebiz.ag/",
+      "src": "assets/logo-footer.jpg",
+      "blockClass": "logo-footer"
+    }
+  },
+  // Right Container //
+  "flex-layout.row#footer-right": { 
+    "props": {
+      "blockClass": "footer-right"
+    },
     "children": [
       "image"
     ]
   },
   "image": {
     "props": {
-      "width": 100,
-      "src": "https://brand.vtex.com/static/media/VTEX_pink_RGB.751a9fb5.svg"
+      "isFullModeStyle": true,
+      "src": "assets/footer-bk-1.jpg",
+      "blockClass": "footer-image"
+    }
+  },
+  // Social Networks //
+  "flex-layout.row#social-networks": { 
+    "props": {
+      "blockClass": "footer-left"
+    },
+    "children": [
+      "rich-text#social-networks",
+      "social-networks",
+      "rich-text#rights-reserved"
+    ]
+  },
+  "rich-text#social-networks": { 
+    "props": { 
+      "text": "#### Siga a gente",
+      "textAlignment": "RIGHT",
+      "textPosition": "RIGHT",
+      "blockClass": "text-social-media"
+    }
+  },
+  "social-networks": {
+    "props": {
+      "showInColor": true,
+      "socialNetworks": [
+        { "url": "https://www.instagram.com/corebizag/", "name": "Instagram" },
+        { "url": "https://www.facebook.com/corebiz.ag/", "name": "Facebook" },
+        { "url": "https://www.linkedin.com/company/corebiz-brasil/", "name": "LinkedIn" }
+      ]
+    }
+  },
+  // Rights Reserved //
+  "rich-text#rights-reserved": { 
+    "props": { 
+      "text": "direitos reservados. corebiz 2021",
+      "textAlignment": "RIGHT",
+      "textPosition": "RIGHT",
+      "blockClass": "text-rights-reserved"
     }
   }
 }
