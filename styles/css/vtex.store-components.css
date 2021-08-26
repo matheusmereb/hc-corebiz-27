@@ -1,0 +1,9 @@
+:global(
+    .vtex-flex-layout-0-x-flexRow--blocoClientes
+)
+
+.imageElement:hover {
+        margin:auto;
+        filter: opacity(0.3);
+        transition: all .3s ease
+}

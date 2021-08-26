@@ -1,15 +1,357 @@
 {
   "store.home": { 
     "blocks": [
-      "rich-text"
+      "rich-text#clientes",
+      "flex-layout.row#clientes",
+      "slider-layout#caseclientes",
+      "stack-layout#corebiz"
     ]
   },
-  "rich-text": { 
-    "props": { 
-      "text": "VTEX Store Framework",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "font": "t-heading-1"
+  "stack-layout#corebiz": {
+    "children":[
+      "image#success",
+      "info-card#corebiz"
+    ]
+  },
+  "image#success": {
+    
+  },
+  "info-card#corebiz":{
+      "props":{
+        "imageUrl": "https://www.corebiz.ag/wp-content/uploads/2020/06/image-video-somos-min.jpg"
+    }
+  },
+  "video#corebiz": {
+    "props":{
+      "src": "https://youtu.be/Lep45Aztp7g",
+      "width": "100%",
+      "height": "600px"
+    }
+  },
+  "slider-layout#caseclientes": {
+    "children": [
+      "info-card#case1",
+      "info-card#case2",
+      "info-card#case3",
+      "info-card#case4"
+      ],
+    "props": {
+      "itemsPerPage": {
+        "desktop":1,
+        "tablet":1,
+        "phone": 1
+        },
+        "showArrowNavigation": "desktopOnly",
+        "showPaginationDots": "mobileOnly",
+        "arrowSize": "10",
+        "blockClass": "casesClientes"
+      }
+    },
+  "info-card#case1": {
+    "props": {
+      "imageUrl": "https://www.corebiz.ag/wp-content/uploads/2020/06/case-slider-chillibeans-min.jpg",
+      "headline": "case",
+      "subhead": "5x mais receita no E-commerce da ChilliBeans",
+      "callToActionText": "ver case completo",
+      "textPosition": "left",
+      "isFullModeStyle": true,
+      "fullWidth": "100%"
+    }
+  },
+
+  "info-card#case2": {
+    "props": {
+      "imageUrl": "https://www.corebiz.ag/wp-content/uploads/2020/06/case-slider-cc-min.jpg",
+      "headline": "case",
+      "subhead": "case elevação do faturamento de c&c",
+      "callToActionText": "ver case completo",
+      "textPosition": "left",
+      "isFullModeStyle": true,
+      "fullWidth": "100%"
+    }
+  },
+  "info-card#case3": {
+    "props": {
+      "imageUrl": "https://www.corebiz.ag/wp-content/uploads/2020/06/case-slider-kitchenaid-min.jpg",
+      "headline": "case",
+      "subhead": "aumento do volume de vendas kitchenaid",
+      "callToActionText": "ver case completo",
+      "textPosition": "left",
+      "isFullModeStyle": true,
+      "fullWidth": "100%"
+    }
+  },
+  "info-card#case4": {
+    "props": {
+      "imageUrl": "https://www.corebiz.ag/wp-content/uploads/2020/06/case-slider-black-friday-min.jpg",
+      "headline": "case",
+      "subhead": "maior ação de vendas do semparar na blackfriday",
+      "callToActionText": "ver case completo",
+      "link": "https://www.corebiz.ag/pt/cases/sem-parar/",
+      "textPosition": "left",
+      "isFullModeStyle": true,
+      "fullWidth": "100%"
+    }
+  },
+  "rich-text#clientes": {
+    "props": {
+      "text": "## alguns de nossos<br> principais clientes",
+      "blockClass": "principaisClientes"
+    }
+  },
+  "flex-layout.row#clientes": {
+    "children": [
+      "flex-layout.col#clientes",
+      "flex-layout.col#clientes2",
+      "flex-layout.col#clientes3",
+      "flex-layout.col#clientes4",
+      "flex-layout.col#clientes5",
+      "flex-layout.col#clientes6"
+    ],
+    "props": {
+      "blockClass": "blocoClientes",
+      "rowGap": "6",
+      "colGap": "6",
+      "fullWidth": "true",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true
+    }
+  },
+  "flex-layout.col#clientes": {
+    "children": [
+      "image#chillibeans",
+      "image#esteelauder",
+      "image#zonasul",
+      "image#lenovo",
+      "image#vans"
+    ]
+  },
+  "image#chillibeans": {
+    "props": {
+      "link": "https://loja.chillibeans.com.br",
+      "src": "https://www.corebiz.ag/wp-content/uploads/2020/06/parceiros-1.png",
+      "maxWidth": "100%"
+    }
+  },
+  "image#esteelauder": {
+    "props": {
+      "src": "https://www.corebiz.ag/wp-content/uploads/2020/06/parceiros-7.png",
+      "maxWidth": "100%"
+    }
+  },
+  "image#zonasul": {
+    "props": {
+      "src": "https://www.corebiz.ag/wp-content/uploads/2020/06/parceiros-13.png",
+      "maxWidth": "100%"
+    }
+  },
+  "image#lenovo": {
+    "props": {
+      "src": "https://www.corebiz.ag/wp-content/uploads/2021/02/parceiros-lenovo.png",
+      "maxWidth": "100%"
+    }
+  },
+  "image#vans": {
+    "props": {
+      "src": "https://www.corebiz.ag/wp-content/uploads/2021/02/parceiros-vans-1.png",
+      "maxWidth": "100%"
+    }
+  },
+  "flex-layout.col#clientes2": {
+    "children": [
+      "image#whirlpool",
+      "image#oboticario",
+      "image#aldoconti",
+      "image#victorinox",
+      "image#walmart"
+    ]
+  },
+  "image#whirlpool": {
+    "props": {
+      "src": "https://www.corebiz.ag/wp-content/uploads/2020/06/parceiros-2.png",
+      "maxWidth": "100%"
+    }
+  },
+  "image#oboticario": {
+    "props": {
+      "src": "https://www.corebiz.ag/wp-content/uploads/2020/06/parceiros-8.png",
+      "maxWidth": "100%"
+    }
+  },
+  "image#aldoconti": {
+    "props": {
+      "src": "https://www.corebiz.ag/wp-content/uploads/2020/06/parceiros-15.png",
+      "maxWidth": "100%"
+    }
+  },
+  "image#victorinox": {
+    "props": {
+      "src": "https://www.corebiz.ag/wp-content/uploads/2021/02/parceiros-victorinox.png",
+      "maxWidth": "100%"
+    }
+  },
+  "image#walmart": {
+    "props": {
+      "src": "https://www.corebiz.ag/wp-content/uploads/2021/02/parceiros-wallmart.png",
+      "maxWidth": "100%"
+    }
+  },
+  "flex-layout.col#clientes3": {
+    "children": [
+      "image#semparar",
+      "image#epoca",
+      "image#philipmorris",
+      "image#decathlon",
+      "image#jansport"
+    ]
+  },
+  "image#semparar": {
+    "props": {
+      "src": "https://www.corebiz.ag/wp-content/uploads/2020/06/parceiros-3.png",
+      "maxWidth": "100%"
+    }
+  },
+  "image#epoca": {
+    "props": {
+      "src": "https://www.corebiz.ag/wp-content/uploads/2020/06/parceiros-9.png",
+      "maxWidth": "100%"
+    }
+  },
+  "image#philipmorris": {
+    "props": {
+      "src": "https://www.corebiz.ag/wp-content/uploads/2020/06/parceiros-16.png",
+      "maxWidth": "100%"
+    }
+  },
+  "image#decathlon": {
+    "props": {
+      "src": "https://www.corebiz.ag/wp-content/uploads/2021/02/parceiros-decathlon.png",
+      "maxWidth": "100%"
+    }
+  },
+  "image#jansport": {
+    "props": {
+      "src": "https://www.corebiz.ag/wp-content/uploads/2021/02/parceiros-jansport.png",
+      "maxWidth": "100%"
+    }
+  },
+  "flex-layout.col#clientes4": {
+    "children": [
+      "image#motorola",
+      "image#hp",
+      "image#simmons",
+      "image#singer",
+      "image#columbia"
+    ]
+  },
+  "image#motorola": {
+    "props": {
+      "src": "https://www.corebiz.ag/wp-content/uploads/2020/06/parceiros-4.png",
+      "maxWidth": "100%"
+    }
+  },
+  "image#hp": {
+    "props": {
+      "src": "https://www.corebiz.ag/wp-content/uploads/2020/06/parceiros-10.png",
+      "maxWidth": "100%"
+    }
+  },
+  "image#simmons": {
+    "props": {
+      "src": "https://www.corebiz.ag/wp-content/uploads/2020/06/simmons-logo.png",
+      "maxWidth": "100%"
+    }
+  },
+  "image#singer": {
+    "props": {
+      "src": "https://www.corebiz.ag/wp-content/uploads/2021/02/parceiros-singer.png",
+      "maxWidth": "100%"
+    }
+  },
+  "image#columbia": {
+    "props": {
+      "src": "https://www.corebiz.ag/wp-content/uploads/2021/02/parceiros-columbia.png",
+      "maxWidth": "100%"
+    }
+  },
+  "flex-layout.col#clientes5": {
+    "children": [
+      "image#ambev",
+      "image#somamoda",
+      "image#miniso",
+      "image#nivea",
+      "image#mac"
+    ]
+  },
+  "image#ambev": {
+    "props": {
+      "src": "https://www.corebiz.ag/wp-content/uploads/2020/06/parceiros-5.png",
+      "maxWidth": "100%"
+    }
+  },
+  "image#somamoda": {
+    "props": {
+      "src": "https://www.corebiz.ag/wp-content/uploads/2020/06/parceiros-11.png",
+      "maxWidth": "100%"
+    }
+  },
+  "image#miniso": {
+    "props": {
+      "src": "https://www.corebiz.ag/wp-content/uploads/2020/06/logo-miniso.png",
+      "maxWidth": "100%"
+    }
+  },
+  "image#nivea": {
+    "props": {
+      "src": "https://www.corebiz.ag/wp-content/uploads/2021/02/parceiros-niveaf.png",
+      "maxWidth": "100%"
+    }
+  },
+  "image#mac": {
+    "props": {
+      "src": "https://www.corebiz.ag/wp-content/uploads/2021/02/parceiros-mac.png",
+      "maxWidth": "100%"
+    }
+  },
+  "flex-layout.col#clientes6": {
+    "children": [
+      "image#saraiva",
+      "image#cec",
+      "image#pardo",
+      "image#kitchenaid",
+      "image#fundamenta"
+    ]
+  },
+  "image#saraiva": {
+    "props": {
+      "src": "https://www.corebiz.ag/wp-content/uploads/2020/06/parceiros-6.png",
+      "maxWidth": "100%"
+    }
+  },
+  "image#cec": {
+    "props": {
+      "src": "https://www.corebiz.ag/wp-content/uploads/2020/06/parceiros-12.png",
+      "maxWidth": "100%"
+    }
+  },
+  "image#pardo": {
+    "props": {
+      "src": "https://www.corebiz.ag/wp-content/uploads/2020/06/parceiros-18.png",
+      "maxWidth": "100%"
+    }
+  },
+  "image#kitchenaid": {
+    "props": {
+      "src": "https://www.corebiz.ag/wp-content/uploads/2021/02/parceiros-kitchen.png",
+      "maxWidth": "100%"
+    }
+  },
+  "image#fundamenta": {
+    "props": {
+      "src": "https://www.corebiz.ag/wp-content/uploads/2021/03/logos-fundamenta.png",
+      "maxWidth": "100%"
     }
   }
 }
