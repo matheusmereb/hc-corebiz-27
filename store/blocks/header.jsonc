@@ -6,50 +6,71 @@
     "blocks": ["header-layout.desktop", "header-layout.mobile"]
   },
   "header-layout.desktop": {
-    "children": [
-      "sticky-layout#desktop"
-    ]
-  },
-  "sticky-layout#desktop": {
-    "props": {
-      "blockClass": "sticky-header"
-    },
     "children": ["flex-layout.row#desktop"]
   },
   "flex-layout.row#desktop": {
+    "children": [
+      "flex-layout.col#logo",
+      "flex-layout.col#spacer",
+      "flex-layout.col#link1",
+      "flex-layout.col#link2",
+      "flex-layout.col#link3"
+    ],
     "props": {
       "horizontalAlign": "center",
       "verticalAlign": "center",
-      "preventHorizontalStretch": true,
       "preventVerticalStretch": true,
-      "fullWidth": true
-    },
-    "children": [
-      "flex-layout.col#logo-desktop",
-      "flex-layout.col#spacer",
-      "search-bar",
-      "locale-switcher",
-      "login",
-      "minicart.v2"
-    ]
-  },
-  "flex-layout.col#spacer": {
-    "props": {
-      "width": "grow"
+      "fullWidth": true,
+      "blockClass": "headerRow"
     }
   },
-  "flex-layout.col#logo-desktop": {
-    "props": {
-      "verticalAlign": "middle"
-    },
+  "flex-layout.col#logo": {
     "children": ["logo"]
   },
   "logo": {
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://brand.vtex.com/static/media/VTEX_pink_RGB.751a9fb5.svg",
-      "width": "80"
+      "url": "https://www.corebiz.ag/wp-content/uploads/2020/06/logo-corebiz-global.svg",
+      "width": "100"
+    }
+  },
+  "flex-layout.col#spacer": {
+    "props": {
+      "width": "60%"
+    }
+  },
+  "flex-layout.col#link1": {
+    "children": ["link#header1"]
+  },
+  "link#header1": {
+    "props":{
+      "href": "/",
+      "label": "a corebiz",
+      "horizontalAlign": "center",
+      "verticalAlign": "center"
+    }
+  },
+  "flex-layout.col#link2": {
+    "children": ["link#header2"]
+  },
+  "link#header2": {
+    "props":{
+      "href": "/",
+      "label": "serviços",
+      "horizontalAlign": "center",
+      "verticalAlign": "center"
+    }
+  },
+  "flex-layout.col#link3": {
+    "children": ["link#header3"]
+  },
+  "link#header3": {
+    "props":{
+      "href": "/",
+      "label": "contatos",
+      "horizontalAlign": "center",
+      "verticalAlign": "center"
     }
   },
   "header-layout.mobile": {

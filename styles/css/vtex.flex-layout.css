@@ -1,0 +1,29 @@
+.flexRow--headerRow {
+  padding: 55px 250px;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.flexColChild {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+.flexRow--homeBanner {
+  background: url("https://www.corebiz.ag/wp-content/uploads/2021/02/Banner-Mapa-Corebiz-BR.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  min-height: 66rem;
+}
+
+.flexCol--topic1 {
+  width: 115px;
+  height: 66px;
+}
+
+.flexCol--bannerColLeft {
+  align-content: left;
+}
