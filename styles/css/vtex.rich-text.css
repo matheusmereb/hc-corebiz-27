@@ -1,0 +1,27 @@
+.wrapper {
+  margin: 2px;
+}
+
+.paragraph--slogan {
+  font-size: 8.3vw;
+  max-width: 50rem;
+  color: #fff;
+  font-family: Circular Std Book, sans-serif;
+  text-transform: lowercase;
+  line-height: 0.8;
+  margin-bottom: 4rem;
+}
+.paragraph--topicTitle {
+  color: #f1c233;
+  font-size: 22px;
+  padding: 0;
+  margin: 0;
+}
+
+.paragraph--topicText {
+  margin-top: 0.5rem;
+  color: #ccc;
+  font-size: 14px;
+  max-width: 11.5rem;
+  margin-bottom: 5rem;
+}
