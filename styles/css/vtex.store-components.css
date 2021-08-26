@@ -1,0 +1,24 @@
+.infoCardHeadline--vision {
+    font-family:Circular Std Medium,sans-serif;
+    font-size: 2rem;
+    color: #f1c233;
+    margin-top: 45px;
+  }
+
+  .infoCardSubhead--vision {
+      margin: 45px;
+      font-family: Circular Std Medium,sans-serif;;
+      font-size: 20px;
+      font-weight: bolder;
+      color:#fff;
+      
+  }
+   .infoCardContainer--vision {
+    width: 120%;  
+   }
+
+  .infoCardCallActionContainer {
+      display: none;
+  }
+
+  
