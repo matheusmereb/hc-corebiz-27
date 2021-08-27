@@ -60,29 +60,26 @@
       "blockClass": "video"
     },
     "children":[
-     "modal-trigger#example"
+     "modal-trigger#video"
     ]
   },
-  "modal-trigger#example":{
+  "modal-trigger#video":{
     "children": [
-      "rich-text#example",
-      "modal-layout#example"
+      "modal-layout#video"
     ]
   },
-  "rich-text#example": {
-    "props": {
-      "text": "Click me"
-    }
-  },
-  "modal-layout#example": {
+  "modal-layout#video": {
     "children": [
       "video#corebiz"
     ]
   },
   "video#corebiz": {
     "props":{
-      "src": "https://youtu.be/Lep45Aztp7g",
-      "height": "720px"
+      "src": "https://www.youtube.com/watch?v=Lep45Aztp7g",
+      "autoPlay": true,
+      "height": "420px",
+      "width": "720px",
+      "muted": "false"
     }
   },
   "slider-layout#caseclientes": {

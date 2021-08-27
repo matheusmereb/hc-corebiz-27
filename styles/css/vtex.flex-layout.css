@@ -17,6 +17,7 @@
     background-image: url("https://www.corebiz.ag/wp-content/uploads/2020/06/image-video-somos-min.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
 }
 .flexCol--winner{
     background-color:#fff;
