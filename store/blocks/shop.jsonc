@@ -1,0 +1,29 @@
+{
+    "store.custom#shop": {
+        "blocks": ["flex-layout.row#produtos"]
+    },
+    "flex-layout.row#produtos": {
+        "children": ["list-context.product-list#produtos"]
+      },
+      "list-context.product-list#produtos":{
+        "blocks":["product-summary.shelf#home"],
+        "props": {
+          "maxItems": 8,
+          "category": "2"
+        },
+        "children": ["slider-layout"]
+      },
+      "slider-layout": {
+        "props": {
+          "itemsPerPage": {
+            "desktop": 4,
+            "tablet": 3,
+            "phone": 1
+          },
+          "infinite": true,
+          "fullWidth": false,
+          "showPaginationDots": "never"
+        }
+    }
+    
+}

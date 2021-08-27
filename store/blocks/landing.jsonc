@@ -1,0 +1,169 @@
+{
+"flex-layout.row#bannerHome": {
+    "children": [
+      // "media#banner",
+      "flex-layout.col#banner1",
+      "flex-layout.col#banner2"
+    ],
+    "props": {
+      "blockClass": "homeBanner"
+    }
+  },
+  "media#banner": {
+    "props": {
+      "src": "assets/bannerhome.png",
+      "blockClass": "bannerHomeImg"
+    }
+  },
+  "flex-layout.col#banner1": {
+    "children": [
+      "flex-layout.row#bannerTextRow1",
+      "flex-layout.row#bannerTextRow2",
+      "flex-layout.row#bannerTextRow3"
+    ],
+    "props": {
+      "horizontalAlign": "left",
+      "blockClass": "bannerColLeft"
+    }
+  },
+  "flex-layout.row#bannerTextRow1": {
+    "children":["rich-text#bannerRow1"],
+    "props": {
+      "horizontalAlign": "LEFT"
+    }
+  },
+  "rich-text#bannerRow1": {
+    "props": {
+      "textPosition": "LEFT",
+      "text": "**we are\nglobal.**",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-1",
+      "blockClass": "slogan"
+    }
+  },
+  "flex-layout.row#bannerTextRow2": {
+    "children":["rich-text#bannerRow2"],
+    "props": {
+      "horizontalAlign": "LEFT"
+    }
+  },
+  "rich-text#bannerRow2": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "levamos um pouco da nossa\nvisão pelo mundo",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-3",
+      "blockClass": "bannerDescription"
+    }
+  },
+  "flex-layout.row#bannerTextRow3": {
+    "children": [
+      "flex-layout.col#bannerTopic1",
+      "flex-layout.col#bannerTopic2",
+      "flex-layout.col#bannerTopic3"
+    ]
+  },
+  "flex-layout.col#bannerTopic1": {
+    "children": [
+      "flex-layout.row#bannerTopicTitle1",
+      "flex-layout.row#bannerTopicText1"
+    ],
+    "props": {
+      "blockClass": "topic1"
+    }
+  },
+  "flex-layout.row#bannerTopicTitle1": {
+    "children":["rich-text#bannerTopicTitle1"]
+  },
+  "flex-layout.row#bannerTopicText1": {
+    "children":["rich-text#bannerTopicText1"]
+  },
+  "rich-text#bannerTopicTitle1": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "29 países",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-3",
+      "blockClass": "topicTitle"
+    }
+  },
+  "rich-text#bannerTopicText1": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "com clientes fixos\nou projetos",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-6",
+      "blockClass": "topicText"
+    }
+  },
+  "flex-layout.col#bannerTopic2": {
+    "children": [
+      "flex-layout.row#bannerTopicTitle2",
+      "flex-layout.row#bannerTopicText2"
+    ]
+  },
+  "flex-layout.row#bannerTopicTitle2": {
+    "children":["rich-text#bannerTopicTitle2"]
+  },
+  "flex-layout.row#bannerTopicText2": {
+    "children":["rich-text#bannerTopicText2"]
+  },
+  "rich-text#bannerTopicTitle2": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "+340",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-3",
+      "blockClass": "topicTitle"
+    }
+  },
+  "rich-text#bannerTopicText2": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "colaboradores pelo mundo",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-6",
+      "blockClass": "topicText"
+    }
+  },
+  "flex-layout.col#bannerTopic3": {
+    "children": [
+      "flex-layout.row#bannerTopicTitle3",
+      "flex-layout.row#bannerTopicText3"
+    ]
+  },
+  "flex-layout.row#bannerTopicTitle3": {
+    "children":["rich-text#bannerTopicTitle3"]
+  },
+  "flex-layout.row#bannerTopicText3": {
+    "children":["rich-text#bannerTopicText3"]
+  },
+  "rich-text#bannerTopicTitle3": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "+100",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-3",
+      "blockClass": "topicTitle"
+    }
+  },
+  "rich-text#bannerTopicText3": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "clientes ativos em diversos países",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-6",
+      "blockClass": "topicText"
+    }
+  },
+  "flex-layout.col#banner2": {
+
+  }
+}

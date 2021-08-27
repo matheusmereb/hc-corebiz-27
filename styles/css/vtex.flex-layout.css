@@ -3,6 +3,10 @@
   position: absolute;
   top: 0;
   width: 100%;
+  z-index: 1;
+  overflow: hidden;
+  height: 9rem;
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.59), transparent);
 }
 
 .flexColChild {
@@ -26,4 +30,17 @@
 
 .flexCol--bannerColLeft {
   align-content: left;
+}
+
+.flexRow--aboutMainDiv {
+  position: relative;
+  color: #fff;
+  overflow: hidden;
+}
+
+.flexCol--aboutMainText {
+  width: 45%;
+  padding-left: calc(50% - 680px);
+  padding-top: 24.2rem;
+  background-color: initial;
 }

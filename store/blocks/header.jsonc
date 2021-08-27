@@ -12,9 +12,7 @@
     "children": [
       "flex-layout.col#logo",
       "flex-layout.col#spacer",
-      "flex-layout.col#link1",
-      "flex-layout.col#link2",
-      "flex-layout.col#link3"
+      "vtex.menu@2.x:menu#headerMenu"
     ],
     "props": {
       "horizontalAlign": "center",
@@ -40,39 +38,39 @@
       "width": "60%"
     }
   },
-  "flex-layout.col#link1": {
-    "children": ["link#header1"]
-  },
-  "link#header1": {
-    "props":{
-      "href": "/",
-      "label": "a corebiz",
-      "horizontalAlign": "center",
-      "verticalAlign": "center"
-    }
-  },
-  "flex-layout.col#link2": {
-    "children": ["link#header2"]
-  },
-  "link#header2": {
-    "props":{
-      "href": "/",
-      "label": "serviços",
-      "horizontalAlign": "center",
-      "verticalAlign": "center"
-    }
-  },
-  "flex-layout.col#link3": {
-    "children": ["link#header3"]
-  },
-  "link#header3": {
-    "props":{
-      "href": "/",
-      "label": "contatos",
-      "horizontalAlign": "center",
-      "verticalAlign": "center"
-    }
-  },
+  // "flex-layout.col#link1": {
+  //   "children": ["link#header1"]
+  // },
+  // "link#header1": {
+  //   "props":{
+  //     "href": "/about",
+  //     "label": "a corebiz",
+  //     "horizontalAlign": "center",
+  //     "verticalAlign": "center"
+  //   }
+  // },
+  // "flex-layout.col#link2": {
+  //   "children": ["link#header2"]
+  // },
+  // "link#header2": {
+  //   "props":{
+  //     "href": "/",
+  //     "label": "serviços",
+  //     "horizontalAlign": "center",
+  //     "verticalAlign": "center"
+  //   }
+  // },
+  // "flex-layout.col#link3": {
+  //   "children": ["link#header3"]
+  // },
+  // "link#header3": {
+  //   "props":{
+  //     "href": "/shop",
+  //     "label": "shop",
+  //     "horizontalAlign": "center",
+  //     "verticalAlign": "center"
+  //   }
+  // },
   "header-layout.mobile": {
     "children": ["sticky-layout#mobile"]
   },
