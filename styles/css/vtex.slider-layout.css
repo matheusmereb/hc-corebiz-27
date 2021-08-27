@@ -6,6 +6,9 @@
     width: 100%;
     height: 100vh;
 }
+.sliderLayoutContainer--casesClientes{
+    overflow-x: hidden;
+}
 .slideChildrenContainer--casesClientes :global(
 .vtex-store-components-3-x-infoCardHeadline
 )
@@ -61,16 +64,16 @@
     width: 2.8rem;
     height: 2.8rem;
     box-sizing: border-box;
-    margin-right: 15rem;
-    margin-left: 15rem;
     top: 45%;
 }
 
 .sliderRightArrow--casesClientes{
+    right: calc(50% - 680px);
     width: 6rem;
     height: 6rem;
 }
 .sliderLeftArrow--casesClientes{
+    left: calc(50% - 680px);
     top: 48%;
 }
 .infoCardContainer{

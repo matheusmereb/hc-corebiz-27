@@ -7,16 +7,16 @@
   },
   "header-layout.desktop": {
     "children": [
-      "sticky-layout#desktop"
+      "flex-layout.row#desktop"
     ]
   },
-  "sticky-layout#desktop": {
+  "flex-layout.row#desktop": {
     "props": {
       "blockClass": "sticky-header"
     },
-    "children": ["flex-layout.row#desktop"]
+    "children": ["flex-layout.row#2desktop"]
   },
-  "flex-layout.row#desktop": {
+  "flex-layout.row#2desktop": {
     "props": {
       "horizontalAlign": "center",
       "verticalAlign": "center",

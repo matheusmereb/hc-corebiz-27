@@ -1,4 +1,18 @@
 .flexRowContent {
     background: #000;
-    text: #fff;
+    padding-bottom: 3rem;
+    margin-top: 0rem;
+}
+
+.flexRowContent--clientesParceiros .stretchChildrenWidth {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 1.8rem;
+}
+
+@media screen and (min-width: 1024px){
+    .flexRowContent--clientesParceiros .stretchChildrenWidth {
+        grid-template-columns: repeat(6,1fr);
+        grid-row-gap: 50px;
+    }
 }
