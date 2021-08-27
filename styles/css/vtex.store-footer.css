@@ -1,17 +1,5 @@
-.socialNetworksContainer {
-    color: #fff;
-    margin-top: 65px;
-    margin-left: 10px;
-}
-.socialNetworkImage {
-    color: #fff;
-    align-items: center;
-    align-content: center;
-    cursor: pointer;
-}
-.socialNetworkWrapper {
-    color: #fff;
-}
-.socialNetworksTitle {
-    text-align: left;
+.footerLayout {
+    position: relative;
+    padding-top: 10rem;
+    overflow: hidden;
 }

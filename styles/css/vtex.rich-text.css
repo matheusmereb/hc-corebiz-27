@@ -1,17 +1,13 @@
+/* Textos do bloco do footer */
 .container--text-footer {
     color: #fff;
     font-size: x-small;
-    margin-top: 50px;
-    height: 30%;
 }
 .container--text-social-media {
     color: #fff;
-    margin-top: 100px;
-    height: 30%;
 }
 .container--text-rights-reserved {
     color: #fff;
-    padding-top: 230px;
     font-size: xx-small;
-    padding-left: 500px;
+    margin-bottom: 0;
 }
