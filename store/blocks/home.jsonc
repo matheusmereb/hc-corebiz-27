@@ -3,29 +3,86 @@
     "blocks": [
       "flex-layout.row#clientes",
       "slider-layout#caseclientes",
-      "stack-layout#corebiz"
+      "flex-layout.row#corebiz"
     ]
   },
-  "stack-layout#corebiz": {
+  "flex-layout.row#corebiz": {
+    "props":{
+      "blockClass": "coreBiz",
+      "fullWidth": true
+    },
     "children":[
-      "image#winner",
-      "info-card#corebiz"
+      "flex-layout.col#winner",
+      "flex-layout.col#video"
     ]
   },
-  "image#winner": {
-    
-    
+  "flex-layout.col#winner":{
+    "props":{
+      "blockClass": "winner"
+    },
+    "children":[
+      "rich-text#somoscorebiz",
+      "rich-text#corebiz",
+      "rich-text#partners"
+    ]
   },
-  "info-card#corebiz":{
-      "props":{
-        "imageUrl": "https://www.corebiz.ag/wp-content/uploads/2020/06/image-video-somos-min.jpg"
+  "rich-text#somoscorebiz": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "left",
+      "text": "## somos a corebiz.",
+      "textColor": "c-on-base--inverted",
+      "font": "t-heading-5",
+      "blockClass": "somoscorebiz"
     }
+  },
+  "rich-text#corebiz":{
+    "props":{
+      "textAlignment": "LEFT",
+      "textPosition": "left",
+      "text": "## a maior empresa de<br>experiência, tecnologia e<br>marketing para comércio<br>da América Latina.",
+      "font": "t-heading-5",
+      "blockClass": "corebiz"
+    }
+  },
+  "rich-text#partners":{
+    "props":{
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "nossos parceiros:",
+      "textColor": "c-on-base--inverted",
+      "font": "t-heading-5",
+      "blockClass": "somoscorebiz"
+    }
+  },
+  "flex-layout.col#video":{
+    "props":{
+      "blockClass": "video"
+    },
+    "children":[
+     "modal-trigger#example"
+    ]
+  },
+  "modal-trigger#example":{
+    "children": [
+      "rich-text#example",
+      "modal-layout#example"
+    ]
+  },
+  "rich-text#example": {
+    "props": {
+      "text": "Click me"
+    }
+  },
+  "modal-layout#example": {
+    "children": [
+      "video#corebiz"
+    ]
   },
   "video#corebiz": {
     "props":{
       "src": "https://youtu.be/Lep45Aztp7g",
-      "width": "100%",
-      "height": "600px"
+      "height": "720px"
     }
   },
   "slider-layout#caseclientes": {
@@ -57,7 +114,6 @@
       "fullWidth": "100%"
     }
   },
-
   "info-card#case2": {
     "props": {
       "imageUrl": "https://www.corebiz.ag/wp-content/uploads/2020/06/case-slider-cc-min.jpg",
@@ -97,11 +153,9 @@
       "flex-layout.col#clientes"
     ],
     "props": {
-      "fullWidth": "true",
       "horizontalAlign": "center",
-      "preventHorizontalStretch": true,
-      "preventVerticalStretch": true,
-      "maxWidth": "100%"
+      "fullWidth": true,
+      "blockClass":"clientes"
     }
   },
   "flex-layout.col#clientes": {
@@ -121,7 +175,8 @@
       "image-list#clientesparceiros"
     ],
     "props": {
-      "blockClass": "clientesParceiros"
+      "blockClass": "clientesParceiros",
+      "fullWidth":true
     }
   },
   "image-list#clientesparceiros":{
@@ -147,12 +202,10 @@
           "image": "https://www.corebiz.ag/wp-content/uploads/2020/06/parceiros-6.png"
         },
         {
-          "image": "https://www.corebiz.ag/wp-content/uploads/2020/06/parceiros-7.png",
-          "maxWidth": "100%"
+          "image": "https://www.corebiz.ag/wp-content/uploads/2020/06/parceiros-7.png"
         },
         {
-          "image": "https://www.corebiz.ag/wp-content/uploads/2020/06/parceiros-8.png",
-          "maxWidth": "100%"
+          "image": "https://www.corebiz.ag/wp-content/uploads/2020/06/parceiros-8.png"
         },
         {
           "image": "https://www.corebiz.ag/wp-content/uploads/2020/06/parceiros-9.png"

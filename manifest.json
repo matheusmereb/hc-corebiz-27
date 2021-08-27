@@ -46,7 +46,8 @@
     "vtex.sticky-layout": "0.x",
     "vtex.add-to-cart-button": "0.x",
     "vtex.store-video": "1.x",
-    "vtex.store-image": "0.x"
+    "vtex.store-image": "0.x",
+    "vtex.modal-layout": "0.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }

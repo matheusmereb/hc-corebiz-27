@@ -1,0 +1,8 @@
+.heading--corebiz{
+    color: #666
+}
+@media screen and (max-width: 1360px){
+    .heading--principaisClientes{
+    padding: 1.8rem
+    }
+}

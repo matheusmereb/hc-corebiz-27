@@ -1,11 +1,33 @@
-.flexRowContent {
-    background: #000;
+.flexRowContent--clientesParceiros {
     padding-bottom: 3rem;
     margin-top: 0rem;
 }
-
+.flexRowContent--clientes {
+    background-color: #000;
+}
+.flexRowContent--clientes .stretchChildrenWidth{
+    max-width: 1360px;
+    margin: 0 auto;
+}
+.flexRowContent--coreBiz{
+    background-color:#fff !important;
+}
+.flexCol--video {
+    background-color:#fff;
+    background-image: url("https://www.corebiz.ag/wp-content/uploads/2020/06/image-video-somos-min.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.flexCol--winner{
+    background-color:#fff;
+    background-image: url("https://www.corebiz.ag/wp-content/themes/corebiz-global/assets/images/background-somos.png");
+    background-repeat: no-repeat;
+    background-position: 0;
+    padding: 12.5rem 12rem 12.5rem calc(50% - 680px);
+}
 .flexRowContent--clientesParceiros .stretchChildrenWidth {
     display: grid;
+    background: #000;
     grid-template-columns: repeat(3,1fr);
     grid-row-gap: 1.8rem;
 }
