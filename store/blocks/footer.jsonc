@@ -1,26 +1,218 @@
-{}
-//   "footer": {
-//     "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
-//   },
-//   "footer-layout.desktop": { 
-//     "children": [
-//       "flex-layout.row#footer"
-//     ]
-//   },
-//   "footer-layout.mobile": { 
-//     "children": [
-//       "flex-layout.row#footer"
-//     ]
-//   },
-//   "flex-layout.row#footer": { 
-//     "children": [
-//       "image"
-//     ]
-//   },
-//   "image": {
-//     "props": {
-//       "width": 100,
-//       "src": "https://brand.vtex.com/static/media/VTEX_pink_RGB.751a9fb5.svg"
-//     }
-//   }
-// }
+{
+  "footer": {
+    "blocks": [
+      "footer-layout.desktop",
+      "footer-layout.mobile"
+    ]
+  },
+  "footer-layout.desktop": {
+    "children": [
+      "flex-layout.row#footer-right-image",
+      "flex-layout.row#footer-left-block"
+    ]
+  },
+  "footer-layout.mobile": {
+    "children": [
+      "flex-layout.row#footer-right-image",
+      "flex-layout.row#footer-left-block"
+    ]
+  },
+  // Bloco de imagem a direita do footer //
+  "flex-layout.row#footer-right-image": {
+    "props": {
+      "horizontalAlign": "right",
+      "preventHorizontalStretch": true,
+      "blockClass": "footer-container-right"
+    },
+    "children": [
+      "image#footer-image"
+    ]
+  },
+  "image#footer-image": {
+    "props": {
+      "isFullModeStyle": true,
+      "src": "assets/footer-bk-1.jpg",
+      "blockClass": "footer-image"
+    }
+  },
+  // Bloco principal a esquerda do footer //
+  "flex-layout.row#footer-left-block": {
+    "props": {
+      "blockClass": "footer-container-left"
+    },
+    "children": [
+      "flex-layout.col#footer-left-block"
+    ]
+  },
+  "flex-layout.col#footer-left-block": {
+    "props": {
+      "preventVerticalStretch": "auto",
+      "blockClass": "col-footer-container-left"
+    },
+    "children": [
+      "flex-layout.row#footer-left-rich-text",
+      "flex-layout.row#footer-left-social-media"
+    ]
+  },
+  // Bloco dos escritórios //
+  "flex-layout.row#footer-left-rich-text": {
+    "props": {
+      "blockClass": "footer-left"
+    },
+    "children": [
+      "flex-layout.col#footer-rich-text-brasil",
+      "flex-layout.col#footer-rich-text-argentina",
+      "flex-layout.col#footer-rich-text-mexico",
+      "flex-layout.col#footer-rich-text-chile",
+      "flex-layout.col#footer-logo"
+    ]
+  },
+  // Escritório do Brasil //
+  "flex-layout.col#footer-rich-text-brasil": {
+    "props": {
+      "blockClass": "footer-text-block-left"
+    },
+    "children": [
+      "rich-text#footer-brasil"
+    ]
+  },
+  "rich-text#footer-brasil": {
+    "props": {
+      "text": "##### **Brasil** \n \n Avenida Andrômeda, 2000. \n Bloco 6 e 8 Alphaville SP \n \n R. Ifigenia Maria de Oliveira, \n 3793 - Jr. Piratininga Franca SP",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": "text-footer"
+    }
+  },
+  // Escritório do Argentina //
+  "flex-layout.col#footer-rich-text-argentina": {
+    "props": {
+      "blockClass": "footer-text-block-left"
+    },
+    "children": [
+      "rich-text#footer-argentina"
+    ]
+  },
+  "rich-text#footer-argentina": {
+    "props": {
+      "text": "##### **Argentina** \n \n Soler 5518, 3 Piso C1425BYF \n Palermo Hollywood CABA",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": "text-footer"
+    }
+  },
+  // Escritório do México //
+  "flex-layout.col#footer-rich-text-mexico": {
+    "props": {
+      "blockClass": "footer-text-block-left"
+    },
+    "children": [
+      "rich-text#footer-mexico"
+    ]
+  },
+  "rich-text#footer-mexico": {
+    "props": {
+      "text": "##### **México** \n \n Blvd. Miguel de Cervantes \n Saavedra 169, Granada, Miguel \n Hidalgo, 11520 Ciudad de \n México, CDMX",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": "text-footer"
+    }
+  },
+  // Escritório do Chile //
+  "flex-layout.col#footer-rich-text-chile": {
+    "props": {
+      "blockClass": "footer-text-block-left"
+    },
+    "children": [
+      "rich-text#footer-chile"
+    ]
+  },
+  "rich-text#footer-chile": {
+    "props": {
+      "text": "##### **Chile** \n \n Roberto del Río 1137, \n Providencia.",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": "text-footer"
+    }
+  },
+  // Logo da Corebiz //
+  "flex-layout.col#footer-logo": {
+    "children": [
+      "image#logo-footer"
+    ]
+  },
+  "image#logo-footer": {
+    "props": {
+      "link": "https://www.corebiz.ag/",
+      "src": "assets/c_corebiz.svg",
+      "blockClass": "logo-footer"
+    }
+  },
+  // Bloco das redes sociais //
+  "flex-layout.row#footer-left-social-media": {
+    "props": {
+      "preventVerticalStretch": false
+    },
+    "children": [
+      "flex-layout.col#text-social-networks",
+      "flex-layout.col#rights-reserved"
+    ]
+  },
+  // Texto icones //
+  "flex-layout.col#text-social-networks": {
+    "children": [
+      "rich-text#social-networks",
+      "flex-layout.row#social-networks"
+    ]
+  },
+  "rich-text#social-networks": {
+    "props": {
+      "text": "##### Siga a gente",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": "text-social-media"
+    }
+  },
+  // Icones das redes sociais //
+  "flex-layout.row#social-networks": {
+    "children": [
+      "social-networks"
+    ]
+  },
+  "social-networks": {
+    "props": {
+      "showInColor": false,
+      "socialNetworks": [
+        {
+          "url": "https://www.instagram.com/corebizag/",
+          "name": "Instagram"
+        },
+        {
+          "url": "https://www.facebook.com/corebiz.ag/",
+          "name": "Facebook"
+        },
+        {
+          "url": "https://www.linkedin.com/company/corebiz-brasil/",
+          "name": "LinkedIn"
+        }
+      ]
+    }
+  },
+  // Texto direitos reservados //
+  "flex-layout.col#rights-reserved": {
+    "props": {
+      "verticalAlign": "bottom"
+    },
+    "children": [
+      "rich-text#rights-reserved"
+    ]
+  },
+  "rich-text#rights-reserved": {
+    "props": {
+      "text": "direitos reservados. corebiz 2021",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": "text-rights-reserved"
+    }
+  }
+}

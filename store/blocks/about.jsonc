@@ -1,0 +1,193 @@
+{
+    "store.custom#about": {
+        "blocks": [
+            "flex-layout.row#aboutMainDiv",
+            "flex-layout.row#aboutWhoWeAreDiv",
+            "flex-layout.row#valoresDiv",
+            "flex-layout.row#world-container"
+        ]
+    },
+    // Bloco principal Corebiz worldwide //
+    "flex-layout.row#world-container": {
+        "props": {
+            "blockClass": "world-container"
+        },
+        "children": [
+            "flex-layout.col#world-master"
+        ]
+    },
+    "flex-layout.col#world-master": {
+        "children": [
+            "flex-layout.row#world-title",
+            "flex-layout.row#world-offices"
+        ]
+    },
+    // Titulo //
+    "flex-layout.row#world-title": {
+        "props": {
+            "blockClass": "world-title"
+        },
+        "children": [
+            "rich-text#about-title"
+        ]
+    },
+    "rich-text#about-title": {
+        "props": {
+            "blockClass": "about-title",
+            "text": "# corebiz worldwide."
+        }
+    },
+    // Escritórios //
+    "flex-layout.row#world-offices": {
+        "props": {
+            "blockClass": "world-offices"
+        },
+        "children": [
+            "rich-text#about-brasil",
+            "rich-text#about-argentina",
+            "rich-text#about-mexico",
+            "rich-text#about-chile",
+            "rich-text#about-espana"
+        ]
+    },
+    "rich-text#about-brasil": {
+        "props": {
+            "blockClass": "about-offices",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "##### **Brasil** \n \n [brasil@corebiz.ag](mailto:brasil@corebiz.ag) \n \n **Avenida Andrômeda, 2000. \n Bloco 6 e 8 Alphaville SP**"
+        }
+    },
+    "rich-text#about-argentina": {
+        "props": {
+            "blockClass": "about-offices",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "##### **Argentina** \n \n [argentina@corebiz.ag](mailto:argentina@corebiz.ag) \n \n **Soler 5518, 3 Piso C1425BYF \n Palermo Hollywood CABA**"
+        }
+    },
+    "rich-text#about-mexico": {
+        "props": {
+            "blockClass": "about-offices",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "##### **México** \n \n [mexico@corebiz.ag](mailto:mexico@corebiz.ag) \n \n **Blvd. Miguel de Cervantes \n Saavedra 169, Granada, \n Miguel Hidalgo, 11520 \n Ciudad de México, CDMX**"
+        }
+    },
+    "rich-text#about-chile": {
+        "props": {
+            "blockClass": "about-offices",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "##### **Chile** \n \n [chile@corebiz.ag](mailto:chile@corebiz.ag) \n \n **Roberto del Río 1137, \n Providencia.**"
+        }
+    },
+    "rich-text#about-espana": {
+        "props": {
+            "blockClass": "about-offices",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "##### **España** \n \n [esp@corebiz.ag](mailto:esp@corebiz.ag) \n \n **Avenida de Brasil, 29 - \n Oficinas. 28020 Madrid**"
+        }
+    },
+    "flex-layout.row#aboutMainDiv": {
+        "children": [
+            "flex-layout.col#aboutMain",
+            "image#aboutMainImg"
+        ],
+        "props": {
+            "blockClass": "aboutMainDiv"
+        }
+    },
+    "flex-layout.col#aboutMain": {
+        "children": [
+            "rich-text#aboutMainTitle1",
+            "flex-layout.col#aboutMainDesc"
+        ],
+        "props": {
+            "blockClass": "aboutMainText"
+        }
+    },
+    "rich-text#aboutMainTitle1": {
+        "props": {
+            "text": "a corebiz",
+            "textColor": "c-on-emphasis",
+            "font": "t-heading-1",
+            "blockClass": "aboutTitleText"
+        }
+    },
+    "flex-layout.col#aboutMainDesc": {
+        "children": [
+            "rich-text#aboutMainTitleDesc"
+        ]
+    },
+    "rich-text#aboutMainTitleDesc": {
+        "props": {
+            "text": "conheça um pouco de nossa história, nosso crescimento e nossa cultura.",
+            "textColor": "c-on-emphasis",
+            "font": "t-heading-6",
+            "blockClass": "aboutTitleTextDesc"
+        }
+    },
+    "image#aboutMainImg": {
+        "props": {
+            "src": "https://www.corebiz.ag/wp-content/uploads/2020/06/about-intro-image.jpg",
+            "blockClass": "aboutMainImg"
+        }
+    },
+    "flex-layout.row#aboutWhoWeAreDiv": {
+        "children": [
+            "flex-layout.row#aboutWhoWeAreText"
+        ]
+    },
+    "flex-layout.row#aboutWhoWeAreText": {
+        "children": [
+            "rich-text#aboutWhoWeAreTitle",
+            "rich-text#aboutwhoWeAreDesc"
+        ]
+    },
+    "rich-text#aboutWhoWeAreTitle": {},
+    "rich-text#aboutwhoWeAreDesc": {},
+    "flex-layout.row#valoresDiv": {
+        "children": [
+            "flex-layout.col#vision",
+            "flex-layout.col#valueList"
+        ],
+        "props": {
+            "blockClass": "valores"
+        }
+    },
+    "flex-layout.col#vision": {
+        "children": [
+            "info-card#vision"
+        ],
+        "props": {
+            "blockClass": "visionCard"
+        }
+    },
+    "info-card#vision": {
+        "props": {
+            "isFullModeStyle": "true",
+            "textPosition": "left",
+            "imageUrl": "https://www.corebiz.ag/wp-content/uploads/2020/06/values-image.jpg",
+            "headline": "vision",
+            "subhead": "To be the largest company of experience, technology and marketing for commerce in Latin America.",
+            "blockClass": "vision"
+        }
+    },
+    "flex-layout.col#valueList": {
+        "children": [
+            "rich-text#valueText"
+        ],
+        "props": {
+            "blockClass": "valueListCol"
+        }
+    },
+    "rich-text#valueText": {
+        "props": {
+            "text": "# values \n* .determination \n*.innovation \n*.courege \n*.agility \n*.collaboration ",
+            "textPosition": "CENTER",
+            "blockClass": "listaValores"
+        }
+    }
+}

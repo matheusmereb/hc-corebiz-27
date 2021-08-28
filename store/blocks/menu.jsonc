@@ -1,0 +1,45 @@
+{
+  "vtex.menu@2.x:menu#headerMenu": {
+    "props": {
+      "experimentalOptimizeRendering": true,
+      "items": [
+        {
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/about",
+            "noFollow": false,
+            "tagTitle": "a corebiz",
+            "text": "a corebiz"
+          }
+        },
+        {
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "serviços",
+            "text": "serviços"
+          }
+        },
+        {
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/shop",
+            "noFollow": false,
+            "tagTitle": "shop",
+            "text": "shop"
+          }
+        }
+      ]
+    }
+  }
+}

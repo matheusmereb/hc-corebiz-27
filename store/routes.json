@@ -1,0 +1,8 @@
+{
+  "store.custom#about": {
+    "path": "/about"
+  },
+  "store.custom#shop": {
+    "path": "/shop"
+  }
+}
