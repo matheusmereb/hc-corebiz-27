@@ -7,3 +7,8 @@
         filter: opacity(0.3);
         transition: all .3s ease
 }
+.imageElement--parceirosfotos {
+    width: 94px !important;
+    margin: 35px;
+    align-content: center;
+}
