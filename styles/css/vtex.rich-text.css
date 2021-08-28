@@ -1,3 +1,16 @@
+.heading--corebiz {
+  color: #666;
+}
+@media screen and (max-width: 1360px) {
+  .heading--principaisClientes {
+    padding: 1.8rem;
+  }
+}
+
+/* .wrapper {
+  margin: 2px;
+} */
+
 .paragraph--slogan {
   font-size: 8.3vw;
   max-width: 50rem;

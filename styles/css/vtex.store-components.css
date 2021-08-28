@@ -2,6 +2,12 @@
   height: 50px;
 }
 
+:global(.vtex-flex-layout-0-x-flexRow--blocoClientes) .imageElement:hover {
+  margin: auto;
+  filter: opacity(0.3);
+  transition: all 0.3s ease;
+}
+
 .imageElement--aboutMainImg {
   width: 55%;
   position: absolute;
