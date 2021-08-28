@@ -1,10 +1,11 @@
 {
   "store.home": { 
     "blocks": [
-      "flex-layout.row"
+      "flex-layout.row#valoresDiv",
+      "store.custom#landing"
     ]
   },
-  "flex-layout.row": {
+  "flex-layout.row#valoresDiv": {
     "children": [
       "flex-layout.col#vision",
       "flex-layout.col#valueList"
@@ -15,7 +16,9 @@
   },
   "flex-layout.col#vision": {
     "children": ["info-card#vision"],
-    "blockClass": "visionCard"
+    "props": {
+      "blockClass": "visionCard"
+    }
   },
   "info-card#vision":{
     "props":{
@@ -27,20 +30,17 @@
       "blockClass":"vision"
     }
   },
-
   "flex-layout.col#valueList": {
     "children": ["rich-text#valueText"],
     "props":{
       "blockClass": "valueListCol"
     }
   },
-
- 
   "rich-text#valueText": {
     "props": {
       "text": "# values \n* .determination \n*.innovation \n*.courege \n*.agility \n*.collaboration ",
       "textPosition":"CENTER",
-      "blockClass":"lista"
+      "blockClass":"listaValores"
   }
  }
 }
