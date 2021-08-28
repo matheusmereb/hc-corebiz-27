@@ -1,7 +1,46 @@
 {
   "store.home": { 
     "blocks": [
+      "flex-layout.row#valoresDiv",
       "store.custom#landing"
     ]
+  },
+  "flex-layout.row#valoresDiv": {
+    "children": [
+      "flex-layout.col#vision",
+      "flex-layout.col#valueList"
+    ],
+    "props":{
+      "blockClass":"valores"
+    }
+  },
+  "flex-layout.col#vision": {
+    "children": ["info-card#vision"],
+    "props": {
+      "blockClass": "visionCard"
+    }
+  },
+  "info-card#vision":{
+    "props":{
+      "isFullModeStyle": "true",
+      "textPosition":"left",
+      "imageUrl": "https://www.corebiz.ag/wp-content/uploads/2020/06/values-image.jpg",
+      "headline": "vision",
+      "subhead":"To be the largest company of experience, technology and marketing for commerce in Latin America.",
+      "blockClass":"vision"
+    }
+  },
+  "flex-layout.col#valueList": {
+    "children": ["rich-text#valueText"],
+    "props":{
+      "blockClass": "valueListCol"
+    }
+  },
+  "rich-text#valueText": {
+    "props": {
+      "text": "# values \n* .determination \n*.innovation \n*.courege \n*.agility \n*.collaboration ",
+      "textPosition":"CENTER",
+      "blockClass":"listaValores"
   }
+ }
 }
