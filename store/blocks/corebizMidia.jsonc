@@ -1,9 +1,4 @@
 {
-  "store.custom#naMidia": { 
-    "blocks": [
-      "flex-layout.row#onMedia"
-    ]
-  },
   "flex-layout.row#onMedia": {
     "props": {
       "preventHorizontalStretch": true,
@@ -100,13 +95,6 @@
       "blockClass": "imageCard1"
     }
   },
-//   "image#msn": {
-//     "props": {
-//       "src":"https://www.corebiz.ag/wp-content/uploads/2020/06/logo-msn.png",
-//       "maxWidth": 30
-//     }
-// },
-
 "flex-layout.col#sliderContent2": {
   "props": {
     "blockClass": "sliderContent2"

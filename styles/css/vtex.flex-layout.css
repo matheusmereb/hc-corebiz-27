@@ -79,3 +79,43 @@
     justify-content: center;
     float: left;
 }
+
+
+.flexRow--noMundoContainer{
+    background: #000;
+    background-image: url(//www.corebiz.ag/wp-content/themes/corebiz-global/assets/images/map-our-numbers.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    display: block;
+    padding: 260px 0 115px;
+}
+
+.flexRowContent--noMundoContainer{
+    display: block;
+    margin: 0 auto;
+}
+
+.flexRowContent--noMundoTitulos{
+    display: block;
+}
+
+.pr0{
+    display: block;
+}
+
+
+.flexRow--noMundoTitulos{
+    display: block;
+    /* flex-direction: column;
+    align-items: center; */
+}
+
+
+.flexRowContent--noMundoDados{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+    padding: 105px;
+}

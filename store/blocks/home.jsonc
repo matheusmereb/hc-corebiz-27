@@ -1,7 +1,7 @@
 {
   "store.home": { 
     "blocks": [
-      "store.custom#naMidia"
+      "flex-layout.row#onMedia"
     ]
 }
 }
