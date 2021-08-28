@@ -1,0 +1,81 @@
+.flexRow--onMediaContainer{
+    position: relative;
+}
+.flexRowContent--onMediaContainer{
+    /* position: absolute;
+    top: 0; */
+    width: 100%;
+    background-image: url(https://www.corebiz.ag/wp-content/themes/corebiz-global/assets/images/background-media--success.png);
+    background-size: contain;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    display: block;
+    font-family: "Circular Std Medium",sans-serif;
+    font-size: 10px;
+    height: 780px;
+    margin: 0;
+    padding: 100px 0 0 0;
+    z-index: 2;
+}
+
+.flexRowContent--onMediaContainer::before{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    background-color: #000;
+    background-image: url(//www.corebiz.ag/wp-content/themes/corebiz-global/assets/images/background-media.png);
+    background-size: 60%;
+    content: "";
+    background-position: 10% 45px;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+.flexCol--onMedia2ndContainer{
+    box-sizing: content-box;
+    display: flex;
+    font-size: 10px; /* 62.5%*/
+    margin: auto;
+    padding: 0 20px; /*0 2rem*/
+    height: 780px;
+    max-width: 1360px;
+}
+
+.flexColChild--onMedia2ndContainer{
+    height: 78px !important;
+}
+
+
+.flexRowContent--onMediaTextSliderContainer{
+    display: block;
+    box-sizing: border-box;
+    margin-top: 45px;
+    width: 70%;
+    max-width: none;
+    margin-left: auto;
+    font-size: 18px;
+
+}
+
+.flexCol--sliderContent1{
+    width: 303px;
+    margin-right: 56px;
+    background: #ff6e60;
+    padding: 40px 30px 20px 30px;
+    display: flex;
+    justify-content: center;
+    float: left;
+}
+
+.flexCol--sliderContent2{
+    width: 303px;
+    margin-right: 56px;
+    background: #91a7d0;
+    padding: 40px 30px 20px 30px;
+    display: flex;
+    justify-content: center;
+    float: left;
+}
