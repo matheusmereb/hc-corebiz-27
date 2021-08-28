@@ -1,3 +1,9 @@
+.imageElement--parceirosfotos {
+    width: 94px !important;
+    margin: 35px;
+    align-content: center;
+}
+
 .infoCardHeadline--vision {
   font-family: Circular Std Medium, sans-serif;
   font-size: 2rem;
