@@ -1,4 +1,6 @@
-# Minimum Boilerplate Theme
+# Desafio Final Programa Hiring Coders
+## Desafio Corebiz
+
 
 The minimum Boilerplate Theme is basic store front model based on the VTEX IO Store Framework.
 

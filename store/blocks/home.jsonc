@@ -4,7 +4,8 @@
       "flex-layout.row#bannerHome",
       "flex-layout.row#clientes",
       "slider-layout#caseclientes",
-      "flex-layout.row#corebiz"
+      "flex-layout.row#corebiz",
+      "flex-layout.row#onMedia"
     ]
   },
   "flex-layout.row#bannerHome": {

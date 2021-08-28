@@ -1,3 +1,48 @@
+.infoCardContainer--onMediaCard1,
+.infoCardContainer--onMediaCard2 {
+    background-size: 70px 55px !important;
+    background-repeat: no-repeat;
+    background-position-x: 173px;
+    background-position-y: 130px;
+    border: none;
+}
+
+.infoCardTextContainer--onMediaCard1,
+.infoCardContainer--onMediaCard2{
+    width: 100%;
+    padding: 0;
+    margin:0;
+}
+
+.infoCardHeadline--onMediaCard1,
+.infoCardHeadline--onMediaCard2{
+    color: #ffffff ;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    margin: 0;
+    font-weight: bold;
+    font-size: 28px;
+    justify-content: left;
+}
+
+.infoCardSubhead--onMediaCard1,
+.infoCardSubhead--onMediaCard2{
+    color: #ffffff ;
+    margin: 40px 0 20px 0;
+}
+
+.imageElement--imageCard1{
+    margin-bottom: 40px;
+}
+
+.infoCardCallActionContainer{
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .imageElement--parceirosfotos {
     width: 94px !important;
     margin: 35px;

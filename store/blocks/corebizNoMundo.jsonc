@@ -1,0 +1,125 @@
+{
+  "flex-layout.row#noMundoContainer": {
+    "props": {
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true,
+      "blockClass": "noMundoContainer"
+    },
+    "children": [
+      "flex-layout.row#noMundoTitulos",
+      "flex-layout.row#noMundoDados"
+    ]
+  },
+  "flex-layout.row#noMundoTitulos": {
+    "props": {
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true,
+      "blockClass": "noMundoTitulos"
+    },
+    "children": [
+      "rich-text#tituloNoMundo",
+      "rich-text#subTituloNoMundo"
+    ]
+  },
+  "rich-text#tituloNoMundo": { 
+    "props": { 
+      "text": "nossos números pelo mundo.",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-1",
+      "blockClass": "tituloNoMundo"
+    }
+  },
+  "rich-text#subTituloNoMundo": { 
+    "props": { 
+      "text": "levamos um pouco da nossa visão pelo mundo",
+      "blockClass": "subTituloNoMundo"
+    }
+  },
+
+
+  "flex-layout.row#noMundoDados": {
+    "props": {
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true,
+      "blockClass": "noMundoDados"
+    },
+    "children": [
+      "flex-layout.col#noMundoColab",
+      "flex-layout.col#noMundopaises",
+      "flex-layout.col#noMundoclientes"
+    ]
+  },
+
+  "flex-layout.col#noMundoColab": {
+    "props": {
+      "blockClass": "noMundoColab"
+    },
+    "children": [
+      "rich-text#tituloColab",
+      "rich-text#textoColab"
+    ]
+  },
+  "rich-text#tituloColab": { 
+    "props": { 
+      "text": "+340",
+      "blockClass": "tituloDadosNoMundo"
+    }
+  },
+  "rich-text#textoColab": { 
+    "props": { 
+      "text": "colaboradores pelo mundo",
+      "blockClass": "textoDadosNoMundo"
+    }
+  },
+
+
+  "flex-layout.col#noMundopaises": {
+    "props": {
+      "blockClass": "noMundopaises"
+    },
+    "children": [
+      "rich-text#tituloPaises",
+      "rich-text#textoPaises"
+    ]
+  },
+  "rich-text#tituloPaises": { 
+    "props": { 
+      "text": "29 países",
+      "blockClass": "tituloDadosNoMundo"
+    }
+  },
+  "rich-text#textoPaises": { 
+    "props": { 
+      "text": "com clientes fixos ou projetos",
+      "blockClass": "textoDadosNoMundo"
+    }
+  },
+
+
+
+  "flex-layout.col#noMundoclientes": {
+    "props": {
+      "blockClass": "noMundoclientes"
+    },
+    "children": [
+      "rich-text#tituloClientes",
+      "rich-text#textoClientes"
+    ]
+  },
+  "rich-text#tituloClientes": { 
+    "props": { 
+      "text": "+100",
+      "blockClass": "tituloDadosNoMundo"
+    }
+  },
+  "rich-text#textoClientes": { 
+    "props": { 
+      "text": "clientes ativos em diversos países",
+      "blockClass": "textoDadosNoMundo"
+    }
+  }
+}
