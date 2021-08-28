@@ -1,7 +1,7 @@
 {
   "store.home": { 
     "blocks": [
-      "flex-layout.row#bannerHome"
+      "store.custom#landing"
     ]
   }  
 }

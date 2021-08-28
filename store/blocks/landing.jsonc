@@ -1,4 +1,7 @@
 {
+  "store.custom#landing":{
+    "children": ["flex-layout.row#bannerHome"]
+  },
 "flex-layout.row#bannerHome": {
     "children": [
       // "media#banner",
