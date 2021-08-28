@@ -104,7 +104,9 @@
   background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.59), transparent);
 }
 
-.flexColChild {
+.flexColChild--topic1,
+.flexColChild--topic2,
+.flexColChild--topic3 {
   display: flex;
   justify-content: center;
   align-self: center;
@@ -146,8 +148,6 @@
   flex-direction: column;
   left: 0;
   margin: 0;
-  /* padding-left: 2rem; */
-  /* padding-top: 12rem; */
 }
 
 .flexRow--aboutMainDiv::before {

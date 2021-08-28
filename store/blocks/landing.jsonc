@@ -9,7 +9,6 @@
   },
 "flex-layout.row#bannerHome": {
     "children": [
-      // "media#banner",
       "flex-layout.col#banner1",
       "flex-layout.col#banner2"
     ],
