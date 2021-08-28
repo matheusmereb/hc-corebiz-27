@@ -204,15 +204,15 @@
     "children": [
       "rich-text#somoscorebiz",
       "rich-text#corebiz",
-      "rich-text#partners"
+      "rich-text#partners",
+      "image-list#parceiros"
     ]
   },
   "rich-text#somoscorebiz": {
     "props": {
       "textAlignment": "LEFT",
-      "textPosition": "left",
+      "textPosition": "LEFT",
       "text": "## somos a corebiz.",
-      "textColor": "c-on-base--inverted",
       "font": "t-heading-5",
       "blockClass": "somoscorebiz"
     }
@@ -220,7 +220,7 @@
   "rich-text#corebiz": {
     "props": {
       "textAlignment": "LEFT",
-      "textPosition": "left",
+      "textPosition": "LEFT",
       "text": "## a maior empresa de<br>experiência, tecnologia e<br>marketing para comércio<br>da América Latina.",
       "font": "t-heading-5",
       "blockClass": "corebiz"
@@ -228,12 +228,27 @@
   },
   "rich-text#partners": {
     "props": {
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
       "text": "nossos parceiros:",
-      "textColor": "c-on-base--inverted",
       "font": "t-heading-5",
       "blockClass": "somoscorebiz"
+    }
+  },
+  "image-list#parceiros":{
+    "props": {
+      "blockClass":"parceirosfotos",
+      "images": [
+        {
+          "image": "https://www.corebiz.ag/wp-content/uploads/2020/06/vtex.png"
+        },
+        {
+          "image": "https://www.corebiz.ag/wp-content/uploads/2020/06/salesforce.png"
+        },
+        {
+          "image": "https://www.corebiz.ag/wp-content/uploads/2020/06/magento.png"
+        }
+      ]
     }
   },
   "flex-layout.col#video": {
