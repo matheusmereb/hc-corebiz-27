@@ -1,17 +1,18 @@
 .infoCardHeadline--vision {
   font-family: Circular Std Medium, sans-serif;
-  font-size: 2rem;
-  color: #f1c233;
-  margin-top: 45px;
+  font-size  : 2rem;
+  color      : #f1c233;
+  margin-top : 45px;
 }
 
 .infoCardSubhead--vision {
-  margin: 45px;
+  margin     : 45px;
   font-family: Circular Std Medium, sans-serif;
-  font-size: 20px;
+  font-size  : 20px;
   font-weight: bolder;
-  color: #fff;
+  color      : #fff;
 }
+
 .infoCardContainer--vision {
   width: 120%;
 }
@@ -22,8 +23,8 @@
 
 /* Logo Corebiz Footer */
 .imageElement--logo-footer {
-  width: 120px;
-  height: 100px;
+  width     : 120px;
+  height    : 100px;
   margin-top: 75px;
 }
 
@@ -31,19 +32,20 @@
 .imageElement--footer-image {
   max-width: 100%;
 }
+
 .logoImage {
   height: 50px;
 }
 
 :global(.vtex-flex-layout-0-x-flexRow--blocoClientes) .imageElement:hover {
-  margin: auto;
-  filter: opacity(0.3);
+  margin    : auto;
+  filter    : opacity(0.3);
   transition: all 0.3s ease;
 }
 
 .imageElement--aboutMainImg {
-  width: 55%;
+  width   : 55%;
   position: absolute;
-  top: 0;
-  right: 0;
+  top     : 0;
+  right   : 0;
 }

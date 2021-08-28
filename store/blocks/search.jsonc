@@ -32,7 +32,7 @@
       "flex-layout.col#filler"
     ]
   },
-  "flex-layout.col#filler":{
+  "flex-layout.col#filler": {
     "props": {
       "width": "20%"
     }
@@ -74,17 +74,17 @@
       "blockClass": "products"
     }
   },
-  "product-images#lp":{
-    "props":{
+  "product-images#lp": {
+    "props": {
       "showNavigationArrows": true,
-      "showPaginationDots":true
+      "showPaginationDots": true
     }
   },
   "search-result-layout.mobile": {
     "children": [
       "flex-layout.row#results"
     ],
-    "props":{
+    "props": {
       "maxItemsPerPage": 1,
       "defaultGalleryLayout": "grid",
       "verticalALign": "middle"
