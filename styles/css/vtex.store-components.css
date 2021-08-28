@@ -1,4 +1,5 @@
-.infoCardContainer{
+.infoCardContainer--onMediaCard1,
+.infoCardContainer--onMediaCard2 {
     background-size: 70px 55px !important;
     background-repeat: no-repeat;
     background-position-x: 173px;
@@ -6,13 +7,15 @@
     border: none;
 }
 
-.infoCardTextContainer{
+.infoCardTextContainer--onMediaCard1,
+.infoCardContainer--onMediaCard2{
     width: 100%;
     padding: 0;
     margin:0;
 }
 
-.infoCardHeadline{
+.infoCardHeadline--onMediaCard1,
+.infoCardHeadline--onMediaCard2{
     color: #ffffff ;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -25,7 +28,8 @@
     justify-content: left;
 }
 
-.infoCardSubhead{
+.infoCardSubhead--onMediaCard1,
+.infoCardSubhead--onMediaCard2{
     color: #ffffff ;
     margin: 40px 0 20px 0;
 }
