@@ -152,7 +152,7 @@
   "image#logo-footer": {
     "props": {
       "link": "https://www.corebiz.ag/",
-      "src": "assets/logo-footer.jpg",
+      "src": "assets/c_corebiz.svg",
       "blockClass": "logo-footer"
     }
   },

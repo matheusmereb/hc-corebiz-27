@@ -1,0 +1,93 @@
+{
+    "store.custom#about": {
+        "blocks": [
+            "flex-layout.row#world-container"
+        ]
+    },
+
+    // Bloco principal Corebiz worldwide //
+    "flex-layout.row#world-container": {
+        "props": {
+            "blockClass": "world-container"
+        },
+        "children": [
+            "flex-layout.col#world-master"
+        ]
+    },
+    "flex-layout.col#world-master": {
+        "children": [
+            "flex-layout.row#world-title",
+            "flex-layout.row#world-offices"
+        ]
+    },
+
+    // Titulo //
+    "flex-layout.row#world-title": {
+        "props": {
+            "blockClass": "world-title"
+        },
+        "children": [
+            "rich-text#about-title"
+        ]
+    },
+    "rich-text#about-title": {
+        "props": {
+            "blockClass": "about-title",
+            "text": "# corebiz worldwide."
+        }
+    },
+
+    // Escritórios //
+    "flex-layout.row#world-offices": {
+        "props": {
+            "blockClass": "world-offices"
+        },
+        "children": [
+            "rich-text#about-brasil",
+            "rich-text#about-argentina",
+            "rich-text#about-mexico",
+            "rich-text#about-chile",
+            "rich-text#about-espana"
+        ]
+    },
+    "rich-text#about-brasil": {
+        "props": {
+            "blockClass": "about-offices",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "##### **Brasil** \n \n [brasil@corebiz.ag](mailto:brasil@corebiz.ag) \n \n **Avenida Andrômeda, 2000. \n Bloco 6 e 8 Alphaville SP**"
+        }
+    },
+    "rich-text#about-argentina": {
+        "props": {
+            "blockClass": "about-offices",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "##### **Argentina** \n \n [argentina@corebiz.ag](mailto:argentina@corebiz.ag) \n \n **Soler 5518, 3 Piso C1425BYF \n Palermo Hollywood CABA**"
+        }
+    },
+    "rich-text#about-mexico": {
+        "props": {
+            "blockClass": "about-offices",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "##### **México** \n \n [mexico@corebiz.ag](mailto:mexico@corebiz.ag) \n \n **Blvd. Miguel de Cervantes \n Saavedra 169, Granada, \n Miguel Hidalgo, 11520 \n Ciudad de México, CDMX**"
+        }
+    },
+    "rich-text#about-chile": {
+        "props": {
+            "blockClass": "about-offices",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "##### **Chile** \n \n [chile@corebiz.ag](mailto:chile@corebiz.ag) \n \n **Roberto del Río 1137, \n Providencia.**"
+        }
+    },
+    "rich-text#about-espana": {
+        "props": {
+            "blockClass": "about-offices",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "##### **España** \n \n [esp@corebiz.ag](mailto:esp@corebiz.ag) \n \n **Avenida de Brasil, 29 - \n Oficinas. 28020 Madrid**"
+        }
+    }
+}

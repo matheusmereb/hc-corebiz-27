@@ -1,7 +1,38 @@
+/* Mobile */
+@media screen and (min-width: 1024px) {
+    .flexRowContent--world-offices {
+        grid-template-columns: repeat(3,  1fr) !important;
+        padding-left: 200px !important;
+    }
+    .flexRow--footer-container-left {
+        width: 95% !important;
+    }
+}
+
+/* Container do Corebiz worldwide /about */
+.flexRow--world-container {
+    background-color: #f5f5f5;
+    background-image: url(//www.corebiz.ag/wp-content/themes/corebiz-global/assets/images/worldwide.png);
+    background-size: cover;
+    padding: 13rem 0 17rem;
+    background-position: 100%;
+    background-repeat: no-repeat;
+}
+.flexRowContent--world-offices {
+    display: grid;
+    grid-template-columns: repeat(2,  1fr);
+    grid-template-rows: auto;
+}
+
+.flexRowContent--world-offices .stretchChildrenWidth {
+    width: 100% !important;
+}
+
+
 /* Footer container da esquerda */
 .flexRow--footer-container-left {
     background-color: #000;
-    width: 95%;
+    width: 100%;
     bottom: 0;
     left: 0;
     position: relative;
@@ -15,6 +46,7 @@
 .flexRow--footer-left {
     margin-bottom: 9rem;
 }
+
 /* Footer container da direita */
 .flexRow--footer-container-right {
    position: absolute;

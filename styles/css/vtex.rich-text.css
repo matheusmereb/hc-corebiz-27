@@ -1,3 +1,17 @@
+/* Textos do Corebiz worldwide /about */
+.heading--about-title {
+    color: #000;
+    padding-left: 100px;
+    margin-top: 0;
+}
+.wrapper--about-offices .link--about-offices {
+    color: #000;
+    text-decoration: none;
+}
+.paragraph--about-offices {
+    font-size: small;
+}
+
 /* Textos do bloco do footer */
 .container--text-footer {
     color: #fff;
