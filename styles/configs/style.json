@@ -221,8 +221,8 @@
       "muted-5": "#f2f4f5"
     },
     "on": {
-      "base": "#3f3f40",
-      "base--inverted": "#ffffff",
+      "base": "#ffffff",
+      "base--inverted": "#000000",
       "action-primary": "#ffffff",
       "action-secondary": "#0F3E99",
       "emphasis": "#ffffff",

@@ -1,5 +1,9 @@
-@import url(//db.onlinewebfonts.com/c/860c3ec7bbc5da3e97233ccecafe512e?family=Circular+Std+Book);
+:global(
+    .vtex-flex-layout-0-x-flexRow--blocoClientes
+)
 
-.logoImage {
-  height: 50px;
+.imageElement:hover {
+        margin:auto;
+        filter: opacity(0.3);
+        transition: all .3s ease
 }
