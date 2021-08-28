@@ -1,52 +1,116 @@
-.flexRowContent--clientesParceiros {
-    padding-bottom: 3rem;
-    margin-top: 0rem;
-}
-.flexRowContent--clientes {
-    background-color: #000;
-}
-.flexRowContent--clientes .stretchChildrenWidth{
-    max-width: 1360px;
-    margin: 0 auto;
-}
-.flexRowContent--coreBiz{
-    background-color:#fff !important;
-}
-.flexCol--video {
-    background-color:#fff;
-    background-image: url("https://www.corebiz.ag/wp-content/uploads/2020/06/image-video-somos-min.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-}
-.flexCol--winner{
-    background-color:#fff;
-    background-image: url("https://www.corebiz.ag/wp-content/themes/corebiz-global/assets/images/background-somos.png");
-    background-repeat: no-repeat;
-    background-position: 0;
-    padding: 12.5rem 12rem 12.5rem calc(50% - 680px);
-}
-.flexRowContent--clientesParceiros .stretchChildrenWidth {
-    display: grid;
-    background: #000;
-    grid-template-columns: repeat(3,1fr);
-    grid-row-gap: 1.8rem;
+.flexRow--valores :global(.vtex-store-components-3-x-container) {
+  background-color: #f5f5f5;
 }
 
-@media screen and (min-width: 1024px){
-    .flexRowContent--clientesParceiros .stretchChildrenWidth {
-        grid-template-columns: repeat(6,1fr);
-        grid-row-gap: 50px;
-    }
+/* Mobile */
+@media screen and (min-width: 1024px) {
+  .flexRowContent--world-offices {
+    grid-template-columns: repeat(3, 1fr) !important;
+    padding-left: 200px !important;
+  }
+  .flexRow--footer-container-left {
+    width: 95% !important;
+  }
+}
+
+/* Container do Corebiz worldwide /about */
+.flexRow--world-container {
+  background-color: #f5f5f5;
+  background-image: url(//www.corebiz.ag/wp-content/themes/corebiz-global/assets/images/worldwide.png);
+  background-size: cover;
+  padding: 13rem 0 17rem;
+  background-position: 100%;
+  background-repeat: no-repeat;
+}
+.flexRowContent--world-offices {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+}
+
+.flexRowContent--world-offices .stretchChildrenWidth {
+  width: 100% !important;
+}
+
+/* Footer container da esquerda */
+.flexRow--footer-container-left {
+  background-color: #000;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  position: relative;
+  z-index: 9;
+  padding: 6rem 0 6rem calc(50% - 680px);
+}
+.flexCol--col-footer-container-left {
+  width: 75% !important;
+  margin-left: 8.3%;
+}
+.flexRow--footer-left {
+  margin-bottom: 9rem;
+}
+
+/* Footer container da direita */
+.flexRow--footer-container-right {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.flexRowContent--clientesParceiros {
+  padding-bottom: 3rem;
+  margin-top: 0rem;
+}
+.flexRowContent--clientes {
+  background-color: #000;
+}
+.flexRowContent--clientes .stretchChildrenWidth {
+  max-width: 1360px;
+  margin: 0 auto;
+}
+.flexRowContent--coreBiz {
+  background-color: #fff !important;
+}
+.flexCol--video {
+  background-color: #fff;
+  background-image: url("https://www.corebiz.ag/wp-content/uploads/2020/06/image-video-somos-min.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.flexCol--winner {
+  background-color: #fff;
+  background-image: url("https://www.corebiz.ag/wp-content/themes/corebiz-global/assets/images/background-somos.png");
+  background-repeat: no-repeat;
+  background-position: 0;
+  padding: 12.5rem 12rem 12.5rem calc(50% - 680px);
+}
+.flexRowContent--clientesParceiros .stretchChildrenWidth {
+  display: grid;
+  background: #000;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 1.8rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .flexRowContent--clientesParceiros .stretchChildrenWidth {
+    grid-template-columns: repeat(6, 1fr);
+    grid-row-gap: 50px;
+  }
 }
 .flexRow--headerRow {
   padding: 55px 250px;
   position: absolute;
   top: 0;
   width: 100%;
+  z-index: 1;
+  overflow: hidden;
+  height: 9rem;
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.59), transparent);
 }
 
-.flexColChild {
+.flexColChild--topic1,
+.flexColChild--topic2,
+.flexColChild--topic3 {
   display: flex;
   justify-content: center;
   align-self: center;
@@ -67,4 +131,41 @@
 
 .flexCol--bannerColLeft {
   align-content: left;
+}
+
+.flexRow--aboutMainDiv {
+  position: relative;
+  color: #fff;
+  overflow: hidden;
+  display: flex;
+  /* min-height: 70rem; */
+  width: 100vw;
+  padding-top: 24.2rem;
+  background-color: black;
+}
+
+.flexCol--aboutMainText {
+  width: 45%;
+  padding-left: calc(50% - 680px);
+  font-size: 1.8rem;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  left: 0;
+  margin: 0;
+}
+
+.flexRow--aboutMainDiv::before {
+  content: "";
+  position: absolute;
+  background-color: #000;
+  top: 0;
+  right: 0;
+  bottom: 10rem;
+  width: 100%;
+  z-index: -1;
+}
+
+.flexCol--aboutMainDesc {
+  max-width: 26.4rem;
+  margin-left: 8%;
 }
