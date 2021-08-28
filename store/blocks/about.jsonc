@@ -7,7 +7,6 @@
             "flex-layout.row#world-container"
         ]
     },
-
     // Bloco principal Corebiz worldwide //
     "flex-layout.row#world-container": {
         "props": {
@@ -23,7 +22,6 @@
             "flex-layout.row#world-offices"
         ]
     },
-
     // Titulo //
     "flex-layout.row#world-title": {
         "props": {
@@ -39,7 +37,6 @@
             "text": "# corebiz worldwide."
         }
     },
-
     // Escritórios //
     "flex-layout.row#world-offices": {
         "props": {
@@ -92,19 +89,18 @@
             "textPosition": "LEFT",
             "text": "##### **España** \n \n [esp@corebiz.ag](mailto:esp@corebiz.ag) \n \n **Avenida de Brasil, 29 - \n Oficinas. 28020 Madrid**"
         }
-            
     },
     "flex-layout.row#aboutMainDiv": {
         "children": [
-         "flex-layout.col#aboutMain",
-         "image#aboutMainImg"
+            "flex-layout.col#aboutMain",
+            "image#aboutMainImg"
         ],
         "props": {
             "blockClass": "aboutMainDiv"
         }
-    }, 
+    },
     "flex-layout.col#aboutMain": {
-        "children": [        
+        "children": [
             "rich-text#aboutMainTitle1",
             "flex-layout.col#aboutMainDesc"
         ],
@@ -121,7 +117,9 @@
         }
     },
     "flex-layout.col#aboutMainDesc": {
-        "children": ["rich-text#aboutMainTitleDesc"]
+        "children": [
+            "rich-text#aboutMainTitleDesc"
+        ]
     },
     "rich-text#aboutMainTitleDesc": {
         "props": {
@@ -148,48 +146,48 @@
             "rich-text#aboutwhoWeAreDesc"
         ]
     },
-    "rich-text#aboutWhoWeAreTitle": {
-
+    "rich-text#aboutWhoWeAreTitle": {},
+    "rich-text#aboutwhoWeAreDesc": {},
+    "flex-layout.row#valoresDiv": {
+        "children": [
+            "flex-layout.col#vision",
+            "flex-layout.col#valueList"
+        ],
+        "props": {
+            "blockClass": "valores"
+        }
     },
-    "rich-text#aboutwhoWeAreDesc": {
-
+    "flex-layout.col#vision": {
+        "children": [
+            "info-card#vision"
+        ],
+        "props": {
+            "blockClass": "visionCard"
+        }
     },
-  "flex-layout.row#valoresDiv": {
-    "children": [
-      "flex-layout.col#vision",
-      "flex-layout.col#valueList"
-    ],
-    "props":{
-      "blockClass":"valores"
+    "info-card#vision": {
+        "props": {
+            "isFullModeStyle": "true",
+            "textPosition": "left",
+            "imageUrl": "https://www.corebiz.ag/wp-content/uploads/2020/06/values-image.jpg",
+            "headline": "vision",
+            "subhead": "To be the largest company of experience, technology and marketing for commerce in Latin America.",
+            "blockClass": "vision"
+        }
+    },
+    "flex-layout.col#valueList": {
+        "children": [
+            "rich-text#valueText"
+        ],
+        "props": {
+            "blockClass": "valueListCol"
+        }
+    },
+    "rich-text#valueText": {
+        "props": {
+            "text": "# values \n* .determination \n*.innovation \n*.courege \n*.agility \n*.collaboration ",
+            "textPosition": "CENTER",
+            "blockClass": "listaValores"
+        }
     }
-  },
-  "flex-layout.col#vision": {
-    "children": ["info-card#vision"],
-    "props": {
-      "blockClass": "visionCard"
-    }
-  },
-  "info-card#vision":{
-    "props":{
-      "isFullModeStyle": "true",
-      "textPosition":"left",
-      "imageUrl": "https://www.corebiz.ag/wp-content/uploads/2020/06/values-image.jpg",
-      "headline": "vision",
-      "subhead":"To be the largest company of experience, technology and marketing for commerce in Latin America.",
-      "blockClass":"vision"
-    }
-  },
-  "flex-layout.col#valueList": {
-    "children": ["rich-text#valueText"],
-    "props":{
-      "blockClass": "valueListCol"
-    }
-  },
-  "rich-text#valueText": {
-    "props": {
-      "text": "# values \n* .determination \n*.innovation \n*.courege \n*.agility \n*.collaboration ",
-      "textPosition":"CENTER",
-      "blockClass":"listaValores"
-  }
- }
 }

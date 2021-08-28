@@ -45,7 +45,7 @@
   },
   "flex-layout.col#spacer": {
     "props": {
-      "width": "60%"
+      "width": "auto"
     }
   },
   "header-layout.mobile": {

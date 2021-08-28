@@ -1,23 +1,28 @@
 .triggerContainer {
-    position: absolute;
-    top: 50%;
-    right: 50%;
-    transform: translate(50%, -50%);
-    cursor: pointer;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    width: 8.5rem;
-    height: 8.5rem;
-    background-color: rgba(0,0,0,.7);
-    border-radius: 50%;
+    position        : absolute;
+    top             : 50%;
+    right           : 50%;
+    transform       : translate(50%, -50%);
+    cursor          : pointer;
+    display         : inline-flex;
+    justify-content : center;
+    align-items     : center;
+    width           : 8.5rem;
+    height          : 8.5rem;
+    background-color: rgba(0, 0, 0, .7);
+    border-radius   : 50%;
 }
+
 .triggerContainer::before {
-    content: "";
-    position: absolute;
-    width: 0;
-    height: 0;
+    content     : "";
+    position    : absolute;
+    width       : 0;
+    height      : 0;
     border-color: transparent transparent transparent #fff;
     border-style: solid;
     border-width: 16px 0 16px 27.7px
+}
+
+.paperNotFullScreen {
+    background: none;
 }
