@@ -110,30 +110,34 @@
 }
 
 .flexRow--headerRow {
-  padding         : 55px 250px;
+  padding-top     : 3.2rem;
+  height          : 12rem;
   position        : absolute;
   top             : 0;
   width           : 100%;
   z-index         : 1;
   overflow        : hidden;
-  height          : 9rem;
   background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.59), transparent);
 }
 
-.flexColChild--topic1,
-.flexColChild--topic2,
-.flexColChild--topic3 {
+.flexRowContent--infoDados {
+  max-width      : 25rem;
   display        : flex;
-  justify-content: center;
-  align-self     : center;
+  -ms-flex-pack  : justify;
+  justify-content: space-between;
+}
+
+.flexRowContent--infoDados .stretchChildrenWidth {
+  max-width: 7rem;
 }
 
 .flexRow--homeBanner {
   background       : url("https://www.corebiz.ag/wp-content/uploads/2021/02/Banner-Mapa-Corebiz-BR.png");
   background-size  : cover;
   background-repeat: no-repeat;
-  height           : 100vh;
-  min-height       : 66rem;
+  min-height       : 100vh;
+  padding-top      : 8rem;
+  background-color : #000;
 }
 
 .flexCol--topic1 {

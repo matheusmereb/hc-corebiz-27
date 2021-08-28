@@ -43,6 +43,7 @@
   },
   "rich-text#bannerRow1": {
     "props": {
+      "textAlignment": "LEFT",
       "textPosition": "LEFT",
       "text": "**we are\nglobal.**",
       "textColor": "c-on-emphasis",
@@ -73,7 +74,10 @@
       "flex-layout.col#bannerTopic1",
       "flex-layout.col#bannerTopic2",
       "flex-layout.col#bannerTopic3"
-    ]
+    ],
+    "props":{
+      "blockClass": "infoDados"
+    }
   },
   "flex-layout.col#bannerTopic1": {
     "children": [
@@ -271,11 +275,11 @@
   },
   "video#corebiz": {
     "props": {
-      "src": "https://www.youtube.com/watch?v=Lep45Aztp7g",
-      "autoPlay": true,
+      "src": "https://www.youtube.com/embed/Lep45Aztp7g",
+      "description": "Video institucional Corebiz",
+      "muted": false,
       "height": "420px",
-      "width": "720px",
-      "muted": "false"
+      "width": "720px"
     }
   },
   "slider-layout#caseclientes": {
