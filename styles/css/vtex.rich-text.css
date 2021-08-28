@@ -1,7 +1,3 @@
-.wrapper {
-  margin: 2px;
-}
-
 .paragraph--slogan {
   font-size: 8.3vw;
   max-width: 50rem;
@@ -24,4 +20,21 @@
   font-size: 14px;
   max-width: 11.5rem;
   margin-bottom: 5rem;
+}
+
+.paragraph--mainTitleText {
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 6rem;
+  max-width: 50rem;
+  color: #fff;
+  font-family: Circular Std Medium, sans-serif;
+  font-weight: 300;
+  text-transform: lowercase;
+  line-height: 0.8;
+  margin: 0 0 3rem;
+}
+.wrapper--aboutTitleTextDesc {
+  max-width: 26.4rem;
+  margin-left: 8%;
 }
