@@ -1,3 +1,14 @@
+:global(.vtex-store__template){
+  background: #ffffff00;
+}
+
+.infoCardCallActionContainer--onMediaCard1 :global(.vtex-button),
+.infoCardCallActionContainer--onMediaCard2 :global(.vtex-button){
+  background: #ffffff00;
+  border-color: #ffffff;
+  text-transform: none;
+}
+
 .infoCardContainer--onMediaCard1,
 .infoCardContainer--onMediaCard2 {
   background-size      : 70px 55px !important;
@@ -8,7 +19,7 @@
 }
 
 .infoCardTextContainer--onMediaCard1,
-.infoCardContainer--onMediaCard2 {
+.infoCardTextContainer--onMediaCard2 {
   width  : 100%;
   padding: 0;
   margin : 0;
@@ -68,7 +79,7 @@
   width: 120%;
 }
 
-.infoCardCallActionContainer {
+.infoCardCallActionContainer--vision {
   display: none;
 }
 

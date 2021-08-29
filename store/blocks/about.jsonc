@@ -5,7 +5,7 @@
             "flex-layout.row#aboutWhoWeAreDiv",
             "flex-layout.row#valoresDiv",
             "flex-layout.row#world-container",
-            "flex-layout.row#onMedia",
+            "flex-layout.row#onMediaAbout",
             "flex-layout.row#noMundoContainer"
         ]
     },

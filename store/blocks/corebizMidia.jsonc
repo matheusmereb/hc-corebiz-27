@@ -1,4 +1,15 @@
 {
+  "flex-layout.row#onMediaAbout": {
+    "props": {
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true,
+      "blockClass": "onMediaContainerAbout"
+    },
+    "children": [
+      "flex-layout.col#container"
+    ]
+  },
   "flex-layout.row#onMedia": {
     "props": {
       "preventHorizontalStretch": true,
