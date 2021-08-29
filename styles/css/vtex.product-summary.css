@@ -1,6 +1,7 @@
 .productBrand {
-  color: #fff;
+  color: #000;
   font-weight: bold;
+  font-family: "Circular", sans-serif;
 }
 
 .buyButtonText {
@@ -11,13 +12,15 @@
 .currencyInteger,
 .currencyDecimal,
 .currencyFraction {
-  color: #fff;
+  color: #000;
   font-weight: bold;
 }
 
 .element,
 .buyButtonContainer {
-  background-color: #000000;
+  background-color: #fff;
+  color: #000;
+  font-family: "Circular", sans-serif;
 }
 
 .element {
@@ -25,6 +28,12 @@
   display: flex;
   align-content: center;
   justify-content: center;
+}
+.container {
+  margin: 30px;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  border-radius: 0px;
+  width: 350px;
 }
 
 /* .aspectRatio {
@@ -61,6 +70,7 @@
 }
 
 .image {
+
 }
 
 .imageContainer {

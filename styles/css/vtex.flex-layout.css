@@ -133,7 +133,8 @@
   align-content: left;
 }
 
-.flexRow--aboutMainDiv {
+.flexRow--aboutMainDiv,
+.flexRow--shopMainDiv {
   position: relative;
   color: #fff;
   overflow: hidden;
@@ -144,7 +145,8 @@
   background-color: black;
 }
 
-.flexCol--aboutMainText {
+.flexCol--aboutMainText,
+.flexCol--shopMainText {
   width: 45%;
   padding-left: calc(50% - 680px);
   font-size: 1.8rem;
@@ -154,7 +156,8 @@
   margin: 0;
 }
 
-.flexRow--aboutMainDiv::before {
+.flexRow--aboutMainDiv::before,
+.flexRow--shopMainDiv::before {
   content: "";
   position: absolute;
   background-color: #000;
