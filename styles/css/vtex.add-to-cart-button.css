@@ -1,4 +1,4 @@
-:global(.vtex-button) {
+:global(.vtex-product-summary-2-x-container) :global(.vtex-button) {
   display: block;
   color: #fff;
   width: 300px;
@@ -15,7 +15,7 @@
   font-family: "Circular", sans-serif;
 }
 
-:global(.vtex-button):hover {
+:global(.vtex-product-summary-2-x-container) :global(.vtex-button):hover {
   background-color: #fff;
   border-color: #000;
   color: #000;
