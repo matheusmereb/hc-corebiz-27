@@ -1,0 +1,26 @@
+:global(.vtex-product-summary-2-x-container) :global(.vtex-button) {
+  display: block;
+  color: #fff;
+  width: 300px;
+  height: 50px;
+  border: 1px solid #000;
+  font-size: 18px;
+  background: #000;
+  border-radius: 1px;
+  text-decoration: none;
+  text-align: center;
+  padding: 8px 0;
+  line-height: 34px;
+  transition: all 0.25s ease;
+  font-family: "Circular", sans-serif;
+}
+
+:global(.vtex-product-summary-2-x-container) :global(.vtex-button):hover {
+  background-color: #fff;
+  border-color: #000;
+  color: #000;
+  transition: all 0.25s ease;
+  border-width: 0.5px;
+  border-radius: 0;
+  font-family: "Circular", sans-serif;
+}

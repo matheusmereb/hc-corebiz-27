@@ -46,8 +46,8 @@
   },
   "image#shopMainImg": {
     "props": {
-      "src": "https://www.corebiz.ag/wp-content/uploads/2020/06/about-intro-image.jpg",
-      "blockClass": "shopMainImg"
+        "src": "https://www.corebiz.ag/wp-content/uploads/2020/06/contato-page-header-image.jpg",
+        "blockClass": "shopMainImg"
     }
   },
   "flex-layout.row#produtos": {
@@ -55,10 +55,8 @@
       "list-context.product-list#produtos"
     ]
   },
-  "list-context.product-list#produtos": {
-    "blocks": [
-      "product-summary.shelf#home"
-    ],
+  "list-context.product-list#produtos":{
+    "blocks":["product-summary.shelf"],
     "props": {
       "maxItems": 8,
       "category": "1"

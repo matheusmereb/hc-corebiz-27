@@ -1,0 +1,11 @@
+.label {
+  color: white;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+  font-family: "Circular", sans-serif;
+}
+
+.link {
+  text-decoration: none;
+}
