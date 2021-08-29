@@ -24,7 +24,7 @@
       "verticalAlign": "middle"
     },
     "children": [
-      "vtex.product-list:product-name",
+      "vtex.store-components:product-name",
       "product-price",
       "buy-button"
     ]

@@ -256,30 +256,33 @@
   align-content: left;
 }
 
-.flexRow--aboutMainDiv {
-  position        : relative;
-  color           : #fff;
-  overflow        : hidden;
-  display         : flex;
-  /* min-height   : 70rem; */
-  width           : 100vw;
-  padding-top     : 24.2rem;
+.flexRow--aboutMainDiv,
+.flexRow--shopMainDiv {
+  position: relative;
+  color: #fff;
+  overflow: hidden;
+  display: flex;
+  /* min-height: 70rem; */
+  width: 100vw;
+  padding-top: 24.2rem;
   background-color: black;
 }
 
-.flexCol--aboutMainText {
-  width             : 45%;
-  padding-left      : calc(50% - 680px);
-  font-size         : 1.8rem;
+.flexCol--aboutMainText,
+.flexCol--shopMainText {
+  width: 45%;
+  padding-left: calc(50% - 680px);
+  font-size: 1.8rem;
   -ms-flex-direction: column;
   flex-direction    : column;
   left              : 0;
   margin            : 0;
 }
 
-.flexRow--aboutMainDiv::before {
-  content         : "";
-  position        : absolute;
+.flexRow--aboutMainDiv::before,
+.flexRow--shopMainDiv::before {
+  content: "";
+  position: absolute;
   background-color: #000;
   top             : 0;
   right           : 0;
