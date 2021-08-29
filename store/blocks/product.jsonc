@@ -6,7 +6,8 @@
   },
   "flex-layout.row#main": {
     "props": {
-      "marginTop": 6
+      "marginTop": 6,
+      "blockClass": "containerProduto"
     },
     "children": [
       "flex-layout.col#product-left",
@@ -21,12 +22,14 @@
   "flex-layout.col#product-right": {
     "props": {
       "preventVerticalStretch": true,
-      "verticalAlign": "middle"
+      "verticalAlign": "middle",
+      "marginLeft": 5
     },
     "children": [
       "vtex.store-components:product-name",
       "product-price",
-      "buy-button"
+      "product-quantity",
+      "add-to-cart-button"
     ]
   },
   "product-price": {
