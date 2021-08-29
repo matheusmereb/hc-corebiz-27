@@ -1,7 +1,8 @@
 .slideChildrenContainer--casesClientes :global(.vtex-store-components-3-x-infoCardContainer) {
-    width : 100%;
+    width     : 100%;
     min-height: 100vh;
-    border: 0px;
+    height    : 100%;
+    border    : 0px;
 }
 
 .sliderLayoutContainer--casesClientes {
@@ -9,10 +10,9 @@
 }
 
 .slideChildrenContainer--casesClientes :global(.vtex-store-components-3-x-infoCardHeadline) {
-    color      : #f1c233;
-    font-size  : 20px;
-    font-family: "Circular Std Book", sans-serif;
-    text-align : start;
+    color     : #f1c233;
+    font-size : 20px;
+    text-align: start;
 }
 
 .slideChildrenContainer--casesClientes :global(.vtex-store-components-3-x-infoCardSubhead) {
@@ -22,7 +22,6 @@
     display           : block;
     margin-block-start: 20px;
     margin-block-end  : 40px;
-    max-width         : 510px;
 }
 
 .slideChildrenContainer--casesClientes :global(.vtex-store-components-3-x-infoCardTextContainer) {
@@ -41,6 +40,7 @@
     padding-top     : 11px;
     text-transform  : none;
     border          : none;
+    border-radius   : 0px;
 }
 
 .slideChildrenContainer--casesClientes :global(.vtex-button):hover {
@@ -76,4 +76,17 @@
 
 .infoCardTextContainer {
     padding-top: 300px;
+}
+
+@media screen and (min-width: 1024px) {
+
+    .sliderLayoutContainer--casesClientes :global(.vtex-store-components-3-x-infoCardHeadline),
+    .sliderLayoutContainer--casesClientes :global(.vtex-store-components-3-x-infoCardSubhead) {
+        text-align: left;
+        width     : 100%;
+    }
+
+    .sliderLayoutContainer--casesClientes :global(.vtex-store-components-3-x-infoCardCallActionContainer) {
+        margin-left: 0;
+    }
 }

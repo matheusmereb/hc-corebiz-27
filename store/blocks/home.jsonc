@@ -15,7 +15,8 @@
       "flex-layout.col#banner2"
     ],
     "props": {
-      "blockClass": "homeBanner"
+      "blockClass": "homeBanner",
+      "paddingBottom": 9
     }
   },
   "media#banner": {
@@ -87,7 +88,8 @@
       "flex-layout.row#bannerTopicText1"
     ],
     "props": {
-      "blockClass": "topic1"
+      "blockClass": "topic1",
+      "verticalAlign": "TOP"
     }
   },
   "flex-layout.row#bannerTopicTitle1": {
@@ -124,7 +126,10 @@
     "children": [
       "flex-layout.row#bannerTopicTitle2",
       "flex-layout.row#bannerTopicText2"
-    ]
+    ],
+    "props":{
+      "verticalAlign": "TOP"
+    }
   },
   "flex-layout.row#bannerTopicTitle2": {
     "children": [
@@ -160,7 +165,10 @@
     "children": [
       "flex-layout.row#bannerTopicTitle3",
       "flex-layout.row#bannerTopicText3"
-    ]
+    ],
+    "props":{
+      "verticalAlign": "TOP"
+    }
   },
   "flex-layout.row#bannerTopicTitle3": {
     "children": [
@@ -316,7 +324,7 @@
       "headline": "case",
       "subhead": "5x mais receita no E-commerce da ChilliBeans",
       "callToActionText": "ver case completo",
-      "textPosition": "left",
+      "textPosition": "center",
       "isFullModeStyle": true,
       "fullWidth": "100%"
     }
@@ -327,7 +335,7 @@
       "headline": "case",
       "subhead": "case elevação do faturamento de c&c",
       "callToActionText": "ver case completo",
-      "textPosition": "left",
+      "textPosition": "center",
       "isFullModeStyle": true,
       "fullWidth": "100%"
     }
@@ -338,7 +346,7 @@
       "headline": "case",
       "subhead": "aumento do volume de vendas kitchenaid",
       "callToActionText": "ver case completo",
-      "textPosition": "left",
+      "textPosition": "center",
       "isFullModeStyle": true,
       "fullWidth": "100%"
     }
@@ -350,7 +358,7 @@
       "subhead": "maior ação de vendas do semparar na blackfriday",
       "callToActionText": "ver case completo",
       "link": "https://www.corebiz.ag/pt/cases/sem-parar/",
-      "textPosition": "left",
+      "textPosition": "center",
       "isFullModeStyle": true,
       "fullWidth": "100%"
     }
@@ -362,7 +370,8 @@
     "props": {
       "horizontalAlign": "center",
       "fullWidth": true,
-      "blockClass": "clientes"
+      "blockClass": "clientes",
+      "paddingBottom": 8
     }
   },
   "flex-layout.col#clientes": {
