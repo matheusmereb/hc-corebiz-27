@@ -27,19 +27,19 @@
     border          : none;
     border-radius   : 0px;
     padding         : .7rem 1rem .5rem;
-    font-family     : Circular Std Book, sans-serif;
     font-size       : 15px;
     display         : inline-block;
     text-transform  : none;
     outline         : none;
     width           : 100%;
+    font-weight: 400;
 }
 
 .link--blog:hover {
     transition      : all .3s ease;
     opacity         : .8;
     background-color: #2680eb;
-
+}
 .link {
   text-decoration: none;
 }

@@ -126,3 +126,10 @@
 :global(.vtex-flex-layout-0-x-flexRow--clientes){
   padding: 0 2rem;
 }
+
+:global(.vtex-product-context-provider) :global(.vtex-flex-layout-0-x-flexRow--headerRow){
+  position: relative;
+  height: auto;
+  background: #000;
+  padding-bottom: 3.2rem;
+}

@@ -118,20 +118,31 @@
   color: #666;
 }
 
+.headingLevel2--corebiz {
+  font-size    : 2.5rem;
+  font-weight  : 500;
+  margin-top   : 0;
+  margin-bottom: 60px;
+}
+
+.heading--principaisClientes {
+  font-size: 3.25rem;
+}
+
 @media screen and (max-width: 1360px) {
   .heading--principaisClientes {
     padding: 1.8rem;
   }
+
   .paragraph--onMediaTitle {
     padding-left: 0;
-  }  
+  }
 }
 
 .paragraph--slogan {
   font-size     : 8.3vw;
   max-width     : 50rem;
   color         : #fff;
-  font-family   : Circular Std Book, sans-serif;
   text-transform: lowercase;
   line-height   : 0.8;
   margin-bottom : 4rem;
@@ -142,6 +153,7 @@
   font-size: 22px;
   padding  : 0;
   margin   : 0;
+  font-weight: 400;
 }
 
 .paragraph--topicText {
@@ -149,7 +161,7 @@
   color        : #ccc;
   font-size    : 14px;
   max-width    : 11.5rem;
-  margin-bottom: 5rem;
+  line-height: 18px;
 }
 
 .paragraph--mainTitleText {
@@ -174,13 +186,21 @@
   font-size    : 18px;
   margin-bottom: 0px;
   max-width    : 380px;
+  font-weight  : 400;
+  font-style   : normal;
+}
+
+.headingLevel2--somoscorebiz {
+  font-size : 3.2rem;
+  margin-top: 0;
 }
 
 .headingLevel2--blog {
-  font-size: 3rem;
+  font-size  : 3.2rem;
+  font-weight: 500;
 }
 
-.container--parceiroscorebiz{
+.container--parceiroscorebiz {
   background: #f5f5f5;
-    padding: 0.5rem 3rem 0 2rem;
+  padding   : 0.5rem 3rem 0 2rem;
 }
