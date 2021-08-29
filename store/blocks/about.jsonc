@@ -98,37 +98,25 @@
             "image#aboutMainImg"
         ],
         "props": {
-            "blockClass": "aboutMainDiv"
+            "blockClass": "aboutMainDiv",
+            "fullWidth": true
         }
     },
     "flex-layout.col#aboutMain": {
         "children": [
-            "rich-text#aboutMainTitle1",
-            "flex-layout.col#aboutMainDesc"
+            "rich-text#aboutMainTitle"
         ],
         "props": {
-            "blockClass": "aboutMainText"
+            "blockClass": "aboutMainText",
+            "verticalAlign": "middle"
         }
     },
-    "rich-text#aboutMainTitle1": {
+    "rich-text#aboutMainTitle": {
         "props": {
-            "text": "a corebiz",
+            "text": "# a corebiz \n conheça um pouco de nossa história, nosso crescimento e nossa cultura.",
             "textColor": "c-on-emphasis",
             "font": "t-heading-1",
             "blockClass": "aboutTitleText"
-        }
-    },
-    "flex-layout.col#aboutMainDesc": {
-        "children": [
-            "rich-text#aboutMainTitleDesc"
-        ]
-    },
-    "rich-text#aboutMainTitleDesc": {
-        "props": {
-            "text": "conheça um pouco de nossa história, nosso crescimento e nossa cultura.",
-            "textColor": "c-on-emphasis",
-            "font": "t-heading-6",
-            "blockClass": "aboutTitleTextDesc"
         }
     },
     "image#aboutMainImg": {
@@ -139,17 +127,19 @@
     },
     "flex-layout.row#aboutWhoWeAreDiv": {
         "children": [
-            "flex-layout.row#aboutWhoWeAreText"
-        ]
+            "rich-text#aboutWhoWeAreTitle"
+        ],
+        "props":{
+            "marginTop": 7,
+            "marginBottom": 7
+        }
     },
-    "flex-layout.row#aboutWhoWeAreText": {
-        "children": [
-            "rich-text#aboutWhoWeAreTitle",
-            "rich-text#aboutwhoWeAreDesc"
-        ]
+    "rich-text#aboutWhoWeAreTitle": {
+        "props": {
+            "text": "## who we are? \n ### from santa monica to corebiz",
+            "blockClass": "whoaretitle"
+        }
     },
-    "rich-text#aboutWhoWeAreTitle": {},
-    "rich-text#aboutwhoWeAreDesc": {},
     "flex-layout.row#valoresDiv": {
         "children": [
             "flex-layout.col#vision",

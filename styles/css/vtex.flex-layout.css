@@ -1,6 +1,6 @@
-.flexRow--containerProduto{
+.flexRow--containerProduto {
   background: #ffffff;
-  color: #000;
+  color     : #000;
 }
 
 .flexRow--onMediaContainerAbout,
@@ -126,6 +126,7 @@
 
 .flexRow--valores :global(.vtex-store-components-3-x-container) {
   background-color: #f5f5f5;
+  padding: 0 0 0 0;
 }
 
 /* Container do Corebiz worldwide /about */
@@ -263,12 +264,23 @@
 
 .flexRow--aboutMainDiv,
 .flexRow--shopMainDiv {
-  position        : relative;
-  color           : #fff;
-  overflow        : hidden;
-  display         : flex;
-  padding-top     : 24.2rem;
-  background-color: black;
+  position  : relative;
+  color     : #fff;
+  overflow-y: hidden;
+  display   : flex;
+  min-height: 100vh;
+  height    : 100%;
+}
+
+.flexRow--aboutMainDiv :global(.vtex-store-components-3-x-container),
+.flexRow--shopMainDiv :global(.vtex-store-components-3-x-container) {
+  padding: 0 0 0 0;
+}
+
+.flexRowContent--aboutMainDiv .stretchChildrenWidth,
+.flexRowContent--shopMainDiv .stretchChildrenWidth {
+  display   : block;
+  overflow-x: hidden;
 }
 
 .flexCol--aboutMainText,
@@ -289,7 +301,7 @@
   background-color: #000;
   top             : 0;
   right           : 0;
-  bottom          : 10rem;
+  bottom          : 6.6rem;
   width           : 100%;
   z-index         : -1;
 }
