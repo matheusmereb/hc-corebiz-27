@@ -2,7 +2,7 @@
   width       : 100vw;
   font-weight : bolder;
   font-size   : 52px;
-  /*5.2rem*/
+  color: #fff;
   box-sizing  : border-box;
   display     : block;
   margin      : 0;
@@ -11,6 +11,7 @@
 
 
 .wrapper--onMediaText {
+  color: #fff;
   flex-wrap   : wrap;
   margin-left : auto;
   margin-right: auto;
@@ -18,7 +19,6 @@
 
 .paragraph--onMediaText {
   font-size : 18px;
-  /*1.8rem*/
   box-sizing: border-box;
   max-width : 402px;
   text-align: left;
@@ -28,12 +28,37 @@
 .paragraph--tituloNoMundo {
   max-width: 390px;
   margin   : 0 auto;
+  color: #fff;
 }
 
 .paragraph--subTituloNoMundo {
-  margin   : 50px auto auto;
+  margin   : 10px auto auto;
   font-size: 20px;
   max-width: 260px;
+  color: #fff;
+}
+
+.container--tituloDadosNoMundo{
+  text-align: center;
+  justify-content: center;
+  padding: 0;
+}
+
+.paragraph--tituloDadosNoMundo{
+  font-size: 60px;
+  font-weight: bolder;
+	color: #f1c233;
+	text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.paragraph--textoDadosNoMundo{
+  font-size: 28px;
+  max-width: 300px;
+  font-weight: bold;
+	color: #fff;
+	text-align: center;
 }
 
 .headingLevel1--listaValores {

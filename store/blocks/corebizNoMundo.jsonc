@@ -1,26 +1,25 @@
 {
   "flex-layout.row#noMundoContainer": {
     "props": {
-      "preventHorizontalStretch": true,
-      "preventVerticalStretch": true,
       "fullWidth": true,
-      "blockClass": "noMundoContainer"
+      "preventVerticalStretch": true,
+      "blockClass": "noMundoContainerInicial"
     },
     "children": [
-      "flex-layout.row#noMundoTitulos",
-      "flex-layout.row#noMundoDados"
+      "flex-layout.col#noMundoContainerGeral"
     ]
   },
-  "flex-layout.row#noMundoTitulos": {
+  "flex-layout.col#noMundoContainerGeral": {
     "props": {
-      "preventHorizontalStretch": true,
-      "preventVerticalStretch": true,
-      "fullWidth": true,
-      "blockClass": "noMundoTitulos"
+      "horizontalAlign": "CENTER",
+      "verticalAlign": "MIDDLE",
+      "width": "100%",
+      "blockClass": "noMundoContainerGeral"
     },
     "children": [
       "rich-text#tituloNoMundo",
-      "rich-text#subTituloNoMundo"
+      "rich-text#subTituloNoMundo",
+      "flex-layout.row#noMundoDados"
     ]
   },
   "rich-text#tituloNoMundo": { 
@@ -35,6 +34,8 @@
   "rich-text#subTituloNoMundo": { 
     "props": { 
       "text": "levamos um pouco da nossa visão pelo mundo",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
       "blockClass": "subTituloNoMundo"
     }
   },
@@ -43,7 +44,6 @@
   "flex-layout.row#noMundoDados": {
     "props": {
       "preventHorizontalStretch": true,
-      "preventVerticalStretch": true,
       "fullWidth": true,
       "blockClass": "noMundoDados"
     },
@@ -98,8 +98,6 @@
       "blockClass": "textoDadosNoMundo"
     }
   },
-
-
 
   "flex-layout.col#noMundoclientes": {
     "props": {

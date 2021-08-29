@@ -1,9 +1,10 @@
+.flexRow--onMediaContainerAbout,
 .flexRow--onMediaContainer{
     position: relative;
+    overflow-x: hidden;
 }
+.flexRowContent--onMediaContainerAbout,
 .flexRowContent--onMediaContainer{
-    /* position: absolute;
-    top: 0; */
     width: 100%;
     background-image: url(https://www.corebiz.ag/wp-content/themes/corebiz-global/assets/images/background-media--success.png);
     background-size: contain;
@@ -13,18 +14,32 @@
     display: block;
     font-family: "Circular Std Medium",sans-serif;
     font-size: 10px;
-    height: 780px;
     margin: 0;
     padding: 100px 0 0 0;
     z-index: 2;
 }
 
+.flexRowContent--onMediaContainerAbout::before{
+  width: 100%;
+  height: auto;
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  background-color: #000;
+  background-image: url(//www.corebiz.ag/wp-content/themes/corebiz-global/assets/images/background-media.png);
+  background-size: 60%;
+  content: "";
+  background-position: 10% 45px;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
 .flexRowContent--onMediaContainer::before{
     width: 100%;
-    height: auto;
     position: absolute;
+    height: 780px;
+    bottom: 1rem;
     top: 0;
-    bottom: 0;
     background-color: #000;
     background-image: url(//www.corebiz.ag/wp-content/themes/corebiz-global/assets/images/background-media.png);
     background-size: 60%;
@@ -40,12 +55,7 @@
     font-size: 10px; /* 62.5%*/
     margin: auto;
     padding: 0 20px; /*0 2rem*/
-    height: 780px;
     max-width: 1360px;
-}
-
-.flexColChild--onMedia2ndContainer{
-    height: 78px !important;
 }
 
 
@@ -81,7 +91,7 @@
 }
 
 
-.flexRow--noMundoContainer{
+.flexRow--noMundoContainerInicial{
     background: #000;
     background-image: url(//www.corebiz.ag/wp-content/themes/corebiz-global/assets/images/map-our-numbers.png);
     background-repeat: no-repeat;
@@ -91,27 +101,14 @@
     padding: 260px 0 115px;
 }
 
-.flexRowContent--noMundoContainer{
-    display: block;
-    margin: 0 auto;
-}
 
-.flexRowContent--noMundoTitulos{
-    display: block;
-}
-
-.flexRow--noMundoTitulos{
-    display: block;
-    /* flex-direction: column;
-    align-items: center; */
-}
 
 .flexRowContent--noMundoDados{
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-top: 100px;
-    padding: 105px;
+    padding: 0 105px;
 }
 
 .flexRow--valores :global(.vtex-store-components-3-x-container) {
