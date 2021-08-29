@@ -1,5 +1,5 @@
-.sellingPriceContainer{
-  color: #000;
+.sellingPriceContainer {
+  color : #000;
   margin: 10px 0;
 }
 
@@ -68,9 +68,9 @@
 
 .imageElement--parceirosfotos {
   align-content: center;
-  height: fit-content;
-  max-height: 84px;
-  width: auto !important;
+  height       : fit-content;
+  max-height   : 84px;
+  width        : auto !important;
 }
 
 .infoCardHeadline--vision {
@@ -120,21 +120,18 @@
 
 .imageElement--aboutMainImg,
 .imageElement--shopMainImg {
-  width: 55%;
-  position: absolute;
-  top     : 0;
-  right   : 0;
+  min-width: fit-content;
 }
 
 /*CLASSES GLOBAIS*/
 .container,
-:global(.vtex-flex-layout-0-x-flexRow--clientes){
+:global(.vtex-flex-layout-0-x-flexRow--clientes) {
   padding: 0 2rem;
 }
 
-:global(.vtex-product-context-provider) :global(.vtex-flex-layout-0-x-flexRow--headerRow){
-  position: relative;
-  height: auto;
-  background: #000;
+:global(.vtex-product-context-provider) :global(.vtex-flex-layout-0-x-flexRow--headerRow) {
+  position      : relative;
+  height        : auto;
+  background    : #000;
   padding-bottom: 3.2rem;
 }
