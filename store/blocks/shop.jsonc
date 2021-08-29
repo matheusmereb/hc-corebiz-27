@@ -1,9 +1,9 @@
 {
-    "store.custom#shop": {
-        "blocks": [
-          "flex-layout.row#shopMainDiv",
-          "flex-layout.row#produtos"
-        ]
+  "store.custom#shop": {
+    "blocks": [
+      "flex-layout.row#shopMainDiv",
+      "flex-layout.row#produtos"
+    ]
   },
   "flex-layout.row#shopMainDiv": {
     "children": [
@@ -11,35 +11,37 @@
       "image#shopMainImg"
     ],
     "props": {
-        "blockClass": "shopMainDiv"
+      "blockClass": "shopMainDiv"
     }
-  }, 
+  },
   "flex-layout.col#shopMain": {
-    "children": [        
-        "rich-text#shopMainTitle1",
-        "flex-layout.col#shopMainDesc"
+    "children": [
+      "rich-text#shopMainTitle1",
+      "flex-layout.col#shopMainDesc"
     ],
     "props": {
-        "blockClass": "shopMainText"
+      "blockClass": "shopMainText"
     }
   },
   "rich-text#shopMainTitle1": {
     "props": {
-        "text": "become corebiz",
-        "textColor": "c-on-emphasis",
-        "font": "t-heading-1",
-        "blockClass": "shopTitleText"
+      "text": "become corebiz",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-1",
+      "blockClass": "shopTitleText"
     }
   },
   "flex-layout.col#shopMainDesc": {
-    "children": ["rich-text#shopMainTitleDesc"]
+    "children": [
+      "rich-text#shopMainTitleDesc"
+    ]
   },
   "rich-text#shopMainTitleDesc": {
     "props": {
-        "text": "expanda nossa visão e carregue nossa iniciativa",
-        "textColor": "c-on-emphasis",
-        "font": "t-heading-6",
-        "blockClass": "shopTitleTextDesc"
+      "text": "expanda nossa visão e carregue nossa iniciativa",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-6",
+      "blockClass": "shopTitleTextDesc"
     }
   },
   "image#shopMainImg": {
@@ -49,7 +51,9 @@
     }
   },
   "flex-layout.row#produtos": {
-      "children": ["list-context.product-list#produtos"]
+    "children": [
+      "list-context.product-list#produtos"
+    ]
   },
   "list-context.product-list#produtos":{
     "blocks":["product-summary.shelf"],
@@ -57,7 +61,9 @@
       "maxItems": 8,
       "category": "1"
     },
-    "children": ["slider-layout"]
+    "children": [
+      "slider-layout"
+    ]
   },
   "slider-layout": {
     "props": {
@@ -71,5 +77,4 @@
       "showPaginationDots": "never"
     }
   }
-    
 }

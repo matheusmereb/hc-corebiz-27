@@ -1,0 +1,139 @@
+{
+  "flex-layout.row#onMediaAbout": {
+    "props": {
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true,
+      "blockClass": "onMediaContainerAbout"
+    },
+    "children": [
+      "flex-layout.col#container"
+    ]
+  },
+  "flex-layout.row#onMedia": {
+    "props": {
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true,
+      "blockClass": "onMediaContainer"
+    },
+    "children": [
+      "flex-layout.col#container"
+    ]
+  },
+
+  "flex-layout.col#container": {
+    "props": {
+      "blockClass": "onMedia2ndContainer"
+    },
+    "children": [
+      "rich-text#mainTitle",
+      "flex-layout.row#onMediaContent"
+    ]
+  },
+  "rich-text#mainTitle": { 
+    "props": { 
+      "text": "corebiz na mídia.",
+      "blockClass": "onMediaTitle"
+    }
+  },
+  "flex-layout.row#onMediaContent": {
+    "props": {
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true,
+      "blockClass": "onMediaTextSliderContainer"
+    },
+    "children": [
+      "rich-text#texto",
+      "slider-layout#onMedia"
+    ]
+  },
+  "rich-text#texto": { 
+    "props": { 
+      "text": "As atuações na Corebiz no mercado de comércios digitais chamaram a atenção da mídia em muitos aspectos. Veja algumas menções sobre nós em grandes mídias:",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "onMediaText"
+    }
+  },
+  "slider-layout#onMedia": {
+    "children": [
+      "flex-layout.col#sliderContent1", 
+      "flex-layout.col#sliderContent2"
+    ],
+    "props": {
+      "itemsPerPage": {
+        "desktop": 2,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "mobileOnly",
+      "autoplay": {
+        "timeout": 8000,
+        "stopOnHover": true
+      },
+      "blockClass": "carousel"
+    }
+  },
+  "flex-layout.col#sliderContent1": {
+    "props": {
+      "blockClass": "sliderContent1"
+    },
+    "children": [
+      "image#mediaEpoca",
+      "info-card#onMediaCard1"
+    ]
+  },
+  "info-card#onMediaCard1": {
+    "props": {
+      "id": "onMediaCard1",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2OC45ODkiIGhlaWdodD0iNTQuNzA2Ij48cGF0aCBkYXRhLW5hbWU9IkNhbWluaG8gMjk2IiBkPSJNNDAuMzI1IDU0LjcwNmwtMS45NDQtMy4yMDdRNTQuOSA0Mi43NTQgNTQuOSAzNC45NzZxMC0zLjMtNi4yMTktNi41MS01LjUzOS0yLjkxNS03LjcyNS01LjgzYTEyLjMgMTIuMyAwIDAxLTIuMTg2LTcuNTc5IDE0LjUgMTQuNSAwIDAxNC40MjEtMTAuNjRBMTQuMzkzIDE0LjM5MyAwIDAxNTMuNzM0LS4wMDRhMTMuMzE1IDEzLjMxNSAwIDAxMTEuMDI5IDUuNDQxcTQuMjI3IDUuNDQxIDQuMjI3IDE0LjE4NyAwIDE0LjM4MS0xMC44ODMgMjQuNjgxYTQzLjEzMyA0My4xMzMgMCAwMS03LjIzOSA1LjQ5IDgzLjMxMSA4My4zMTEgMCAwMS0xMC41NDMgNC45MTF6bS0zOC4zODEgMEwuMDAxIDUxLjQ5OXExNi41MTgtOC44NDIgMTYuNTE4LTE2LjUyM2E0LjU0OCA0LjU0OCAwIDAwLTEuMzYtMy4yNTUgMjAuMTggMjAuMTggMCAwMC00Ljg1OC0zLjI1NXEtNS4zNDQtMi43MjEtNy42MjgtNS43ODFBMTIuNCAxMi40IDAgMDEuMzkgMTUuMDU3IDE0LjUzOSAxNC41MzkgMCAwMTQuNzYxIDQuMzc2IDE0LjMxMiAxNC4zMTIgMCAwMTE1LjI1NS4wMDNhMTMuNDA5IDEzLjQwOSAwIDAxMTEuMTI2IDUuNDQxcTQuMjI3IDUuNDQxIDQuMjI3IDE0LjE4N2EzMi41NjMgMzIuNTYzIDAgMDEtMi43NjkgMTMuMjE1IDM1LjIxNSAzNS4yMTUgMCAwMS04LjIxMSAxMS40NjZxLTYuMzE2IDUuODI3LTE3LjY4NSAxMC4zOTR6IiBvcGFjaXR5PSIuMiIvPjwvc3ZnPg==",
+      "headline": "vendas online de alimentos aumentam 330% durante pandemia.",
+      "subhead": "20 de abril, 2020",
+      "callToActionText": "ver postagem",
+      "callToActionUrl": "/",
+      "blockClass": "onMediaCard1"
+    }
+  },
+  "image#mediaEpoca": {
+    "props": {
+      "src": "https://www.corebiz.ag/wp-content/uploads/2020/06/logo-epoca.png",
+      "maxHeight": 30,
+      "blockClass": "imageCard1"
+    }
+  },
+"flex-layout.col#sliderContent2": {
+  "props": {
+    "blockClass": "sliderContent2"
+  },
+  "children": [
+    "image#mediaMsn",
+    "info-card#onMediaCard2"
+  ]
+},
+"info-card#onMediaCard2": {
+  "props": {
+    "id": "onMediaCard2",
+    "isFullModeStyle": true,
+    "textPosition": "left",
+    "imageUrl": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2OC45ODkiIGhlaWdodD0iNTQuNzA2Ij48cGF0aCBkYXRhLW5hbWU9IkNhbWluaG8gMjk2IiBkPSJNNDAuMzI1IDU0LjcwNmwtMS45NDQtMy4yMDdRNTQuOSA0Mi43NTQgNTQuOSAzNC45NzZxMC0zLjMtNi4yMTktNi41MS01LjUzOS0yLjkxNS03LjcyNS01LjgzYTEyLjMgMTIuMyAwIDAxLTIuMTg2LTcuNTc5IDE0LjUgMTQuNSAwIDAxNC40MjEtMTAuNjRBMTQuMzkzIDE0LjM5MyAwIDAxNTMuNzM0LS4wMDRhMTMuMzE1IDEzLjMxNSAwIDAxMTEuMDI5IDUuNDQxcTQuMjI3IDUuNDQxIDQuMjI3IDE0LjE4NyAwIDE0LjM4MS0xMC44ODMgMjQuNjgxYTQzLjEzMyA0My4xMzMgMCAwMS03LjIzOSA1LjQ5IDgzLjMxMSA4My4zMTEgMCAwMS0xMC41NDMgNC45MTF6bS0zOC4zODEgMEwuMDAxIDUxLjQ5OXExNi41MTgtOC44NDIgMTYuNTE4LTE2LjUyM2E0LjU0OCA0LjU0OCAwIDAwLTEuMzYtMy4yNTUgMjAuMTggMjAuMTggMCAwMC00Ljg1OC0zLjI1NXEtNS4zNDQtMi43MjEtNy42MjgtNS43ODFBMTIuNCAxMi40IDAgMDEuMzkgMTUuMDU3IDE0LjUzOSAxNC41MzkgMCAwMTQuNzYxIDQuMzc2IDE0LjMxMiAxNC4zMTIgMCAwMTE1LjI1NS4wMDNhMTMuNDA5IDEzLjQwOSAwIDAxMTEuMTI2IDUuNDQxcTQuMjI3IDUuNDQxIDQuMjI3IDE0LjE4N2EzMi41NjMgMzIuNTYzIDAgMDEtMi43NjkgMTMuMjE1IDM1LjIxNSAzNS4yMTUgMCAwMS04LjIxMSAxMS40NjZxLTYuMzE2IDUuODI3LTE3LjY4NSAxMC4zOTR6IiBvcGFjaXR5PSIuMiIvPjwvc3ZnPg==",
+    "headline": "de olho na transformação do mercado, corebiz expande operação no brasil.",
+    "subhead": "8 de janeiro, 2020",
+    "callToActionText": "ver postagem",
+    "callToActionUrl": "/",
+    "blockClass": "onMediaCard2"
+  }
+},
+"image#mediaMsn": {
+  "props": {
+    "src": "https://www.corebiz.ag/wp-content/uploads/2020/06/logo-msn.png",
+    "maxHeight": 30,
+    "blockClass": "imageCard2"
+  }
+}
+
+}

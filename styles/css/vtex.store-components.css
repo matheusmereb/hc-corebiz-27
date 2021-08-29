@@ -1,29 +1,92 @@
+:global(.vtex-store__template){
+  background: #ffffff00;
+}
+
+.infoCardCallActionContainer--onMediaCard1 :global(.vtex-button),
+.infoCardCallActionContainer--onMediaCard2 :global(.vtex-button){
+  background: #ffffff00;
+  border-color: #ffffff;
+  text-transform: none;
+}
+
+.infoCardContainer--onMediaCard1,
+.infoCardContainer--onMediaCard2 {
+  background-size      : 70px 55px !important;
+  background-repeat    : no-repeat;
+  background-position-x: 173px;
+  background-position-y: 130px;
+  border               : none;
+}
+
+.infoCardTextContainer--onMediaCard1,
+.infoCardTextContainer--onMediaCard2 {
+  width  : 100%;
+  padding: 0;
+  margin : 0;
+}
+
+.infoCardHeadline--onMediaCard1,
+.infoCardHeadline--onMediaCard2 {
+  color          : #ffffff;
+  overflow       : hidden;
+  text-overflow  : ellipsis;
+  padding        : 0;
+  margin         : 0;
+  box-sizing     : border-box;
+  margin         : 0;
+  font-weight    : bold;
+  font-size      : 28px;
+  justify-content: left;
+}
+
+.infoCardSubhead--onMediaCard1,
+.infoCardSubhead--onMediaCard2 {
+  color : #ffffff;
+  margin: 40px 0 20px 0;
+}
+
+.imageElement--imageCard1 {
+  margin-bottom: 40px;
+}
+
+.infoCardCallActionContainer {
+  margin-left : auto;
+  margin-right: auto;
+}
+
+.imageElement--parceirosfotos {
+  width        : 94px !important;
+  margin       : 35px;
+  align-content: center;
+}
+
 .infoCardHeadline--vision {
   font-family: Circular Std Medium, sans-serif;
-  font-size: 2rem;
-  color: #f1c233;
-  margin-top: 45px;
+  font-size  : 2rem;
+  color      : #f1c233;
+  margin-top : 45px;
 }
 
 .infoCardSubhead--vision {
-  margin: 45px;
+  margin     : 45px;
   font-family: Circular Std Medium, sans-serif;
-  font-size: 20px;
+  font-size  : 20px;
   font-weight: bolder;
-  color: #fff;
+  color      : #fff;
 }
+
 .infoCardContainer--vision {
   width: 120%;
 }
 
-.infoCardCallActionContainer {
+.infoCardCallActionContainer--vision {
   display: none;
 }
 
 /* Logo Corebiz Footer */
 .imageElement--logo-footer {
-  width: 120px;
-  height: 100px;
+  width     : 120px;
+  height    : 100px;
   margin-top: 75px;
 }
 
@@ -31,13 +94,14 @@
 .imageElement--footer-image {
   max-width: 100%;
 }
+
 .logoImage {
   height: 50px;
 }
 
 :global(.vtex-flex-layout-0-x-flexRow--blocoClientes) .imageElement:hover {
-  margin: auto;
-  filter: opacity(0.3);
+  margin    : auto;
+  filter    : opacity(0.3);
   transition: all 0.3s ease;
 }
 
@@ -45,6 +109,6 @@
 .imageElement--shopMainImg {
   width: 55%;
   position: absolute;
-  top: 0;
-  right: 0;
+  top     : 0;
+  right   : 0;
 }

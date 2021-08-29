@@ -24,9 +24,9 @@
 }
 
 .element {
-  box-shadow: rgba(0, 0, 0, 0.54) 0px 3px 8px;
-  display: flex;
-  align-content: center;
+  box-shadow     : rgba(0, 0, 0, 0.54) 0px 3px 8px;
+  display        : flex;
+  align-content  : center;
   justify-content: center;
 }
 .container {
@@ -35,64 +35,3 @@
   border-radius: 0px;
   width: 350px;
 }
-
-/* .aspectRatio {
-}
-
-.buyButton {
-}
-
-.buyButtonContainer {
-}
-
-.clearLink {
-}
-
-.column {
-}
-
-.container {
-}
-
-.containerNormal {
-}
-
-.containerSmall {
-}
-
-.containerInline {
-}
-
-.description {
-}
-
-.element {
-}
-
-.image {
-
-}
-
-.imageContainer {
-}
-
-.imagePlaceholder {
-}
-
-.information {
-}
-
-.isHidden {
-}
-
-.nameContainer {
-}
-
-.priceContainer {
-}
-
-.quantityStepperContainer {
-}
-
-.spacer {
-} */

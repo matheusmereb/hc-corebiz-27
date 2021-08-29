@@ -3,6 +3,6 @@
     "path": "/about"
   },
   "store.custom#shop": {
-      "path": "/shop"
+    "path": "/shop"
   }
 }

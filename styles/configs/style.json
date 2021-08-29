@@ -221,8 +221,8 @@
       "muted-5": "#f2f4f5"
     },
     "on": {
-      "base": "#ffffff",
-      "base--inverted": "#000000",
+      "base": "#3f3f40",
+      "base--inverted": "#ffffff",
       "action-primary": "#ffffff",
       "action-secondary": "#0F3E99",
       "emphasis": "#ffffff",
@@ -325,6 +325,7 @@
     "styles": {
       "heading-1": {
         "fontFamily": "Circular, sans-serif",
+
         "fontWeight": "700",
         "fontSize": "3rem",
         "textTransform": "initial",
