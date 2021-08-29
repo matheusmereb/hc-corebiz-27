@@ -70,6 +70,7 @@
       },
       "infinite": true,
       "showNavigationArrows": "mobileOnly",
+      "showPaginationDots": "never",
       "autoplay": {
         "timeout": 8000,
         "stopOnHover": true

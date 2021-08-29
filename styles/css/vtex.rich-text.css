@@ -2,7 +2,7 @@
   width       : 100vw;
   font-weight : bolder;
   font-size   : 52px;
-  color: #fff;
+  color       : #fff;
   box-sizing  : border-box;
   display     : block;
   margin      : 0;
@@ -11,7 +11,7 @@
 
 
 .wrapper--onMediaText {
-  color: #fff;
+  color       : #fff;
   flex-wrap   : wrap;
   margin-left : auto;
   margin-right: auto;
@@ -28,37 +28,37 @@
 .paragraph--tituloNoMundo {
   max-width: 390px;
   margin   : 0 auto;
-  color: #fff;
+  color    : #fff;
 }
 
 .paragraph--subTituloNoMundo {
   margin   : 10px auto auto;
   font-size: 20px;
   max-width: 260px;
-  color: #fff;
+  color    : #fff;
 }
 
-.container--tituloDadosNoMundo{
-  text-align: center;
+.container--tituloDadosNoMundo {
+  text-align     : center;
   justify-content: center;
-  padding: 0;
+  padding        : 0;
 }
 
-.paragraph--tituloDadosNoMundo{
-  font-size: 60px;
+.paragraph--tituloDadosNoMundo {
+  font-size  : 60px;
   font-weight: bolder;
-	color: #f1c233;
-	text-align: center;
-  padding: 0;
-  margin: 0;
+  color      : #f1c233;
+  text-align : center;
+  padding    : 0;
+  margin     : 0;
 }
 
-.paragraph--textoDadosNoMundo{
-  font-size: 28px;
-  max-width: 300px;
+.paragraph--textoDadosNoMundo {
+  font-size  : 28px;
+  max-width  : 300px;
   font-weight: bold;
-	color: #fff;
-	text-align: center;
+  color      : #fff;
+  text-align : center;
 }
 
 .headingLevel1--listaValores {
@@ -122,6 +122,9 @@
   .heading--principaisClientes {
     padding: 1.8rem;
   }
+  .paragraph--onMediaTitle {
+    padding-left: 0;
+  }  
 }
 
 .paragraph--slogan {
@@ -165,4 +168,19 @@
 .wrapper--aboutTitleTextDesc {
   max-width  : 26.4rem;
   margin-left: 8%;
+}
+
+.paragraph--blog {
+  font-size    : 18px;
+  margin-bottom: 0px;
+  max-width    : 380px;
+}
+
+.headingLevel2--blog {
+  font-size: 3rem;
+}
+
+.container--parceiroscorebiz{
+  background: #f5f5f5;
+    padding: 0.5rem 3rem 0 2rem;
 }
