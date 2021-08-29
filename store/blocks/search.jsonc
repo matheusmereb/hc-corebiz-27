@@ -64,7 +64,6 @@
     "children": [
       "product-images",  
       "product-summary-name",
-      "product-summary-space",
       "product-summary-price",
       "add-to-cart-button"
     ],

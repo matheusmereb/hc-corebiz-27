@@ -2,7 +2,9 @@
   "store.custom#shop": {
     "blocks": [
       "flex-layout.row#shopMainDiv",
-      "flex-layout.row#produtos"
+      "rich-text#produtosTitulo",
+      "flex-layout.row#produtosCat1",
+      "flex-layout.row#produtosCat2"
     ]
   },
   "flex-layout.row#shopMainDiv": {
@@ -11,7 +13,8 @@
       "image#shopMainImg"
     ],
     "props": {
-      "blockClass": "shopMainDiv"
+      "blockClass": "shopMainDiv",
+      "marginTop": 9
     }
   },
   "flex-layout.col#shopMain": {
@@ -50,22 +53,25 @@
         "blockClass": "shopMainImg"
     }
   },
-  "flex-layout.row#produtos": {
+  "flex-layout.row#produtosCat1": {
     "children": [
-      "list-context.product-list#produtos"
-    ]
+      "list-context.product-list#produtosCat1"
+    ],
+    "props":{
+      "blockClass": "produtosShelf"
+    }
   },
-  "list-context.product-list#produtos":{
+  "list-context.product-list#produtosCat1":{
     "blocks":["product-summary.shelf"],
     "props": {
       "maxItems": 8,
       "category": "1"
     },
     "children": [
-      "slider-layout"
+      "slider-layout#produtosCat1"
     ]
   },
-  "slider-layout": {
+  "slider-layout#produtosCat1": {
     "props": {
       "itemsPerPage": {
         "desktop": 4,
@@ -75,6 +81,43 @@
       "infinite": true,
       "fullWidth": false,
       "showPaginationDots": "never"
+    }
+  },
+  "flex-layout.row#produtosCat2": {
+    "children": [
+      "list-context.product-list#produtosCat2"
+    ],
+    "props":{
+      "blockClass": "produtosShelf"
+    }
+  },
+  "list-context.product-list#produtosCat2":{
+    "blocks":["product-summary.shelf"],
+    "props": {
+      "maxItems": 8,
+      "category": "2"
+    },
+    "children": [
+      "slider-layout#produtosCat2"
+    ]
+  },
+  "slider-layout#produtosCat2": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "showPaginationDots": "never"
+    }
+  },
+  "rich-text#produtosTitulo":{
+    "props": {
+      "text": "todos os produtos:",
+      "textPosition": "LEFT",
+      "blockClass": "produtosTitulo"
     }
   }
 }
