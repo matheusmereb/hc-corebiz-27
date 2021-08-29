@@ -4,7 +4,9 @@
             "flex-layout.row#aboutMainDiv",
             "flex-layout.row#aboutWhoWeAreDiv",
             "flex-layout.row#valoresDiv",
-            "flex-layout.row#world-container"
+            "flex-layout.row#world-container",
+            "flex-layout.row#onMedia",
+            "flex-layout.row#noMundoContainer"
         ]
     },
     // Bloco principal Corebiz worldwide //
