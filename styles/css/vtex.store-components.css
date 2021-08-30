@@ -109,6 +109,11 @@
   max-width: 100%;
 }
 
+.logoLink {
+  display    : flex;
+  align-items: center;
+}
+
 .logoImage {
   height: 50px;
 }
@@ -133,6 +138,6 @@
 }
 
 :global(.vtex-flex-layout-0-x-flexRowContent--clientesParceiros) .imageElement:hover {
-  opacity: .3;
+  opacity   : .3;
   transition: all 0.3s ease;
 }
