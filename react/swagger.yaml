@@ -1,0 +1,71 @@
+swagger: "2.0"
+info:
+  description: "API de Landing Hiring Coders"
+  version: "1.0.0"
+  title: "Landing API"
+  contact:
+    email: "landing@wgfa7.com.br"
+  license:
+    name: "Apache 2.0"
+    url: "http://www.apache.org/licenses/LICENSE-2.0.html"
+host: "api.sistemasnoticias.com.br"
+basePath: "/landing-api/v1"
+tags:
+  - name: "landing"
+    description: "Cadastro de Clientes Hiring Coders"
+schemes:
+  - "https"
+paths:
+  /clientes:
+    get:
+      tags:
+        - "clientes"
+      summary: "Busca coleção de clientes"
+      description: "Busca de todos os clientes da base de dados da loja"
+      operationId: "buscaClientes"
+      produces:
+        - "application/json"
+      responses:
+        "200":
+          description: "Clientes retornadas com sucesso"
+          schema:
+            type: "array"
+            items:
+              $ref: "#/definitions/Clientes"
+        "500":
+          description: "Erro interno no servidor"
+    post:
+      tags:
+      - "clientes"
+      summary: "Adicionar novo cliente"
+      description: ""
+      operationId: "addCliente"
+      consumes:
+      - "application/json"
+      - "application/xml"
+      produces:
+      - "application/xml"
+      - "application/json"
+      parameters:
+      - in: "body"
+        name: "body"
+        description: "Objeto de cliente que precisa ser informado para a loja"
+        required: true
+        schema:
+          $ref: "#/definitions/Clientes"
+      responses:
+        "405":
+          description: "Invalid input"
+definitions:
+  Clientes:
+    type: "object"
+    properties:
+      id:
+        type: "integer"
+        format: "int64"
+      nome:
+        type: "string"
+      email:
+        type: "string"
+      telefone:
+        type: "string"

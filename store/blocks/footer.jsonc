@@ -7,16 +7,39 @@
   },
   "footer-layout.desktop": {
     "children": [
-      "flex-layout.row#footer-right-image",
-      "flex-layout.row#footer-left-block"
+      "flex-layout.row#landing",
+      "flex-layout.row#rodape"
     ]
   },
   "footer-layout.mobile": {
+    "children": [
+      "flex-layout.row#landing",
+      "flex-layout.row#rodape"
+    ]
+  },
+  "flex-layout.row#landing": {
+    "props": {
+      "blockClass": "landing"
+    },
+    "children": [
+      "landing"
+    ]
+  },
+  "flex-layout.row#rodape": {
+    "props": {
+      "blockClass": "rodape"
+    },
+    "children": [
+      "flex-layout.col#rodape"
+    ]
+  },
+  "flex-layout.col#rodape": {
     "children": [
       "flex-layout.row#footer-right-image",
       "flex-layout.row#footer-left-block"
     ]
   },
+  
   // Bloco de imagem a direita do footer //
   "flex-layout.row#footer-right-image": {
     "props": {

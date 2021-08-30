@@ -1,3 +1,8 @@
+.flexRow--landing,
+.flexRow--rodape{
+  background: #f5f5f5;
+}
+
 .flexRow--containerProduto {
   background: #ffffff;
   color     : #000;
