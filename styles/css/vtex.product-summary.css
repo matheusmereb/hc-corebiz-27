@@ -1,11 +1,6 @@
 .productBrand {
   color: #000;
-  font-weight: bold;
-  font-family: "Circular", sans-serif;
-}
-
-.buyButtonText {
-  color: #303030;
+  font-size: 1.3rem;
 }
 
 .currencyCode,
@@ -14,6 +9,7 @@
 .currencyFraction {
   color: #000;
   font-weight: bold;
+  font-size: 1.4rem;
 }
 
 .element,
@@ -24,9 +20,9 @@
 }
 
 .element {
-  box-shadow     : rgba(0, 0, 0, 0.54) 0px 3px 8px;
-  display        : flex;
-  align-content  : center;
+  box-shadow: rgba(0, 0, 0, 0.54) 0px 3px 8px;
+  display: flex;
+  align-content: center;
   justify-content: center;
 }
 .container {

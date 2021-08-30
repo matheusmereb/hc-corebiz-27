@@ -1,10 +1,11 @@
-:global(.vtex-product-summary-2-x-container) :global(.vtex-button) {
+:global(.vtex-product-summary-2-x-container) :global(.vtex-button),
+:global(.vtex-store-components-3-x-container) :global(.vtex-button) {
   display: block;
   color: #fff;
-  width: 300px;
+  width: auto;
   height: 50px;
   border: 1px solid #000;
-  font-size: 18px;
+  font-size: 1rem;
   background: #000;
   border-radius: 1px;
   text-decoration: none;
@@ -15,7 +16,8 @@
   font-family: "Circular", sans-serif;
 }
 
-:global(.vtex-product-summary-2-x-container) :global(.vtex-button):hover {
+:global(.vtex-product-summary-2-x-container) :global(.vtex-button):hover,
+:global(.vtex-store-components-3-x-container) :global(.vtex-button):hover {
   background-color: #fff;
   border-color: #000;
   color: #000;
