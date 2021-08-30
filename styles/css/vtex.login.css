@@ -1,0 +1,63 @@
+.profileIcon,
+.container :global(.vtex-button):focus .profileIcon,
+.container :global(.vtex-button):active .profileIcon {
+    color: #fff;
+}
+
+.container :global(.vtex-button):hover {
+    opacity   : 0.3;
+    transition: all 0.3s ease;
+}
+
+.container :global(.vtex-button):hover,
+.container :global(.vtex-button):focus,
+.container :global(.vtex-button):active,
+.container :global(.vtex-button) {
+    background: none;
+    border    : none;
+    transition: all 0.3s ease;
+    outline   : none;
+}
+
+.container :global(.vtex-button):hover :globa(.vtex-minicart-2-x-minicartQuantityBadge),
+.container :global(.vtex-button):focus :globa(.vtex-minicart-2-x-minicartQuantityBadge),
+.container :global(.vtex-button):active :globa(.vtex-minicart-2-x-minicartQuantityBadge) {
+    opacity: 1;
+}
+
+.button :global(.vtex-button) {
+    color        : #000;
+    border-color : #000000;
+    background   : none;
+    border-radius: 0;
+    font-size    : 0.8rem;
+    transition   : all 0.3s ease;
+}
+
+.button :global(.vtex-button):hover {
+    border-color: #000000;
+    background  : #000;
+    color       : #fff;
+    transition  : all 0.3s ease
+}
+
+.sendButton :global(.vtex-button) {
+    color        : #fff;
+    border-color : #000000;
+    background   : #000;
+    transition   : all 0.3s ease;
+    border-radius: 0;
+    font-size    : 0.8rem;
+}
+
+.sendButton :global(.vtex-button):hover {
+    color       : #000;
+    border-color: #000000;
+    background  : none;
+    transition  : all 0.3s ease;
+}
+
+
+.content {
+    border-bottom: 15px solid #000;
+}
