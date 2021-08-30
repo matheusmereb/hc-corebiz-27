@@ -1,3 +1,17 @@
+.swiperBullet{
+  display: none;
+}
+.swiperCaret--productImage{
+  color: #000;
+  transform: translate(0, 100%);
+}
+
+.productDescriptionContainer{
+  margin: 30px 0;
+}
+
+
+
 .sellingPriceContainer {
   color : #000;
   margin: 10px 0;
