@@ -1,5 +1,5 @@
 .productBrand {
-  color: #000;
+  color    : #000;
   font-size: 1.3rem;
 }
 
@@ -7,27 +7,32 @@
 .currencyInteger,
 .currencyDecimal,
 .currencyFraction {
-  color: #000;
+  color      : #000;
   font-weight: bold;
-  font-size: 1.4rem;
+  font-size  : 1.4rem;
 }
 
 .element,
 .buyButtonContainer {
   background-color: #fff;
-  color: #000;
-  font-family: "Circular", sans-serif;
+  color           : #000;
+  font-family     : "Circular", sans-serif;
+  padding: 0;
 }
-
+:global(.vtex-add-to-cart-button-0-x-buttonText){
+  line-height: 1.1rem;
+}
 .element {
-  box-shadow: rgba(0, 0, 0, 0.54) 0px 3px 8px;
-  display: flex;
-  align-content: center;
+  box-shadow     : rgba(0, 0, 0, 0.54) 0px 3px 8px;
+  display        : flex;
+  align-content  : center;
   justify-content: center;
 }
+
 .container {
-  margin: 30px;
-  border: 1px solid rgba(0, 0, 0, 0.05);
+  margin       : 30px;
+  border       : 1px solid rgba(0, 0, 0, 0.05);
   border-radius: 0px;
-  width: 350px;
+  width        : 350px;
+  height       : auto;
 }

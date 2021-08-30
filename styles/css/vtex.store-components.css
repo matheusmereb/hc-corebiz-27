@@ -1,21 +1,23 @@
 .swiperBullet {
   display: none;
 }
+
 .swiperCaret--productImage {
-  color: #000;
+  color    : #000;
   transform: translate(0, 100%);
 }
 
 .productDescriptionContainer {
-  margin: 30px 0;
+  margin : 10px 0;
   padding: 0;
 }
+
 :global(.vtex-store-components-3-x-container) .productDescriptionText {
   padding: 0;
 }
 
 .sellingPriceContainer {
-  color: #000;
+  color : #000;
   margin: 10px 0;
 }
 
@@ -30,46 +32,46 @@
 
 .infoCardCallActionContainer--onMediaCard1 :global(.vtex-button),
 .infoCardCallActionContainer--onMediaCard2 :global(.vtex-button) {
-  background: #ffffff00;
-  border: 1px solid #fff;
+  background    : #ffffff00;
+  border        : 1px solid #fff;
   text-transform: none;
-  border-radius: 0px;
-  width: 100%;
+  border-radius : 0px;
+  width         : 100%;
 }
 
 .infoCardContainer--onMediaCard1,
 .infoCardContainer--onMediaCard2 {
-  background-size: 70px 55px !important;
-  background-repeat: no-repeat;
+  background-size      : 70px 55px !important;
+  background-repeat    : no-repeat;
   background-position-x: 173px;
   background-position-y: 130px;
-  border: none;
+  border               : none;
 }
 
 .infoCardTextContainer--onMediaCard1,
 .infoCardTextContainer--onMediaCard2 {
-  width: 100%;
+  width  : 100%;
   padding: 0;
-  margin: 0;
+  margin : 0;
 }
 
 .infoCardHeadline--onMediaCard1,
 .infoCardHeadline--onMediaCard2 {
-  color: #ffffff;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  margin: 0;
-  font-weight: bold;
-  font-size: 28px;
+  color          : #ffffff;
+  overflow       : hidden;
+  text-overflow  : ellipsis;
+  padding        : 0;
+  margin         : 0;
+  box-sizing     : border-box;
+  margin         : 0;
+  font-weight    : bold;
+  font-size      : 28px;
   justify-content: left;
 }
 
 .infoCardSubhead--onMediaCard1,
 .infoCardSubhead--onMediaCard2 {
-  color: #ffffff;
+  color : #ffffff;
   margin: 40px 0 20px 0;
 }
 
@@ -78,35 +80,48 @@
 }
 
 .infoCardCallActionContainer {
-  margin-left: auto;
+  margin-left : auto;
   margin-right: auto;
 }
 
 .imageElement--parceirosfotos {
   align-content: center;
-  height: fit-content;
-  height: -moz-fit-content;
-  max-height: 84px;
-  width: auto !important;
+  height       : fit-content;
+  height       : -moz-fit-content;
+  max-height   : 84px;
+  width        : auto !important;
 }
 
 .infoCardHeadline--vision {
-  font-family: Circular Std Medium, sans-serif;
-  font-size: 2rem;
-  color: #f1c233;
+  font-size : 3.2rem;
+  color     : #f1c233;
   margin-top: 45px;
 }
 
 .infoCardSubhead--vision {
-  margin: 45px;
-  font-family: Circular Std Medium, sans-serif;
-  font-size: 20px;
+  margin     : 0 0 0 0;
+  max-width  : 58rem;
+  width      : auto;
+  font-size  : 2.5rem;
   font-weight: bolder;
-  color: #fff;
+  color      : #fff;
+}
+
+@media screen and (max-width: 1024px) {
+  .infoCardSubhead--vision {
+    margin     : 45px 0 0;
+    margin-left: 8%;
+  }
+}
+
+.infoCardTextContainer--vision {
+  width: 100%;
 }
 
 .infoCardContainer--vision {
-  width: 120%;
+  width  : 120%;
+  height : 100%;
+  padding: 50px 0 150px;
 }
 
 .infoCardCallActionContainer--vision {
@@ -115,8 +130,8 @@
 
 /* Logo Corebiz Footer */
 .imageElement--logo-footer {
-  width: 120px;
-  height: 100px;
+  width     : 120px;
+  height    : 100px;
   margin-top: 75px;
 }
 
@@ -126,7 +141,7 @@
 }
 
 .logoLink {
-  display: flex;
+  display    : flex;
   align-items: center;
 }
 
@@ -146,132 +161,146 @@
   padding: 0 2rem;
 }
 
-:global(.vtex-product-context-provider)
-  :global(.vtex-flex-layout-0-x-flexRow--headerRow) {
-  position: relative;
-  height: auto;
-  background: #000;
+:global(.vtex-product-context-provider) :global(.vtex-flex-layout-0-x-flexRow--headerRow) {
+  position      : relative;
+  height        : auto;
+  background    : #000;
   padding-bottom: 3.2rem;
 }
 
-:global(.vtex-flex-layout-0-x-flexRowContent--clientesParceiros)
-  .imageElement:hover {
+:global(.vtex-flex-layout-0-x-flexRowContent--clientesParceiros) .imageElement:hover {
   opacity: 0.3;
 }
+
 /* Botões Careers */
 .infoCardCallActionContainer--button1-careers :global(.vtex-button) {
-  color: #fff;
-  width: 320px;
-  height: 50px;
-  border: 1px solid #000;
-  font-size: 18px;
-  background: #000;
-  border-radius: 1px;
+  color          : #fff;
+  width          : 320px;
+  height         : 50px;
+  border         : 1px solid #000;
+  font-size      : 18px;
+  background     : #000;
+  border-radius  : 1px;
   text-decoration: none;
-  padding: 8px 0;
-  line-height: 34px;
-  transition: all 0.25s ease;
+  padding        : 8px 0;
+  line-height    : 34px;
+  transition     : all 0.25s ease;
 }
+
 .infoCardCallActionContainer--button1-careers :global(.vtex-button):hover {
-  color: #000;
-  width: 320px;
-  height: 50px;
-  border: 1px solid #000;
-  font-size: 18px;
-  background: #fff;
-  border-radius: 1px;
+  color          : #000;
+  width          : 320px;
+  height         : 50px;
+  border         : 1px solid #000;
+  font-size      : 18px;
+  background     : #fff;
+  border-radius  : 1px;
   text-decoration: none;
-  padding: 8px 0;
-  line-height: 34px;
-  transition: all 0.25s ease;
+  padding        : 8px 0;
+  line-height    : 34px;
+  transition     : all 0.25s ease;
 }
 
 .infoCardCallActionContainer--button2-careers :global(.vtex-button) {
-  color: #000;
-  width: 320px;
-  height: 50px;
-  border: 1px solid #000;
-  font-size: 18px;
-  background: #fff;
-  border-radius: 1px;
+  color          : #000;
+  width          : 320px;
+  height         : 50px;
+  border         : 1px solid #000;
+  font-size      : 18px;
+  background     : #fff;
+  border-radius  : 1px;
   text-decoration: none;
-  padding: 8px 0;
-  line-height: 34px;
-  transition: all 0.25s ease;
+  padding        : 8px 0;
+  line-height    : 34px;
+  transition     : all 0.25s ease;
 }
+
 .infoCardCallActionContainer--button2-careers :global(.vtex-button):hover {
-  color: #fff;
-  width: 320px;
-  height: 50px;
-  border: 1px solid #000;
-  font-size: 18px;
-  background: #000;
-  border-radius: 1px;
+  color          : #fff;
+  width          : 320px;
+  height         : 50px;
+  border         : 1px solid #000;
+  font-size      : 18px;
+  background     : #000;
+  border-radius  : 1px;
   text-decoration: none;
-  padding: 8px 0;
-  line-height: 34px;
-  transition: all 0.25s ease;
+  padding        : 8px 0;
+  line-height    : 34px;
+  transition     : all 0.25s ease;
 }
 
 /* Mobile */
 @media screen and (max-width: 1024px) {
   .infoCardCallActionContainer--button1-careers :global(.vtex-button) {
-    color: #fff;
-    width: 290px;
-    height: 50px;
-    border: 1px solid #000;
-    font-size: 14px;
-    background: #000;
-    border-radius: 1px;
+    color          : #fff;
+    width          : 290px;
+    height         : 50px;
+    border         : 1px solid #000;
+    font-size      : 14px;
+    background     : #000;
+    border-radius  : 1px;
     text-decoration: none;
-    padding: 4px 0;
-    line-height: 34px;
-    transition: all 0.25s ease;
+    padding        : 4px 0;
+    line-height    : 34px;
+    transition     : all 0.25s ease;
   }
+
   .infoCardCallActionContainer--button1-careers :global(.vtex-button):hover {
-    color: #000;
-    width: 290px;
-    height: 50px;
-    border: 1px solid #000;
-    font-size: 14px;
-    background: #fff;
-    border-radius: 1px;
+    color          : #000;
+    width          : 290px;
+    height         : 50px;
+    border         : 1px solid #000;
+    font-size      : 14px;
+    background     : #fff;
+    border-radius  : 1px;
     text-decoration: none;
-    padding: 4px 0;
-    line-height: 34px;
-    transition: all 0.25s ease;
+    padding        : 4px 0;
+    line-height    : 34px;
+    transition     : all 0.25s ease;
   }
 
   .infoCardCallActionContainer--button2-careers :global(.vtex-button) {
-    color: #000;
-    width: 290px;
-    height: 50px;
-    border: 1px solid #000;
-    font-size: 14px;
-    background: #fff;
-    border-radius: 1px;
+    color          : #000;
+    width          : 290px;
+    height         : 50px;
+    border         : 1px solid #000;
+    font-size      : 14px;
+    background     : #fff;
+    border-radius  : 1px;
     text-decoration: none;
-    padding: 4px 0;
-    line-height: 34px;
-    transition: all 0.25s ease;
+    padding        : 4px 0;
+    line-height    : 34px;
+    transition     : all 0.25s ease;
   }
+
   .infoCardCallActionContainer--button2-careers :global(.vtex-button):hover {
-    color: #fff;
-    width: 290px;
-    height: 50px;
-    border: 1px solid #000;
-    font-size: 14px;
-    background: #000;
-    border-radius: 1px;
+    color          : #fff;
+    width          : 290px;
+    height         : 50px;
+    border         : 1px solid #000;
+    font-size      : 14px;
+    background     : #000;
+    border-radius  : 1px;
     text-decoration: none;
-    padding: 4px 0;
-    line-height: 34px;
-    transition: all 0.25s ease;
+    padding        : 4px 0;
+    line-height    : 34px;
+    transition     : all 0.25s ease;
   }
 }
 
-:global(.vtex-flex-layout-0-x-flexRowContent--clientesParceiros)
-  .imageElement:hover {
-  opacity: 0.3;
+:global(.vtex-flex-layout-0-x-flexRowContent--clientesParceiros) .imageElement:hover {
+  opacity   : 0.3;
   transition: all 0.3s ease;
+}
+
+.productDescriptionText .container {
+  padding: 0 0;
+}
+
+:global(.vtex-shelf-1-x-title){
+  color:#000
+}
+
+:global(.vtex-shelf-1-x-shelfContentContainer) :global(.vtex-slider-0-x-dotsContainer){
+  display: none;
 }
