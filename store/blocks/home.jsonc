@@ -400,94 +400,213 @@
     "props": {
       "images": [
         {
-          "link": "https://loja.chillibeans.com.br",
+          "link": {
+            "url":"https://loja.chillibeans.com.br/",
+            "openNewTab": true
+          },
           "image": "https://www.corebiz.ag/wp-content/uploads/2020/06/parceiros-1.png"
         },
         {
+          "link": {
+            "url":"https://www.compradiretaempresas.com.br/",
+            "openNewTab": true
+          },
           "image": "https://www.corebiz.ag/wp-content/uploads/2020/06/parceiros-2.png"
         },
         {
+          "link": {
+            "url":"https://www.semparar.com.br/",
+            "openNewTab": true
+          },
           "image": "https://www.corebiz.ag/wp-content/uploads/2020/06/parceiros-3.png"
         },
         {
+          "link": {
+            "url":"https://www.motorola.com.br/",
+            "openNewTab": true
+          },
           "image": "https://www.corebiz.ag/wp-content/uploads/2020/06/parceiros-4.png"
         },
         {
+          "link": {
+            "url":"https://www.choppbrahmaexpress.com.br/",
+            "openNewTab": true
+          },
           "image": "https://www.corebiz.ag/wp-content/uploads/2020/06/parceiros-5.png"
         },
         {
+          "link": {
+            "url":"https://www.saraiva.com.br/",
+            "openNewTab": true
+          },
           "image": "https://www.corebiz.ag/wp-content/uploads/2020/06/parceiros-6.png"
         },
         {
+          "link": {
+            "url":"https://www.esteelauder.com/",
+            "openNewTab": true
+          },
           "image": "https://www.corebiz.ag/wp-content/uploads/2020/06/parceiros-7.png"
         },
         {
+          "link": {
+            "url":"https://www.boticario.com.br/",
+            "openNewTab": true
+          },
           "image": "https://www.corebiz.ag/wp-content/uploads/2020/06/parceiros-8.png"
         },
         {
+          "link": {
+            "url":"https://www.epocacosmeticos.com.br/",
+            "openNewTab": true
+          },
           "image": "https://www.corebiz.ag/wp-content/uploads/2020/06/parceiros-9.png"
         },
         {
+          "link": {
+            "url":"https://www.hp.com/br-pt/shop/",
+            "openNewTab": true
+          },
           "image": "https://www.corebiz.ag/wp-content/uploads/2020/06/parceiros-10.png"
         },
         {
+          "link": {
+            "url":"https://www.farmrio.com.br/",
+            "openNewTab": true
+          },
           "image": "https://www.corebiz.ag/wp-content/uploads/2020/06/parceiros-11.png"
         },
         {
+          "link": {
+            "url":"https://www.cec.com.br/",
+            "openNewTab": true
+          },
           "image": "https://www.corebiz.ag/wp-content/uploads/2020/06/parceiros-12.png"
         },
         {
+          "link": {
+            "url":"https://www.zonasul.com.br/",
+            "openNewTab": true
+          },
           "image": "https://www.corebiz.ag/wp-content/uploads/2020/06/parceiros-13.png"
         },
         {
-          "image": "https://www.corebiz.ag/wp-content/uploads/2020/06/parceiros-3.png"
-        },
-        {
+          "link": {
+            "url":"https://www.aldoconti.com/",
+            "openNewTab": true
+          },
           "image": "https://www.corebiz.ag/wp-content/uploads/2020/06/parceiros-15.png"
         },
         {
+          "link": {
+            "url":"https://www.pmi.com/",
+            "openNewTab": true
+          },
           "image": "https://www.corebiz.ag/wp-content/uploads/2020/06/parceiros-16.png"
         },
         {
+          "link": {
+            "url":"https://www.simmons.com.ar/",
+            "openNewTab": true
+          },
           "image": "https://www.corebiz.ag/wp-content/uploads/2020/06/simmons-logo.png"
         },
         {
+          "link": {
+            "url":"https://www.miniso.com.mx/",
+            "openNewTab": true
+          },
           "image": "https://www.corebiz.ag/wp-content/uploads/2020/06/logo-miniso.png"
         },
         {
+          "link": {
+            "url":"https://www.pardo.com.ar/",
+            "openNewTab": true
+          },
           "image": "https://www.corebiz.ag/wp-content/uploads/2020/06/parceiros-18.png"
         },
         {
+          "link": {
+            "url":"https://www.lenovo.com/br/pt/",
+            "openNewTab": true
+          },
+          "image": "https://www.corebiz.ag/wp-content/uploads/2021/02/parceiros-lenovo.png"
+        },
+        {
+          "link": {
+            "url":"https://www.victorinoxstore.com.br/",
+            "openNewTab": true
+          },
           "image": "https://www.corebiz.ag/wp-content/uploads/2021/02/parceiros-victorinox.png"
         },
         {
+          "link": {
+            "url":"https://www.decathlon.com.br/",
+            "openNewTab": true
+          },
           "image": "https://www.corebiz.ag/wp-content/uploads/2021/02/parceiros-decathlon.png"
         },
         {
+          "link": {
+            "url":"https://loja.singer.com.br/",
+            "openNewTab": true
+          },
           "image": "https://www.corebiz.ag/wp-content/uploads/2021/02/parceiros-singer.png"
         },
         {
+          "link": {
+            "url":"https://www.nivea.com.br/",
+            "openNewTab": true
+          },
           "image": "https://www.corebiz.ag/wp-content/uploads/2021/02/parceiros-niveaf.png"
         },
         {
+          "link": {
+            "url":"https://www.kitchenaid.com.br/",
+            "openNewTab": true
+          },
           "image": "https://www.corebiz.ag/wp-content/uploads/2021/02/parceiros-kitchen.png"
         },
         {
+          "link": {
+            "url":"https://www.vans.com.br/",
+            "openNewTab": true
+          },
           "image": "https://www.corebiz.ag/wp-content/uploads/2021/02/parceiros-vans-1.png"
         },
         {
+          "link": {
+            "url":"https://www.walmart.com/",
+            "openNewTab": true
+          },
           "image": "https://www.corebiz.ag/wp-content/uploads/2021/02/parceiros-wallmart.png"
         },
         {
+          "link": {
+            "url":"https://www.jansport.com.br/",
+            "openNewTab": true
+          },
           "image": "https://www.corebiz.ag/wp-content/uploads/2021/02/parceiros-jansport.png"
         },
         {
+          "link": {
+            "url":"https://www.columbiasportswear.com.br/",
+            "openNewTab": true
+          },
           "image": "https://www.corebiz.ag/wp-content/uploads/2021/02/parceiros-columbia.png"
         },
         {
+          "link": {
+            "url":"https://www.maccosmetics.com.br/",
+            "openNewTab": true
+          },
           "image": "https://www.corebiz.ag/wp-content/uploads/2021/02/parceiros-mac.png"
         },
         {
+          "link": {
+            "url":"https://fundamenta.cl/",
+            "openNewTab": true
+          },
           "image": "https://www.corebiz.ag/wp-content/uploads/2021/03/logos-fundamenta.png"
         }
       ]
