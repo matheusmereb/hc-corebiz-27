@@ -11,7 +11,7 @@ Projeto realizado como Desafio Final do programa de treinamento Hiring Coders #2
 
 Loja criada seguindo a identidade de nosso patrocinador, a empresa Corebiz, e integrando as tecnologias VTEX IO, AWS Lambda, AWS API Gateway, React, Typescript, GraphQL, Node.js, entre outras, para a criação de uma loja funcional para a empresa que emita pedidos, capture leads, cadastre clientes e interaja com a API da VTEX para gerenciar os leads e clientes cadastrados pelo painel do Admin.
 
-[Projeto online](https://corebiz--hiringcoders202127.myvtex.com/about)
+[Projeto online](https://corebiz--hiringcoders202127.myvtex.com)
 
 ## Configurando o VTEX e rodando o projeto
 
