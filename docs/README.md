@@ -1,7 +1,9 @@
 # Desafio Final Programa Hiring Coders
 
 <img src="https://cdn.discordapp.com/attachments/694236612254630012/881915118965903420/unknown.png" alt="home" width="600"/>
-<img src="https://cdn.discordapp.com/attachments/694236612254630012/881915260339118180/unknown.png" alt="home" width="600"/>
+<img src="https://cdn.discordapp.com/attachments/694236612254630012/881976816561180712/unknown.png" alt="cart" width="600"/>
+<img src="https://cdn.discordapp.com/attachments/879881118059470859/881978074256773190/admin.png" alt="admin" width="600"/>
+
 
 ## Desafio Corebiz
 
