@@ -69,6 +69,7 @@
 .imageElement--parceirosfotos {
   align-content: center;
   height       : fit-content;
+  height       : -moz-fit-content;
   max-height   : 84px;
   width        : auto !important;
 }
@@ -115,6 +116,7 @@
 .imageElement--aboutMainImg,
 .imageElement--shopMainImg {
   min-width: fit-content;
+  min-width: -moz-fit-content;
 }
 
 /*CLASSES GLOBAIS*/
