@@ -1,3 +1,17 @@
+.swiperBullet{
+  display: none;
+}
+.swiperCaret--productImage{
+  color: #000;
+  transform: translate(0, 100%);
+}
+
+.productDescriptionContainer{
+  margin: 30px 0;
+}
+
+
+
 .sellingPriceContainer {
   color : #000;
   margin: 10px 0;
@@ -69,6 +83,7 @@
 .imageElement--parceirosfotos {
   align-content: center;
   height       : fit-content;
+  height       : -moz-fit-content;
   max-height   : 84px;
   width        : auto !important;
 }
@@ -108,19 +123,19 @@
   max-width: 100%;
 }
 
-.logoImage {
-  height: 50px;
+.logoLink {
+  display    : flex;
+  align-items: center;
 }
 
-:global(.vtex-flex-layout-0-x-flexRow--blocoClientes) .imageElement:hover {
-  margin    : auto;
-  filter    : opacity(0.3);
-  transition: all 0.3s ease;
+.logoImage {
+  height: 50px;
 }
 
 .imageElement--aboutMainImg,
 .imageElement--shopMainImg {
   min-width: fit-content;
+  min-width: -moz-fit-content;
 }
 
 /*CLASSES GLOBAIS*/
@@ -135,6 +150,7 @@
   background    : #000;
   padding-bottom: 3.2rem;
 }
+
 /* Botões Careers */
 .infoCardCallActionContainer--button1-careers :global(.vtex-button) {
   color: #fff;
@@ -245,4 +261,9 @@
     line-height: 34px;
     transition: all .25s ease;
   }
+
+
+:global(.vtex-flex-layout-0-x-flexRowContent--clientesParceiros) .imageElement:hover {
+  opacity   : .3;
+  transition: all 0.3s ease;
 }

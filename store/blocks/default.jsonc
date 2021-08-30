@@ -34,5 +34,16 @@
       "product-identifier.summary",
       "add-to-cart-button"
     ]
+  },
+  "login": {
+    "props": {
+      "emailAndPasswordTitle": "Entrar com e-mail",
+      "accessCodeTitle": "Receber Código",
+      "emailPlaceholder": "e-mail",
+      "passwordPlaceholder": "password",
+      "showPasswordVerificationIntoTooltip": true,
+      "showIconProfile": true,
+      "hideIconLabel": true
+    }
   }
 }

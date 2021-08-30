@@ -1,5 +1,15 @@
-.footerLayout {
+.footerLayout :global(.vtex-flex-layout-0-x-flexRow--rodape){
     position   : relative;
     padding-top: 10rem;
+}
+
+.footerLayout :global(.vtex-flex-layout-0-x-flexRow--rodape) :global(.vtex-store-components-3-x-container){
+    padding: 0 0 0 0;
+    width: 100%;
+    max-width: 100%;
+}
+
+
+.footerLayout {
     overflow   : hidden;
 }

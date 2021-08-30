@@ -7,7 +7,8 @@
     "store": "0.x",
     "docs": "0.x",
     "assets": "0.x",
-    "sitemap": "0.x"
+    "sitemap": "0.x",
+    "react": "3.x"
   },
   "scripts": {
     "postreleasy": "vtex publish --verbose"
@@ -56,7 +57,8 @@
     "vtex.product-list": "0.x",
     "vtex.checkout-summary": "0.x",
     "vtex.list-context": "0.x",
-    "vtex.search": "2.x"
+    "vtex.search": "2.x",
+    "vtex.css-handles": "0.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
