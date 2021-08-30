@@ -19,8 +19,7 @@
   "flex-layout.row#desktop": {
     "children": [
       "flex-layout.col#logo",
-      "flex-layout.col#spacer",
-      "vtex.menu@2.x:menu#headerMenu"
+      "flex-layout.col#menu"
     ],
     "props": {
       "horizontalAlign": "center",
@@ -28,6 +27,26 @@
       "preventVerticalStretch": true,
       "fullWidth": true,
       "blockClass": "headerRow"
+    }
+  },
+  "flex-layout.col#menu" :{
+    "children": [
+      "flex-layout.row#menu"
+    ]
+  },
+  "flex-layout.row#menu" :{
+    "children": [
+      "vtex.menu@2.x:menu#headerMenu",
+      "login",
+      "minicart.v2"
+    ],
+    "props": {
+      "horizontalAlign": "right",
+      "verticalAlign": "center",
+      "preventVerticalStretch": true,
+      "preventHorizontalStretch": true,
+      "colSizing": "equal",
+      "colGap": 0
     }
   },
   "flex-layout.col#logo": {
