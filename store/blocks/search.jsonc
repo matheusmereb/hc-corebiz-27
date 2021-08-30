@@ -62,13 +62,21 @@
   },
   "product-summary.shelf": {
     "children": [
-      "product-images",  
+      "product-images#sumary",  
       "product-summary-name",
       "product-summary-price",
       "add-to-cart-button"
     ],
     "props": {
       "blockClass": "products"
+    }
+  },
+  "product-images#sumary":{
+    "props":{
+      "showNavigationArrows": true,
+      "showPaginationDots":false,
+      "zoomMode": "in-place-hover",
+      "blockClass": "productImage"
     }
   },
   "product-images":{

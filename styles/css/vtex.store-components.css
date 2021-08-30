@@ -296,3 +296,11 @@
 .productDescriptionText .container {
   padding: 0 0;
 }
+
+:global(.vtex-shelf-1-x-title){
+  color:#000
+}
+
+:global(.vtex-shelf-1-x-shelfContentContainer) :global(.vtex-slider-0-x-dotsContainer){
+  display: none;
+}
