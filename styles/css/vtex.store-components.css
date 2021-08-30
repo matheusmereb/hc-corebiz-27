@@ -1,19 +1,21 @@
-.swiperBullet{
+.swiperBullet {
   display: none;
 }
-.swiperCaret--productImage{
+.swiperCaret--productImage {
   color: #000;
   transform: translate(0, 100%);
 }
 
-.productDescriptionContainer{
+.productDescriptionContainer {
   margin: 30px 0;
+  padding: 0;
+}
+:global(.vtex-store-components-3-x-container) .productDescriptionText {
+  padding: 0;
 }
 
-
-
 .sellingPriceContainer {
-  color : #000;
+  color: #000;
   margin: 10px 0;
 }
 
@@ -28,46 +30,46 @@
 
 .infoCardCallActionContainer--onMediaCard1 :global(.vtex-button),
 .infoCardCallActionContainer--onMediaCard2 :global(.vtex-button) {
-  background    : #ffffff00;
-  border        : 1px solid #fff;
+  background: #ffffff00;
+  border: 1px solid #fff;
   text-transform: none;
-  border-radius : 0px;
-  width         : 100%;
+  border-radius: 0px;
+  width: 100%;
 }
 
 .infoCardContainer--onMediaCard1,
 .infoCardContainer--onMediaCard2 {
-  background-size      : 70px 55px !important;
-  background-repeat    : no-repeat;
+  background-size: 70px 55px !important;
+  background-repeat: no-repeat;
   background-position-x: 173px;
   background-position-y: 130px;
-  border               : none;
+  border: none;
 }
 
 .infoCardTextContainer--onMediaCard1,
 .infoCardTextContainer--onMediaCard2 {
-  width  : 100%;
+  width: 100%;
   padding: 0;
-  margin : 0;
+  margin: 0;
 }
 
 .infoCardHeadline--onMediaCard1,
 .infoCardHeadline--onMediaCard2 {
-  color          : #ffffff;
-  overflow       : hidden;
-  text-overflow  : ellipsis;
-  padding        : 0;
-  margin         : 0;
-  box-sizing     : border-box;
-  margin         : 0;
-  font-weight    : bold;
-  font-size      : 28px;
+  color: #ffffff;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: bold;
+  font-size: 28px;
   justify-content: left;
 }
 
 .infoCardSubhead--onMediaCard1,
 .infoCardSubhead--onMediaCard2 {
-  color : #ffffff;
+  color: #ffffff;
   margin: 40px 0 20px 0;
 }
 
@@ -76,31 +78,31 @@
 }
 
 .infoCardCallActionContainer {
-  margin-left : auto;
+  margin-left: auto;
   margin-right: auto;
 }
 
 .imageElement--parceirosfotos {
   align-content: center;
-  height       : fit-content;
-  height       : -moz-fit-content;
-  max-height   : 84px;
-  width        : auto !important;
+  height: fit-content;
+  height: -moz-fit-content;
+  max-height: 84px;
+  width: auto !important;
 }
 
 .infoCardHeadline--vision {
   font-family: Circular Std Medium, sans-serif;
-  font-size  : 2rem;
-  color      : #f1c233;
-  margin-top : 45px;
+  font-size: 2rem;
+  color: #f1c233;
+  margin-top: 45px;
 }
 
 .infoCardSubhead--vision {
-  margin     : 45px;
+  margin: 45px;
   font-family: Circular Std Medium, sans-serif;
-  font-size  : 20px;
+  font-size: 20px;
   font-weight: bolder;
-  color      : #fff;
+  color: #fff;
 }
 
 .infoCardContainer--vision {
@@ -113,8 +115,8 @@
 
 /* Logo Corebiz Footer */
 .imageElement--logo-footer {
-  width     : 120px;
-  height    : 100px;
+  width: 120px;
+  height: 100px;
   margin-top: 75px;
 }
 
@@ -124,7 +126,7 @@
 }
 
 .logoLink {
-  display    : flex;
+  display: flex;
   align-items: center;
 }
 
@@ -144,14 +146,16 @@
   padding: 0 2rem;
 }
 
-:global(.vtex-product-context-provider) :global(.vtex-flex-layout-0-x-flexRow--headerRow) {
-  position      : relative;
-  height        : auto;
-  background    : #000;
+:global(.vtex-product-context-provider)
+  :global(.vtex-flex-layout-0-x-flexRow--headerRow) {
+  position: relative;
+  height: auto;
+  background: #000;
   padding-bottom: 3.2rem;
 }
 
-:global(.vtex-flex-layout-0-x-flexRowContent--clientesParceiros) .imageElement:hover {
-  opacity   : .3;
+:global(.vtex-flex-layout-0-x-flexRowContent--clientesParceiros)
+  .imageElement:hover {
+  opacity: 0.3;
   transition: all 0.3s ease;
 }

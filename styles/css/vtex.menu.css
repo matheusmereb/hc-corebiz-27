@@ -3,11 +3,11 @@
 }
 
 .menuContainerNav {
-  display    : flex;
+  display: flex;
   align-items: center;
 }
 
 .styledLinkContent:hover {
-  opacity   : 0.3;
+  opacity: 0.3;
   transition: all 0.3s ease;
 }

@@ -124,7 +124,7 @@
   padding: 0 105px;
 }
 
-.flexRow--valores :global(.vtex-store-components-3-x-container) {
+.flexRow--valoresDiv :global(.vtex-store-components-3-x-container) {
   background-color: #f5f5f5;
   padding: 0 0 0 0;
 }
@@ -368,4 +368,8 @@
 .flexRowContent--shopMainDiv {
   max-width: 1360px;
   margin: 0 auto;
+}
+
+.flexRow--main-header-mobile {
+  background-color: #000;
 }

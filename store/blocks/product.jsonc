@@ -33,6 +33,11 @@
       "add-to-cart-button"
     ]
   },
+  "product-description": {
+    "props":{
+      "showTitle": false
+    }
+  },
   "product-price": {
     "props": {
       "showSavings": true,

@@ -41,5 +41,49 @@
         }
       ]
     }
+  },
+  "vtex.menu@2.x:menu#drawer": {
+    "props": {
+      "experimentalOptimizeRendering": true,
+      "items": [
+        {
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/about",
+            "noFollow": false,
+            "tagTitle": "a corebiz",
+            "text": "a corebiz"
+          }
+        },
+        {
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/careers",
+            "noFollow": false,
+            "tagTitle": "careers",
+            "text": "careers"
+          }
+        },
+        {
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/shop",
+            "noFollow": false,
+            "tagTitle": "shop",
+            "text": "shop"
+          }
+        }
+      ],
+      "orientation": "vertical"
+    }
   }
 }

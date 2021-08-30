@@ -1,0 +1,18 @@
+.opened {
+  background-color: #000;
+  max-width: 45%;
+}
+
+.overlay {
+  background-color: #141414;
+}
+
+.closeIconButton,
+.openIconContainer {
+  color: #fff;
+  margin: 0.8rem;
+}
+
+.drawerContent {
+  margin: 1rem;
+}

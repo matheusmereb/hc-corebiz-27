@@ -1,42 +1,45 @@
 .cartIcon,
 .minicartContainer :global(.vtex-button):focus .cartIcon,
 .minicartContainer :global(.vtex-button):active .cartIcon {
-    color     : #fff;
-    transition: all 0.3s ease;
+  color: #fff;
+  transition: all 0.3s ease;
 }
 
 .minicartContainer :global(.vtex-button):hover .cartIcon {
-    opacity   : 0.3;
-    transition: all 0.3s ease;
+  opacity: 0.3;
+  transition: all 0.3s ease;
 }
 
 .minicartQuantityBadge {
-    background: #f1c233;
-    color     : #000;
+  background: #f1c233;
+  color: #000;
 }
 
 .minicartContainer :global(.vtex-button):hover,
 .minicartContainer :global(.vtex-button):focus,
 .minicartContainer :global(.vtex-button):active,
 .minicartContainer :global(.vtex-button) {
-    background: none;
-    border    : none;
-    outline   : none;
+  background: none;
+  border: none;
+  outline: none;
 }
 
-
 .minicartCheckoutButton :global(.vtex-button) {
-    color        : #fff;
-    border-color : #000000;
-    background   : #000;
-    transition   : all 0.3s ease;
-    border-radius: 0;
-    font-size    : 0.8rem;
+  color: #fff;
+  border-color: #000000;
+  background: #000;
+  transition: all 0.3s ease;
+  border-radius: 0;
+  font-size: 0.8rem;
 }
 
 .minicartCheckoutButton :global(.vtex-button):hover {
-    color       : #000;
-    border-color: #000000;
-    background  : none;
-    transition  : all 0.3s ease;
+  color: #000;
+  border-color: #000000;
+  background: none;
+  transition: all 0.3s ease;
+}
+
+.overlay {
+  background-color: #141414;
 }
