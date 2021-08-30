@@ -1,4 +1,4 @@
-# Desafio Final Programa Hiring Coders
+# Desafio Final Programa Hiring Coders - GRUPO 27
 
 <img src="https://cdn.discordapp.com/attachments/694236612254630012/881915118965903420/unknown.png" alt="home" width="600"/>
 <img src="https://cdn.discordapp.com/attachments/694236612254630012/881976816561180712/unknown.png" alt="cart" width="600"/>
