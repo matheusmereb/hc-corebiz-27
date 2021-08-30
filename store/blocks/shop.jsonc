@@ -14,7 +14,6 @@
     ],
     "props": {
       "blockClass": "shopMainDiv",
-      "marginTop": 9
       "fullWidth": true
     }
   },
