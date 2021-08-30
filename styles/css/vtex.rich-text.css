@@ -220,3 +220,15 @@
   max-width  : 23rem;
   color      : #666;
 }
+
+/* Bloco Carees */
+.paragraph--careers-text {
+  font-size: 18px;
+  color: #000;
+}
+@media screen and (min-width: 1024px) {
+  .paragraph--careers-text {
+    font-size: 14px;
+    color: #000;
+  }
+}

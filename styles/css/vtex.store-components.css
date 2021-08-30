@@ -135,3 +135,114 @@
   background    : #000;
   padding-bottom: 3.2rem;
 }
+/* Botões Careers */
+.infoCardCallActionContainer--button1-careers :global(.vtex-button) {
+  color: #fff;
+  width: 320px;
+  height: 50px;
+  border: 1px solid #000;
+  font-size: 18px;
+  background: #000;
+  border-radius: 1px;
+  text-decoration: none;
+  padding: 8px 0;
+  line-height: 34px;
+  transition: all .25s ease;
+}
+.infoCardCallActionContainer--button1-careers :global(.vtex-button):hover {
+  color: #000;
+  width: 320px;
+  height: 50px;
+  border: 1px solid #000;
+  font-size: 18px;
+  background: #fff;
+  border-radius: 1px;
+  text-decoration: none;
+  padding: 8px 0;
+  line-height: 34px;
+  transition: all .25s ease;
+}
+
+.infoCardCallActionContainer--button2-careers :global(.vtex-button) {
+  color: #000;
+  width: 320px;
+  height: 50px;
+  border: 1px solid #000;
+  font-size: 18px;
+  background: #fff;
+  border-radius: 1px;
+  text-decoration: none;
+  padding: 8px 0;
+  line-height: 34px;
+  transition: all .25s ease;
+}
+.infoCardCallActionContainer--button2-careers :global(.vtex-button):hover {
+  color: #fff;
+  width: 320px;
+  height: 50px;
+  border: 1px solid #000;
+  font-size: 18px;
+  background: #000;
+  border-radius: 1px;
+  text-decoration: none;
+  padding: 8px 0;
+  line-height: 34px;
+  transition: all .25s ease;
+}
+
+/* Mobile */
+@media screen and (max-width: 1024px) {
+  .infoCardCallActionContainer--button1-careers :global(.vtex-button) {
+    color: #fff;
+    width: 290px;
+    height: 50px;
+    border: 1px solid #000;
+    font-size: 14px;
+    background: #000;
+    border-radius: 1px;
+    text-decoration: none;
+    padding: 4px 0;
+    line-height: 34px;
+    transition: all .25s ease;
+  }
+  .infoCardCallActionContainer--button1-careers :global(.vtex-button):hover {
+    color: #000;
+    width: 290px;
+    height: 50px;
+    border: 1px solid #000;
+    font-size: 14px;
+    background: #fff;
+    border-radius: 1px;
+    text-decoration: none;
+    padding: 4px 0;
+    line-height: 34px;
+    transition: all .25s ease;
+  }
+  
+  .infoCardCallActionContainer--button2-careers :global(.vtex-button) {
+    color: #000;
+    width: 290px;
+    height: 50px;
+    border: 1px solid #000;
+    font-size: 14px;
+    background: #fff;
+    border-radius: 1px;
+    text-decoration: none;
+    padding: 4px 0;
+    line-height: 34px;
+    transition: all .25s ease;
+  }
+  .infoCardCallActionContainer--button2-careers :global(.vtex-button):hover {
+    color: #fff;
+    width: 290px;
+    height: 50px;
+    border: 1px solid #000;
+    font-size: 14px;
+    background: #000;
+    border-radius: 1px;
+    text-decoration: none;
+    padding: 4px 0;
+    line-height: 34px;
+    transition: all .25s ease;
+  }
+}
