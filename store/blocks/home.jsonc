@@ -5,7 +5,8 @@
       "flex-layout.row#clientes",
       "slider-layout#caseclientes",
       "flex-layout.row#corebiz",
-      "flex-layout.row#onMedia"
+      "flex-layout.row#onMedia",
+      "flex-layout.row#blog"
     ]
   },
   "flex-layout.row#bannerHome": {
@@ -14,7 +15,8 @@
       "flex-layout.col#banner2"
     ],
     "props": {
-      "blockClass": "homeBanner"
+      "blockClass": "homeBanner",
+      "paddingBottom": 9
     }
   },
   "media#banner": {
@@ -76,7 +78,7 @@
       "flex-layout.col#bannerTopic2",
       "flex-layout.col#bannerTopic3"
     ],
-    "props":{
+    "props": {
       "blockClass": "infoDados"
     }
   },
@@ -86,7 +88,8 @@
       "flex-layout.row#bannerTopicText1"
     ],
     "props": {
-      "blockClass": "topic1"
+      "blockClass": "topic1",
+      "verticalAlign": "TOP"
     }
   },
   "flex-layout.row#bannerTopicTitle1": {
@@ -123,7 +126,10 @@
     "children": [
       "flex-layout.row#bannerTopicTitle2",
       "flex-layout.row#bannerTopicText2"
-    ]
+    ],
+    "props":{
+      "verticalAlign": "TOP"
+    }
   },
   "flex-layout.row#bannerTopicTitle2": {
     "children": [
@@ -159,7 +165,10 @@
     "children": [
       "flex-layout.row#bannerTopicTitle3",
       "flex-layout.row#bannerTopicText3"
-    ]
+    ],
+    "props":{
+      "verticalAlign": "TOP"
+    }
   },
   "flex-layout.row#bannerTopicTitle3": {
     "children": [
@@ -210,7 +219,7 @@
       "rich-text#somoscorebiz",
       "rich-text#corebiz",
       "rich-text#partners",
-      "image-list#parceiros"
+      "flex-layout.row#parceiros"
     ]
   },
   "rich-text#somoscorebiz": {
@@ -233,16 +242,24 @@
   },
   "rich-text#partners": {
     "props": {
-      "textAlignment": "LEFT",
-      "textPosition": "LEFT",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
       "text": "nossos parceiros:",
       "font": "t-heading-5",
-      "blockClass": "somoscorebiz"
+      "blockClass": "parceiroscorebiz"
     }
   },
-  "image-list#parceiros":{
+  "flex-layout.row#parceiros": {
     "props": {
-      "blockClass":"parceirosfotos",
+      "blockClass": "parceirosfotos"
+    },
+    "children": [
+      "image-list#parceiros"
+    ]
+  },
+  "image-list#parceiros": {
+    "props": {
+      "blockClass": "parceirosfotos",
       "images": [
         {
           "image": "https://www.corebiz.ag/wp-content/uploads/2020/06/vtex.png"
@@ -307,7 +324,7 @@
       "headline": "case",
       "subhead": "5x mais receita no E-commerce da ChilliBeans",
       "callToActionText": "ver case completo",
-      "textPosition": "left",
+      "textPosition": "center",
       "isFullModeStyle": true,
       "fullWidth": "100%"
     }
@@ -318,7 +335,7 @@
       "headline": "case",
       "subhead": "case elevação do faturamento de c&c",
       "callToActionText": "ver case completo",
-      "textPosition": "left",
+      "textPosition": "center",
       "isFullModeStyle": true,
       "fullWidth": "100%"
     }
@@ -329,7 +346,7 @@
       "headline": "case",
       "subhead": "aumento do volume de vendas kitchenaid",
       "callToActionText": "ver case completo",
-      "textPosition": "left",
+      "textPosition": "center",
       "isFullModeStyle": true,
       "fullWidth": "100%"
     }
@@ -341,7 +358,7 @@
       "subhead": "maior ação de vendas do semparar na blackfriday",
       "callToActionText": "ver case completo",
       "link": "https://www.corebiz.ag/pt/cases/sem-parar/",
-      "textPosition": "left",
+      "textPosition": "center",
       "isFullModeStyle": true,
       "fullWidth": "100%"
     }
@@ -353,7 +370,8 @@
     "props": {
       "horizontalAlign": "center",
       "fullWidth": true,
-      "blockClass": "clientes"
+      "blockClass": "clientes",
+      "paddingBottom": 8
     }
   },
   "flex-layout.col#clientes": {
@@ -365,7 +383,8 @@
   "rich-text#clientes": {
     "props": {
       "text": "## alguns de nossos<br> principais clientes",
-      "blockClass": "principaisClientes"
+      "blockClass": "principaisClientes",
+      "textColor": "c-on-base--inverted"
     }
   },
   "flex-layout.row#clientesparceiros": {
@@ -472,6 +491,53 @@
           "image": "https://www.corebiz.ag/wp-content/uploads/2021/03/logos-fundamenta.png"
         }
       ]
+    }
+  },
+  "flex-layout.row#blog": {
+    "props": {
+      "blockClass": "blog",
+      "horizontalAlign": "center",
+      "paddingTop": "7",
+      "paddingBottom": "9"
+    },
+    "children": [
+      "flex-layout.col#blogText",
+      "flex-layout.col#blogCTA"
+    ]
+  },
+  "flex-layout.col#blogText": {
+    "children": [
+      "rich-text#blog"
+    ]
+  },
+  "flex-layout.col#blogCTA": {
+    "props": {
+      "verticalAlign": "bottom",
+      "horizontalAlign": "right"
+    },
+    "children": [
+      "link#blog"
+    ]
+  },
+  "rich-text#blog": {
+    "props": {
+      "text": "## notícias e conteúdos. \n Veja abaixo as principais notícias e conteúdos do blog da Corebiz. Se preferir acesse ao blog e fique por dentro.      ",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": "blog"
+    }
+  },
+  "link#blog": {
+    "props": {
+      "href": "https://www.corebiz.ag/blog/",
+      "displayMode": "button",
+      "target": "_blank",
+      "buttonProps": {
+        "variant": "primary",
+        "size": "regular"
+      },
+      "label": "acessar blog",
+      "blockClass": "blog"
     }
   }
 }

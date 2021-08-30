@@ -15,42 +15,30 @@
     "props": {
       "blockClass": "shopMainDiv",
       "marginTop": 9
+      "fullWidth": true
     }
   },
   "flex-layout.col#shopMain": {
     "children": [
-      "rich-text#shopMainTitle1",
-      "flex-layout.col#shopMainDesc"
+      "rich-text#shopMainTitle"
     ],
     "props": {
-      "blockClass": "shopMainText"
+      "blockClass": "shopMainText",
+      "verticalAlign": "middle"
     }
   },
-  "rich-text#shopMainTitle1": {
+  "rich-text#shopMainTitle": {
     "props": {
-      "text": "become corebiz",
+      "text": "# shop corebiz \n lojinha para você! Conheça, expanda e carregue nossa visão onde você for.",
       "textColor": "c-on-emphasis",
       "font": "t-heading-1",
       "blockClass": "shopTitleText"
     }
   },
-  "flex-layout.col#shopMainDesc": {
-    "children": [
-      "rich-text#shopMainTitleDesc"
-    ]
-  },
-  "rich-text#shopMainTitleDesc": {
-    "props": {
-      "text": "expanda nossa visão e carregue nossa iniciativa",
-      "textColor": "c-on-emphasis",
-      "font": "t-heading-6",
-      "blockClass": "shopTitleTextDesc"
-    }
-  },
   "image#shopMainImg": {
     "props": {
-        "src": "https://www.corebiz.ag/wp-content/uploads/2020/06/contato-page-header-image.jpg",
-        "blockClass": "shopMainImg"
+      "src": "https://www.corebiz.ag/wp-content/uploads/2020/06/contato-page-header-image.jpg",
+      "blockClass": "shopMainImg"
     }
   },
   "flex-layout.row#produtosCat1": {
