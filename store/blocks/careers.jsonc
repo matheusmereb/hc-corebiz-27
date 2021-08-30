@@ -1,0 +1,122 @@
+{
+    "store.custom#careers": {
+        "blocks": [
+            "flex-layout.row#careers-header",
+            "flex-layout.row#careers-acorebiz",
+            "flex-layout.row#careers-button"
+        ]
+    },
+    // Bloco principal header //
+    "flex-layout.row#careers-header": {
+        "children": [
+            "flex-layout.col#careers-header-left",
+            "image#careers-header"
+        ],
+        "props": {
+            "blockClass": "aboutMainDiv",
+            "fullWidth": true
+        }
+    },
+    "flex-layout.col#careers-header-left": {
+        "children": [
+            "rich-text#careers-header-text"
+        ],
+        "props": {
+            "blockClass": "aboutMainText",
+            "verticalAlign": "middle"
+        }
+    },
+    "rich-text#careers-header-text": {
+        "props": {
+            "text": "# careers \n vamos falar um pouco sobre \n reinventar o possível?",
+            "textColor": "c-on-emphasis",
+            "font": "t-heading-1",
+            "blockClass": "aboutTitleText"
+        }
+    },
+    "image#careers-header": {
+        "props": {
+            "src": "https://www.corebiz.ag/wp-content/themes/corebiz-global/assets/images/header-carrers.png",
+            "blockClass": "aboutMainImg"
+        }
+    },
+    // Bloco a corebiz //
+    "flex-layout.row#careers-acorebiz": {
+        "children": [
+            "flex-layout.col#careers-acorebiz-text"
+        ],
+        "props": {
+            "blockClass": "",
+            "fullWidth": false
+        }
+    },
+    "flex-layout.col#careers-acorebiz-text": {
+        "children": [
+            "rich-text#careers-middle-text1",
+            "rich-text#careers-middle-text2"
+        ],
+        "props": {
+            "blockClass": "careers--block-text",
+            "fullWidth": true
+        }
+    },
+    "rich-text#careers-middle-text1": {
+        "props": {
+            "text": "## **a corebiz** \n Em 2013 nasceu a Santa Mônica produtora digital com foco em e-commerce. Nesta época, Felipe Macedo e Renan Mota (fundadores) não imaginavam onde o sonho \n deles os levaria. \n \n em apenas 7 anos, a corebiz (como agora é conhecida & reconhecida) expandiu seus negócios, de um único cômodo para escritórios fixos em 4 países da América Latina \n (por enquanto): Brasil, Argentina, México e Chile. São mais de 280 colaboradores ao redor do mundo e presença em 29 países. \n \n nada disso seria possível sem algumas peças fundamentais: pessoas. A corebiz só chegou até aqui graças aos profissionais talentosos que fazem (ou fizeram) parte do \n nosso time nesses anos. \n",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "blockClass": "careers-text"
+        }
+    },
+    "rich-text#careers-middle-text2": {
+        "props": {
+            "text": "### **onde você quer se destacar?** \n aqui na corebiz você pode se encantar por uma das nossas unidades de negócios: Marketing, Tecnologia ou Experiência e criar sua carreira profissional em uma das \n maiores agências LATAM.",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "blockClass": "careers-text"
+        }
+    },
+    // Botões //
+    "flex-layout.row#careers-button": {
+        "children": [
+            "flex-layout.col#info-card-careers1",
+            "flex-layout.col#info-card-careers2"
+        ]
+    },
+    "flex-layout.col#info-card-careers1": {
+        "props": {
+          "blockClass": ""
+        },
+        "children": [
+          "info-card#careers1"
+        ]
+      },
+    "info-card#careers1": {
+        "props": {
+            "id": "button1-careers",
+            "textPosition": "right",
+            "callToActionText": "VAGAS ABERTAS",
+            "callToActionUrl": "/careers",
+            "textAlignment": "CENTER",
+            "blockClass": "button1-careers"
+        }
+    },
+    "flex-layout.col#info-card-careers2": {
+        "props": {
+          "blockClass": ""
+        },
+        "children": [
+          "info-card#careers2"
+        ]
+      },
+    "info-card#careers2": {
+        "props": {
+            "id": "button2-careers",
+            "textPosition": "left",
+            "callToActionText": "CONHEÇA A COREBIZ",
+            "callToActionUrl": "/careers",
+            "textAlignment": "CENTER",
+            "blockClass": "button2-careers"
+        }
+    }
+}

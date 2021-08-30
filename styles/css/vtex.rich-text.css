@@ -216,8 +216,20 @@
 .headingLevel3--whoaretitle {
   font-size: 2.5rem;
   font-weight: 500;
-  max-width: 23rem;
-  color: #666;
+  max-width  : 23rem;
+  color      : #666;
+}
+
+/* Bloco Careers */
+.paragraph--careers-text {
+  font-size: 18px;
+  color: #000;
+}
+@media screen and (min-width: 1024px) {
+  .paragraph--careers-text {
+    font-size: 14px;
+    color: #000;
+  }
 }
 
 .paragraph--produtosTitulo {

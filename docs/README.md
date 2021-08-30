@@ -1,32 +1,36 @@
 # Desafio Final Programa Hiring Coders
+
+<img src="https://cdn.discordapp.com/attachments/694236612254630012/881915118965903420/unknown.png" alt="home" width="600"/>
+<img src="https://cdn.discordapp.com/attachments/694236612254630012/881976816561180712/unknown.png" alt="cart" width="600"/>
+<img src="https://cdn.discordapp.com/attachments/879881118059470859/881978074256773190/admin.png" alt="admin" width="600"/>
+
+
 ## Desafio Corebiz
 
+Projeto realizado como Desafio Final do programa de treinamento Hiring Coders #2, em Ago/2021. 
 
-The minimum Boilerplate Theme is basic store front model based on the VTEX IO Store Framework.
+Loja criada seguindo a identidade de nosso patrocinador, a empresa Corebiz, e integrando as tecnologias VTEX IO, AWS Lambda, AWS API Gateway, React, Typescript, GraphQL, Node.js, entre outras, para a criação de uma loja funcional para a empresa que emita pedidos, capture leads, cadastre clientes e interaja com a API da VTEX para gerenciar os leads e clientes cadastrados pelo painel do Admin.
 
-It should be used only when you want to start a new store theme without any pre-set configurations, as is the case with [Store Theme](https://github.com/vtex-apps/store-theme). 
 
-While Store Theme gives developers a ready-to-go default store front structure, the Minimum Boilerplate Theme will enable you to build you store freely from scratch.
+## Configurando o VTEX e rodando o projeto
 
-## Configuration
+### 1 -  Configuração Básica
 
-### Step 1 -  Basic setup
+Acesse o [guia de configuração básica](https://vtex.io/docs/getting-started/build-stores-with-store-framework/1) do VTEX IO e siga todos os passos listados.
 
-Access the VTEX IO [basic setup guide](https://vtex.io/docs/getting-started/build-stores-with-store-framework/1) and follow all the given steps. 
+Ao final da configuração, você deve ter o CLI VTEX (Toolbelt) instalado junto com um workspace de desenvolvimento no qual você pode trabalhar.
 
-By the end of the setup, you should have the VTEX command line interface (Toolbelt) installed along with a developer workspace you can work in.
+### 2 -  Clonando o Tema da Loja
 
-### Step 2 - Cloning the Minimum Boilerplate Theme repository
+[Clone](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) esse repositório para seus arquivos locais para poder efetivamente começar a trabalhar nele.
 
-[Clone](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) this repository to your local files to be able to effectively start working on it.
+Depois, acesse o diretório do repositório usando seu terminal.
 
-Then, access the repository's directory using your terminal. 
+### 3 -  Editando o `Manifest.json`
 
-### Step 3 - Editing the `Manifest.json`
+Uma vez no diretório do repositório, é hora de editar o arquivo `manifest.json` do Tema.
 
-Once in the repository directory, it is time to edit the Minimum Boilerplate `manifest.json` file. 
-
-Once you are in the file, you must replace the `vendor` and `account` values. `vendor` is the account name you are working on and `account` is anything you want to name your theme. For example:
+Assim que estiver no arquivo, você deve substituir os valores de `vendor` e `account`. `vendor` é o nome da conta em que você está trabalhando e `account` é qualquer nome que você queira atribuir a seu tema. Por exemplo:
 
 ```json
 {
@@ -35,33 +39,41 @@ Once you are in the file, you must replace the `vendor` and `account` values. `v
 }
 ```
 
-### Step 4 -  Installing required apps
+###  4 -  Instalando apps necessários
 
-In order to use Store Framework and work on your store theme, it is needed to have both `vtex.store-sitemap` and `vtex.store` installed.
+Para usar o Store Framework e trabalhar no tema da sua loja, é preciso ter ambos `vtex.store-sitemap` e `vtex.store` instalados.
 
-Run  `vtex list`  and check whether those apps are already installed. 
+Execute `vtex list` e cheque se ambos esses apps já estão instalados.
 
-If they aren't, run the following command to install them: `vtex install vtex.store-sitemap vtex.store -f`
+Caso não estejam, execute o seguinte comando para instalá-los: `vtex install vtex.store-sitemap vtex.store -f`
 
-### Step 5 -  Uninstalling any existing theme
+###  5 -  Desinstalando o tema existente
 
-By running `vtex list`,  you can verify if any theme is installed.
+Executando `vtex list`, você pode verificar se qualquer tema está instalado.
 
-It is common to already have a `vtex.store-theme`  installed when you start the store's front development process. 
+É comum já ter um `vtex.store-theme` instalado quando você começa o processo de desenvolvimento do front da loja.
 
-Therefore, if you find it in the app's list, copy its name and use it together with the command `vtex uninstall`. For example:
+Portanto, se você encontrá-lo na lista de apps, copie o seu nome e use-o junto do comando `vtex uninstall`. Por exemplo: 
 
 ```json
 vtex uninstall vtex.store-theme
 ```
 
-### Step 6- Run and preview your store
+###  6- Execute e pré-visualize sua loja
 
-Then time has come to upload all the changes you made in your local files to the platform. For that, use the `vtex link` command. 
+Então chegou a hora de subir todas as mudanças que você fez em seus arquivos locais para a plataforma. Para isso, use o comando `vtex link`.
 
-If the process runs without any errors, the following message will be displayed: `App linked successfully`. Then, run the `vtex browse` command to open a browser window having your linked store in it.
+Se o processo for executado sem nenhum erro, a mensagem a seguir será exibida: `App linked successfully`. Em seguida, execute o comando `vtex browse` para abrir a janela do browser tendo sua loja linkada nele.
 
-This will enable you to see the applied changes in real time, through the account and workspace in which you are working.
+Isso vai te possibilitar ver as mudanças aplicadas em tempo real, através da conta e do workspace em que você está trabalhando.
+
+
+# Recursos e Referências Externas
+
+Para a criação e execução desse projeto, foram utilizadas as seguintes aplicações:
+- [Tema da loja](#)
+- [Integraçao API AWS (Serviços)](https://github.com/matheusmereb/hc-corebiz-27-apis)
+- [Admin e GraphQL](https://github.com/willamys/wgfa7-admin-vtex-io)
 
 # Colaboradores ✨
 <table>
