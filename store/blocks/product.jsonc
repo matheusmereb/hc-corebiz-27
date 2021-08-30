@@ -27,6 +27,7 @@
     },
     "children": [
       "vtex.store-components:product-name",
+      "product-description",
       "product-price",
       "product-quantity",
       "add-to-cart-button"
