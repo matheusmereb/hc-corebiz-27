@@ -3,6 +3,7 @@
     "blocks": [
       "flex-layout.row#bannerHome",
       "flex-layout.row#clientes",
+      "__fold__",
       "slider-layout#caseclientes",
       "flex-layout.row#corebiz",
       "flex-layout.row#onMedia",
